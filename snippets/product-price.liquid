@@ -20,6 +20,10 @@
      assign compare_at_price = 1999
    endif
    assign cur_code_enabled = settings.currency_code_enabled
+   if localization.country.iso_code != 'CA'
+    assign cur_code_enabled = false
+  endif 
+
 
    assign price_varies = product.price_varies
    if price_varies and settings.only_price_varies_stock and product.has_only_default_variant == false and product.available

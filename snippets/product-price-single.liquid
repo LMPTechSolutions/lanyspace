@@ -59,7 +59,12 @@ if compare_at_price > price
    assign on_sale = true 
 endif
 
+
 assign cur_code_enabled = settings.currency_code_enabled
+if localization.country.iso_code != 'CA'
+  assign cur_code_enabled = false
+endif 
+
 assign saveAmountFixed = compare_at_price | minus: price
 
 if cur_code_enabled
