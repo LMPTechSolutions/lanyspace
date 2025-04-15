@@ -1,0 +1,14 @@
+{%if aspect_ratio%}
+{%assign aspect_ratio_set = aspect_ratio %}
+{%else%}
+{%assign aspect_ratio_set= image.aspect_ratio %}
+{%endif%}
+<div  class="feature-row__image-wrapper {{class}}"> 
+    <div style="aspect-ratio:{{aspect_ratio_set}};" data-image-loading-animation>
+      <div class="feature-row__image">
+ 
+ {%- assign height = image.width | divided_by: image.aspect_ratio | round -%}     
+    <img src="{{ image | image_url:width:10 }}" data-src="{{ image | image_url:master }}" alt="{{ alt }}" sizes="100vw" loading='lazy' width="100%" height="{{ height }}" class="{{class}} lazyloadt4s">
+</div>
+</div>
+</div>

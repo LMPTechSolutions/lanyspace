@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+        "link_txt": "Home page",
+        "link": "#"
+      }
+    },
+    "cf700440-8349-43c4-a4cd-9b5435d7c6ec": {
+      "type": "main-customers-register",
+      "settings": {
+        "btn_width": "full",
+        "button_style": "default",
+        "btns_size": "default",
+        "btns_cl": "dark",
+        "button_effect": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf700440-8349-43c4-a4cd-9b5435d7c6ec"
+  ]
+}

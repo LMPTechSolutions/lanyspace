@@ -1,0 +1,370 @@
+{% style %}
+  .section-designer-image-text-{{ section.id }}{
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-left:24px;
+    padding-right:24px;
+  }
+  .section-designer-image-text-{{ section.id }} .content-wrapper{
+  max-width:1410px;
+  margin:auto;
+   position:relative;
+}
+  .section-designer-image-text-{{ section.id }} .content-wrapper img{
+    display:block;
+    width:100%;
+  }
+  .section-designer-image-text-{{ section.id }} .title-wrapper{
+    text-align:{{section.settings.text_alignment}};
+  }
+.section-designer-image-text-{{ section.id }} .title-wrapper .b-title {
+    {% if section.settings.title_size_pc != blank %}
+    font-size: {{ section.settings.title_size_pc }};
+    {% endif %}
+    {% if section.settings.title_color != blank %}
+    color: {{ section.settings.title_color }};
+    {% endif %}
+    {% if section.settings.title_margin_bottom != blank %}
+    margin-bottom: {{ section.settings.title_margin_bottom }};
+    {% endif %}
+    font-weight:600;
+}
+
+@media (max-width: 1100px) and (min-width:769px) {
+    .section-designer-image-text-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top_ipad }}px;
+        padding-bottom: {{ section.settings.padding_bottom_ipad }}px;
+    }
+    
+    .section-designer-image-text-{{ section.id }} .title-wrapper .b-title {
+        {% if section.settings.title_size_ipad != blank %}
+        font-size: {{ section.settings.title_size_ipad }};
+        {% endif %}
+        {% if section.settings.title_margin_bottom_ipad != blank %}
+        margin-bottom: {{ section.settings.title_margin_bottom_ipad }};
+        {% endif %}
+    }
+}
+
+@media (max-width: 768px) {
+    .section-designer-image-text-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top_md }}px;
+        padding-bottom: {{ section.settings.padding_bottom_md }}px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .section-designer-image-text-{{ section.id }} .title-wrapper .b-title {
+        {% if section.settings.title_size_mb != blank %}
+        font-size: {{ section.settings.title_size_mb }};
+        {% endif %}
+        {% if section.settings.title_margin_bottom_mb != blank %}
+        margin-bottom: {{ section.settings.title_margin_bottom_mb }};
+        {% endif %}
+    }
+}
+
+{{ section.settings.style }}
+
+  .section-designer-image-text-{{ section.id }} .item-wrapper{
+     display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+   .section-designer-image-text-{{ section.id }} .item-wrapper .item{
+    width: calc(100% / 3 - (80px / 3));
+    text-align: center;
+   }
+  .section-designer-image-text-{{ section.id }} .item-wrapper .item .title{
+         font-size: 24px;
+    font-weight: 600;
+    color: #017e56;
+    margin: 10px 0;display: block;
+  }
+  .section-designer-image-text-{{ section.id }} .item-wrapper .item .text{
+          font-size: 16px;
+    color: #1a3b1a;
+    font-weight: 500;display: block;
+  }
+  .section-designer-image-text-{{ section.id }} .btn-wrapper{
+        text-align: center;
+  }
+  .section-designer-image-text-{{ section.id }} .designer-btn{
+      background-color: #017e56;
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 50px;
+    margin: auto;
+    color: #fff;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 24px;
+    white-space: nowrap;
+  }
+@media (max-width:900px){
+    .section-designer-image-text-{{ section.id }} .item-wrapper{
+    gap: 20px;justify-content: flex-start;
+  }
+   .section-designer-image-text-{{ section.id }} .item-wrapper .item{
+    width: calc(100% / 2 - (20px / 2));
+   }
+  .section-designer-image-text-{{ section.id }} .item-wrapper .item .title{
+     font-size: 20px;
+  }
+  .section-designer-image-text-{{ section.id }} .item-wrapper .item .text{
+      font-size: 14px;
+  }
+}
+  @media (max-width:600px){
+    .section-designer-image-text-{{ section.id }} .item-wrapper{
+       gap: 10px;
+        row-gap: 30px;
+  }
+   .section-designer-image-text-{{ section.id }} .item-wrapper .item{
+    width: calc(100% / 2 - (10px / 2));
+             padding-bottom: 50px;
+        position: relative;
+   }
+  .section-designer-image-text-{{ section.id }} .item-wrapper .item .title{
+        font-size: 16px;
+      margin: 5px 0;
+  }
+      .section-designer-image-text-{{ section.id }} .item-wrapper .item .text{
+      font-size: 12px;
+  }
+  .section-designer-image-text-{{ section.id }} .designer-btn{
+          height: 36px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+  }
+}
+{% endstyle %}
+
+
+<div class="section-designer-image-text section-designer-image-text-{{ section.id }} {{ section.settings.class }}">
+{% if section.settings.title != blank %}
+  <div class="title-wrapper content-wrapper">
+      <div class="b-title">{{ section.settings.title }}</div>
+  </div>
+{% endif %}             
+  <div class="content-wrapper item-wrapper">
+       {% for block in section.blocks %}
+         <div class="item item-{{ forloop.index }}">
+             {% if block.settings.image != blank %}
+               <a href="{{ block.settings.url }}">
+               {% render "image-element",image:block.settings.image,aspect_ratio:1 %}
+               </a>   
+             {% endif %}
+             {% if block.settings.title != blank %}
+               <a href="{{ block.settings.url-text }}" class='title'>{{ block.settings.title }}</a>
+             {% endif %}
+           {% if block.settings.text != blank %}
+               <a href="{{ block.settings.url-text }}" class='text'>{{ block.settings.text }}</a>
+             {% endif %}
+           <a href="{{ block.settings.url-btn }}" class="designer-btn">
+             {{ block.settings.button-text }}
+           </a>
+         </div>
+       {% endfor %}
+    </div>
+  
+</div>
+
+
+{% schema %}
+{
+  "name": "设计师图文模块",
+  "settings": [
+    {
+      "type": "header",
+      "content": "边距设置"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "电脑端上边距",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "电脑端下边距",
+      "default": 120
+    },
+      {
+      "type": "range",
+      "id": "padding_top_ipad",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "iPad 上边距",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_ipad",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "iPad 下边距",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_top_md",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "移动端上边距",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_md",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "移动端下边距",
+      "default": 60
+    },
+        {
+            "type": "text",
+            "id": "class",
+            "label": "Class"
+          },
+        {
+            "type": "html",
+            "id": "style",
+            "label": "Custom Style"
+          },
+        {
+          "type": "html",
+          "id": "title",
+          "label": "title"
+        },
+          {
+          "type": "text",
+          "id": "title_size_pc",
+          "label": "title Size In PC"
+        },
+        {
+          "type": "text",
+          "id": "title_size_ipad",
+          "label": "title Size In iPad"
+        },
+        {
+          "type": "text",
+          "id": "title_size_mb",
+          "label": "title Size In MB"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "title color"
+        },
+        {
+          "type": "text",
+          "id": "title_margin_bottom",
+          "label": "title margin bottom"
+        },
+        {
+          "type": "text",
+          "id": "title_margin_bottom_ipad",
+          "label": "title margin bottom iPad"
+        },
+        {
+          "type": "text",
+          "id": "title_margin_bottom_mb",
+          "label": "title margin bottom mb"
+        },
+             {
+               "type": "select",
+               "id": "text_alignment",
+               "label": "Text alignment",
+               "default": "left",
+               "options": [
+               {
+                   "value": "left",
+                   "label": "Left"
+               },
+               {
+                   "value": "center",
+                   "label": "Center"
+               },
+               {
+                   "value": "right",
+                   "label": "Right"
+               }
+               ]
+          }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "block",
+      "settings": [
+         {
+            "type": "image_picker",
+            "id": "image",
+            "label": "image"
+          },
+                  {
+             "type": "url",
+             "id": "url",
+             "label": "图片url"
+           },
+          {
+             "type": "html",
+             "id": "title",
+             "label": "title"
+           },
+         {
+             "type": "html",
+             "id": "text",
+             "label": "text"
+           },
+                 {
+             "type": "url",
+             "id": "url-text",
+             "label": "文案url"
+           },
+          {
+             "type": "html",
+             "id": "button-text",
+             "label": "按钮文案",
+             "default":"Shop the Collection"
+           },
+                  {
+             "type": "url",
+             "id": "url-btn",
+             "label": "按钮url"
+           }
+      ]
+    }
+      ],
+  "presets": [
+    {
+      "name": "Designer image text"
+    }
+  ]
+}
+{% endschema %}

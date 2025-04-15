@@ -1,0 +1,537 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "brc-nav-product",
+      "settings": {
+        "breadcrumb_pr": false,
+        "back_next_pr": false,
+        "box_border": "top",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_link": "#222222",
+        "margin_bt": 5
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "d5b7b0a4-fb63-44fc-9d84-10e7223a983d": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "rating": true,
+            "review_liquid": ""
+          }
+        },
+        "3eaacecf-c956-46e5-84ef-40474509a065": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 24,
+            "fw_pr": 500,
+            "lh_pr": 28,
+            "ls_pr": 0,
+            "pr_title_color": "#111111"
+          }
+        },
+        "18a8b200-4f94-4b72-b0eb-01abf185ecb3": {
+          "type": "price",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": false,
+            "size_price_pr": 20,
+            "fw_price_pr": 500,
+            "primary_price_color": "#000000",
+            "secondary_price_color": "#868686",
+            "price_sale": "#e73838",
+            "show_more": "Free Shipping"
+          }
+        },
+        "c47c7a43-34f4-4a24-938c-5665b73da56e": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "See [count] reviews",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": true
+          }
+        },
+        "discount_iEN9bc": {
+          "type": "discount",
+          "disabled": true,
+          "settings": {
+            "coupon_title_top": "",
+            "discodetype": "1",
+            "coupon_title1": "Spend $350 Save $30",
+            "coupon_code1": "LD30",
+            "coupon_price1": "350",
+            "coupon_reduction1": "15",
+            "coupon_money1": "",
+            "coupon_title_color1": "#000000",
+            "coupon_code_bgcolor1": "#0d0d0d",
+            "coupon_bgcolor1": "#d1f1e7"
+          }
+        },
+        "icons_YrQAi6": {
+          "type": "icons",
+          "settings": {
+            "svg-1": "<svg width=\"18\" height=\"22\" viewbox=\"0 0 18 22\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5.67414 10.6653L5.32031 19.9648H10.6854C14.725 19.9648 17.9999 16.6898 17.9999 12.6503V9.7913C17.9999 8.30871 17.4114 6.88661 16.362 5.83789C15.3135 4.78937 13.8912 4.19995 12.4086 4.19995H11.9745C10.1666 4.19995 8.70045 5.66615 8.70045 7.4749V8.14631C8.70045 9.53743 7.57253 10.6653 6.18149 10.6653H5.67414ZM9.00013 13.8746C7.71946 13.8746 6.67956 14.9145 6.67956 16.1952C6.67956 17.4759 7.71944 18.5149 9.00013 18.5149C10.2808 18.5149 11.3207 17.475 11.3207 16.1952C11.3207 14.9145 10.2808 13.8746 9.00013 13.8746ZM13.3298 10.3087C12.0491 10.3087 11.0092 11.3486 11.0092 12.6293C11.0092 13.91 12.0491 14.9489 13.3298 14.9489C14.6105 14.9489 15.6494 13.9091 15.6494 12.6293C15.6494 11.3486 14.6096 10.3087 13.3298 10.3087ZM13.3298 5.51822C12.2916 5.51822 11.4485 6.36135 11.4485 7.3995C11.4485 8.43766 12.2916 9.28079 13.3298 9.28079C14.3679 9.28079 15.2111 8.43766 15.2111 7.3995C15.2111 6.36135 14.3679 5.51822 13.3298 5.51822Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.45198 11.7993C0.584683 12.5915 0.0410156 13.7324 0.0410156 15V15.6309C0.0410156 17.028 0.702059 18.2707 1.72899 19.0638L1.45198 11.7993Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.5196 7.39989C14.5196 8.98691 12.1387 8.98691 12.1387 7.39989C12.1387 5.81201 14.5196 5.81201 14.5196 7.39989Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.9587 12.6296C14.9587 13.5296 14.2295 14.2589 13.3294 14.2589C12.4293 14.2589 11.6992 13.5296 11.6992 12.6296C11.6992 11.7295 12.4293 10.9994 13.3294 10.9994C14.2295 10.9994 14.9587 11.7295 14.9587 12.6296Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.6304 16.1945C10.6304 17.0946 9.90036 17.8247 9.00028 17.8247C8.1002 17.8247 7.37012 17.0946 7.37012 16.1945C7.37012 15.2944 8.1002 14.5652 9.00028 14.5652C9.90036 14.5652 10.6304 15.2944 10.6304 16.1945Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.06641 9.78928L2.4815 20.6852C2.50048 21.1874 2.91384 21.5853 3.41611 21.5853H3.66723C4.17034 21.5853 4.58371 21.1874 4.60271 20.6852L5.01693 9.79436C4.6821 9.90569 4.32827 9.973 3.96325 9.99457C3.29531 10.0334 2.65064 9.96102 2.06641 9.78928Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0.482538 4.49346C0.263341 4.88352 0.105424 5.31761 0.0346625 5.82763C-0.287221 8.13428 1.68122 9.43309 3.924 9.30451C5.74833 9.20009 7.16449 7.68385 7.08076 5.26318C6.33515 5.74386 5.49288 6.08041 4.6462 6.03554C3.68916 5.98463 2.91765 5.38055 2.08836 4.98789C1.61717 4.76524 1.11924 4.62286 0.610077 4.54087C0.563475 4.5331 0.521191 4.51671 0.483219 4.49341L0.482538 4.49346Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0.894531 3.89006C1.40714 3.98585 1.9068 4.1386 2.38403 4.36469C2.78187 4.55282 3.16415 4.79618 3.56113 4.99812C3.91324 5.17762 4.27654 5.3252 4.683 5.34676C5.44672 5.38732 6.19925 5.03521 6.85857 4.58217C6.90604 4.54938 6.95782 4.53039 7.01132 4.52435C7.00355 4.47084 6.99492 4.4182 6.98543 4.3647C6.74898 3.00291 5.15418 1.34513 4.30321 0.544288C4.19275 0.438141 4.03656 0.393268 3.88726 0.424334C3.7371 0.456264 3.61283 0.559821 3.55502 0.701348C3.17443 1.59454 2.5298 2.2642 1.79022 2.95277C1.46228 3.25826 1.15679 3.56203 0.895309 3.89083L0.894531 3.89006Z\" fill=\"#1A3B1A\"><\/path>\n<\/svg>",
+            "text-1": "Artistic",
+            "url-1": "",
+            "svg-2": "<svg width=\"20\" height=\"18\" viewbox=\"0 0 20 18\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.8147 7.59226C19.6713 7.5435 19.5153 7.61957 19.4656 7.76294L19.0267 9.03668C17.9022 10.6147 17.0985 10.3367 16.1047 9.99343C15.5576 9.80422 14.9597 9.59845 14.2361 9.59845C13.4451 9.59845 12.8531 9.91151 12.2611 10.2265C11.7257 10.5103 11.1892 10.7951 10.5202 10.7951C9.74384 10.7951 9.04358 10.3279 8.32674 9.84907C7.50456 9.29998 6.66288 8.73919 5.5978 8.73919C3.92028 8.73919 2.85137 9.576 1.67116 10.5006C1.62142 10.5396 1.57168 10.5786 1.51902 10.6196L0.534947 7.76378C0.486183 7.62041 0.32916 7.54433 0.185802 7.5931C0.0424339 7.64186 -0.0346132 7.79889 0.015127 7.94225L2.76554 15.9181C2.88648 16.2682 3.10495 16.5559 3.38778 16.7569C3.66964 16.9587 4.01392 17.0709 4.38259 17.0709H15.6159C15.9856 17.0709 16.3289 16.9578 16.6117 16.7569C16.8936 16.556 17.113 16.2673 17.234 15.9181L19.9844 7.94225C20.0351 7.79693 19.9581 7.64102 19.8147 7.59226Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7.82082 8.34123C9.22719 8.34123 10.3663 7.20112 10.3663 5.7958C10.3663 4.38943 9.22614 3.25037 7.82082 3.25037C6.41446 3.25037 5.27539 4.39048 5.27539 5.7958C5.27539 7.20217 6.41453 8.34123 7.82082 8.34123ZM7.82082 4.1065C8.28702 4.1065 8.71029 4.29571 9.01557 4.60098C9.32182 4.90723 9.51102 5.32953 9.51102 5.79573C9.51102 5.94787 9.38813 6.07077 9.23598 6.07077C9.08382 6.07077 8.96094 5.94788 8.96094 5.79573C8.96094 5.48071 8.83317 5.19593 8.6274 4.98915C8.42064 4.78336 8.13584 4.65561 7.82082 4.65561C7.66868 4.65561 7.54578 4.53272 7.54578 4.38057C7.54578 4.2294 7.66867 4.1065 7.82082 4.1065Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.1122 9.18491C12.5832 9.18491 12.9675 8.80064 12.9675 8.32958C12.9675 7.85852 12.5832 7.47424 12.1122 7.47424C11.6411 7.47424 11.2568 7.85852 11.2568 8.32958C11.2568 8.80064 11.6411 9.18491 12.1122 9.18491Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.8564 6.16259C13.8564 6.94185 14.4923 7.57775 15.2716 7.57775C16.0509 7.57775 16.6868 6.94185 16.6868 6.16259C16.6868 5.38333 16.0509 4.74744 15.2716 4.74744C14.4923 4.74744 13.8564 5.38333 13.8564 6.16259Z\" fill=\"#1A3B1A\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.8568 3.47461C14.5599 3.47461 15.1295 2.90505 15.1295 2.20184C15.1295 1.49866 14.56 0.929077 13.8568 0.929077C13.1536 0.929077 12.584 1.49963 12.584 2.20184C12.584 2.90503 13.1535 3.47461 13.8568 3.47461ZM13.8568 1.35724C14.0898 1.35724 14.3015 1.45185 14.4536 1.60497C14.6067 1.75809 14.7013 1.96874 14.7013 2.20184C14.7013 2.27791 14.6399 2.33936 14.5638 2.33936C14.4878 2.33936 14.4263 2.27791 14.4263 2.20184C14.4263 2.04482 14.3629 1.90243 14.2595 1.79904C14.1562 1.69566 14.0138 1.63227 13.8567 1.63227C13.7807 1.63227 13.7192 1.57082 13.7192 1.49475C13.7192 1.41868 13.7807 1.35724 13.8568 1.35724Z\" fill=\"#1A3B1A\"><\/path>\n<\/svg>",
+            "text-2": "Washable",
+            "url-2": "",
+            "svg-3": "<svg width=\"30\" height=\"18\" viewbox=\"0 0 30 18\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.69546 1.53463C6.76743 0.380321 3.07234 0.525145 0.59134 6.10748C-0.164067 7.80719 -0.111923 8.98291 0.280896 9.77606C0.827974 10.8806 2.09036 11.3201 3.19085 11.3987V11.7269C3.19085 13.1241 4.14161 14.2992 5.43161 14.6407C5.44328 14.9024 5.4521 15.2874 5.41088 15.666C5.39077 15.8504 5.28902 16.2113 5.24483 16.4141C5.18399 16.693 5.36109 16.9689 5.64007 17.0297C5.91897 17.0905 6.19484 16.9134 6.25568 16.6345C6.30621 16.4027 6.41645 15.9888 6.43942 15.778C6.47828 15.4206 6.47785 15.017 6.46984 14.7291C7.17205 14.667 7.83353 14.3603 8.33585 13.858C8.47248 13.7214 8.59465 13.573 8.70129 13.4152C8.808 13.573 8.93017 13.7214 9.06674 13.858C9.56931 14.3605 10.231 14.6672 10.9334 14.7291C10.8949 15.3709 11.0568 15.7516 11.1414 16.0636C11.2161 16.3392 11.5004 16.5023 11.776 16.4276C12.0516 16.3529 12.2147 16.0685 12.14 15.793C12.0704 15.5361 11.9115 15.2195 11.9792 14.6456C11.9795 14.6432 11.9797 14.6407 11.98 14.6382C13.2653 14.2938 14.2118 13.1209 14.2118 11.7269V11.3979C14.3576 11.3871 14.5061 11.3701 14.6554 11.3459C15.3465 12.2827 16.4012 13.064 17.6838 13.5807C17.6955 13.8426 17.7046 14.229 17.6632 14.6091C17.6431 14.7935 17.5414 15.1544 17.4972 15.3572C17.4364 15.6361 17.6135 15.912 17.8924 15.9728C18.1713 16.0336 18.4472 15.8565 18.508 15.5776C18.5586 15.3458 18.6688 14.9319 18.6917 14.7211C18.7202 14.4603 18.7276 14.1748 18.7264 13.9276C19.524 14.1407 20.3852 14.2576 21.2842 14.2576C21.9422 14.2576 22.5802 14.1951 23.1878 14.0781C23.2181 14.4865 23.3288 14.7669 23.3938 15.0067C23.4684 15.2823 23.7528 15.4454 24.0284 15.3707C24.3039 15.296 24.4671 15.0116 24.3924 14.7361C24.3327 14.516 24.2076 14.2521 24.2155 13.8203C25.4613 13.4315 26.5338 12.804 27.3257 12.022C27.6601 11.6918 27.9455 11.3341 28.1752 10.9548C28.5146 11.1852 28.7354 11.4513 28.7354 11.4513C28.9182 11.6706 29.2447 11.7002 29.464 11.5174C29.6833 11.3346 29.7129 11.0082 29.5301 10.7888C29.5301 10.7888 29.1633 10.3503 28.6149 10.0101C28.6657 9.85775 28.7082 9.703 28.742 9.54625C29.0469 9.63527 29.2232 9.73466 29.2232 9.73466C29.4702 9.87787 29.787 9.79363 29.9302 9.54663C30.0734 9.29969 29.9892 8.98285 29.7422 8.83964C29.7422 8.83964 29.4034 8.63895 28.8355 8.50102C28.827 8.25203 28.7969 8.00676 28.7463 7.76634C28.9331 7.79297 29.0462 7.82612 29.0462 7.82612C29.3203 7.90608 29.6078 7.7484 29.6877 7.47434C29.7676 7.20027 29.61 6.91286 29.3359 6.8329C29.3359 6.8329 28.9444 6.71893 28.3779 6.70726C28.2109 6.36845 28.0009 6.04453 27.7522 5.73906L27.7591 5.63272C27.7591 5.63272 27.7448 3.51772 26.8491 2.23814C26.7114 2.04136 26.4563 1.96531 26.2332 2.05452C26.2332 2.05452 25.2342 2.44274 24.5235 3.57321C23.5444 3.22888 22.4452 3.03483 21.2842 3.03483C20.6707 3.03483 20.0745 3.08896 19.5041 3.19089C19.4992 3.19169 19.4942 3.19256 19.4892 3.19356C19.0258 3.27711 18.5796 3.39214 18.1551 3.53522C17.4463 2.43399 16.4696 2.05452 16.4696 2.05452C16.2466 1.96531 15.9915 2.04136 15.8537 2.23814C15.5948 2.60805 15.4073 3.0465 15.2729 3.4842C12.9769 0.517074 10.2567 0.599885 8.69546 1.53463ZM9.25545 12.107C9.33044 12.4903 9.51803 12.8461 9.79831 13.1264C10.1695 13.4976 10.673 13.7061 11.1979 13.7061C12.291 13.7061 13.1772 12.82 13.1772 11.7269V10.8947C13.1772 9.48579 12.2254 8.88018 12.2254 8.88018C11.9812 8.73225 11.9031 8.41392 12.051 8.16971C12.199 7.92551 12.5173 7.84735 12.7615 7.99534C12.7615 7.99534 15.8118 10.0663 16.1829 9.31694C16.4826 8.71182 16.4304 7.82426 15.8542 6.52767C13.67 1.61334 3.72439 1.60546 1.53676 6.52767C0.960507 7.82426 0.908363 8.71182 1.20807 9.31694C1.58115 10.0703 4.22106 8.09137 4.22106 8.09137C4.41226 7.87932 4.73965 7.86237 4.9517 8.05351C5.16375 8.2447 5.1807 8.57209 4.98951 8.78414C4.98951 8.78414 4.22541 9.6403 4.22541 10.8947V11.7269C4.22547 12.82 5.11161 13.7061 6.20471 13.7061C6.72969 13.7061 7.23313 13.4976 7.60428 13.1264C7.88462 12.8461 8.07215 12.4903 8.1472 12.107L7.47653 11.3022C7.30781 11.0997 7.27143 10.8178 7.38323 10.5791C7.49503 10.3404 7.73483 10.1879 7.9984 10.1879C8.4515 10.1879 8.95115 10.1879 9.40418 10.1879C9.66782 10.1879 9.90762 10.3404 10.0194 10.5791C10.1312 10.8178 10.0948 11.0997 9.92606 11.3022L9.25545 12.107ZM21.0591 8.37171L20.846 8.16164C20.7632 8.08001 20.7454 7.96635 20.8002 7.87007C20.8551 7.77385 20.9728 7.71234 21.1021 7.71234C21.3244 7.71234 21.5696 7.71234 21.7919 7.71234C21.9213 7.71234 22.039 7.77385 22.0938 7.87007C22.1487 7.96635 22.1309 8.08001 22.0481 8.16164L21.835 8.37171V8.92009L22.3411 9.90717C22.4387 10.0977 22.3634 10.3317 22.1728 10.4294C21.9823 10.5271 21.7482 10.4517 21.6505 10.2611L21.4176 9.8066L21.1304 10.2841C21.02 10.4676 20.7815 10.527 20.598 10.4166C20.4145 10.3063 20.3551 10.0677 20.4654 9.8842L21.0591 8.89706V8.37171ZM27.7118 9.40894C27.4835 9.41279 27.2361 9.4393 26.9744 9.49963C26.6962 9.56376 26.4183 9.38995 26.3542 9.11172C26.2901 8.83349 26.4639 8.55558 26.7421 8.49145C27.1166 8.40511 27.4691 8.37221 27.7918 8.37376C27.8783 8.78352 27.8379 9.12066 27.7118 9.40894ZM23.4475 6.94153C22.8911 6.94153 22.4393 7.39326 22.4393 7.94972C22.4393 8.50617 22.8911 8.95796 23.4475 8.95796C24.004 8.95796 24.4558 8.50617 24.4558 7.94972C24.4558 7.39326 24.004 6.94153 23.4475 6.94153ZM19.3774 6.94153C18.821 6.94153 18.3692 7.39326 18.3692 7.94972C18.3692 8.50617 18.821 8.95796 19.3774 8.95796C19.9339 8.95796 20.3857 8.50617 20.3857 7.94972C20.3857 7.39326 19.9339 6.94153 19.3774 6.94153ZM27.6877 7.78981C27.4116 7.84456 27.1198 7.94537 26.8389 8.11924C26.5962 8.26953 26.2771 8.19448 26.1268 7.9517C25.9765 7.70892 26.0516 7.38985 26.2944 7.23956C26.614 7.04166 26.944 6.9123 27.2635 6.83054C27.5404 7.12491 27.6537 7.44994 27.6877 7.78981ZM23.4475 7.71749C23.5757 7.71749 23.6798 7.82153 23.6798 7.94972C23.6798 8.0779 23.5757 8.182 23.4475 8.182C23.3193 8.182 23.2153 8.0779 23.2153 7.94972C23.2153 7.82153 23.3193 7.71749 23.4475 7.71749ZM19.3774 7.71749C19.5056 7.71749 19.6097 7.82153 19.6097 7.94972C19.6097 8.0779 19.5056 8.182 19.3774 8.182C19.2492 8.182 19.1452 8.0779 19.1452 7.94972C19.1452 7.82153 19.2492 7.71749 19.3774 7.71749ZM6.55886 6.09481C6.91145 6.09481 7.19768 6.38111 7.19768 6.7337C7.19768 7.08623 6.91145 7.37253 6.55886 7.37253C6.20626 7.37253 5.92003 7.08623 5.92003 6.7337C5.92003 6.38111 6.20626 6.09481 6.55886 6.09481ZM10.6343 6.08581C10.9869 6.08581 11.2731 6.37211 11.2731 6.72464C11.2731 7.07723 10.9869 7.36353 10.6343 7.36353C10.2817 7.36353 9.99546 7.07723 9.99546 6.72464C9.99546 6.37211 10.2817 6.08581 10.6343 6.08581ZM22.0337 4.09962L22.0437 5.38851C22.0459 5.674 21.8159 5.90759 21.5304 5.90983C21.2449 5.91206 21.0113 5.68207 21.0091 5.39652L20.9989 4.07373C21.3729 3.99521 21.7166 4.00737 22.0337 4.09962ZM20.2502 4.12718C20.293 4.41044 20.3166 4.79134 20.2935 5.29937C20.2806 5.58461 20.0385 5.8056 19.7533 5.79269C19.4681 5.77971 19.247 5.53762 19.26 5.25238C19.2791 4.832 19.2538 4.5164 19.2234 4.30503C19.5553 4.12184 19.8993 4.08267 20.2502 4.12718ZM23.6924 4.39492C23.6684 4.53931 23.6463 4.75688 23.6625 5.0245C23.6798 5.30949 23.4625 5.55487 23.1775 5.57219C22.8926 5.58945 22.6471 5.37212 22.6298 5.08719C22.6063 4.69928 22.6279 4.40131 22.6701 4.17405C23.0204 4.15276 23.3612 4.22638 23.6924 4.39492Z\" fill=\"#1A3B1A\"><\/path>\n<\/svg>",
+            "text-3": "Pet-Friendly",
+            "url-3": "",
+            "svg-4": "<svg width=\"18\" height=\"22\" viewbox=\"0 0 18 22\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M16.9981 10.5086C16.2446 9.22284 15.2468 7.84878 13.961 6.29731L13.8719 6.20816C13.8496 6.18588 13.8273 6.16359 13.805 6.16359C13.3841 5.78641 12.6084 5.32097 11.6774 4.90008C10.7242 4.47919 6.6456 2.63872 5.20473 2.61743C4.73927 2.61743 4.31838 2.95002 4.25152 3.41548C4.18465 3.94781 4.58411 4.41327 5.11558 4.43469H5.13786C6.20166 4.45697 8.21863 5.52075 8.9283 5.89793C9.08346 5.98622 9.19403 6.14138 9.19403 6.3411C9.28232 7.6269 9.03888 8.44725 8.50656 8.80128C5.75847 7.64834 3.16443 8.15837 1.19207 10.2868L1.1475 10.3314C1.12521 10.3537 1.12521 10.3759 1.10293 10.3982C1.08064 10.4205 1.05835 10.4428 1.03606 10.4865C1.01378 10.5088 1.01378 10.5311 0.99149 10.5534C0.969204 10.5757 0.969204 10.598 0.946917 10.6417C0.946917 10.664 0.92463 10.6863 0.92463 10.73C0.92463 10.7523 0.902344 10.7968 0.902344 10.8183V10.9065V10.9948V11.0831C0.902344 11.1277 0.902344 11.15 0.92463 11.1714C0.92463 11.1937 0.946917 11.216 0.946917 11.2597C0.946917 11.282 0.969204 11.3043 0.969204 11.348C0.969204 11.3703 0.99149 11.3926 1.01378 11.4363C1.03606 11.4586 1.03606 11.4809 1.05835 11.5032C1.08064 11.5254 1.10293 11.5477 1.12521 11.57C1.1475 11.5923 1.1475 11.6146 1.16979 11.6146H1.19207C1.21436 11.6369 1.23665 11.6369 1.25894 11.6592C1.28122 11.6815 1.28122 11.6815 1.30351 11.7037C1.3258 11.726 1.34808 11.726 1.3918 11.7483C1.41409 11.7483 1.43637 11.7706 1.45866 11.7706C1.48095 11.7929 1.52553 11.7929 1.54695 11.7929C1.56924 11.7929 1.59153 11.8152 1.59153 11.8152C1.6361 11.8152 1.70211 11.8375 1.74668 11.8375H1.94641C1.9687 11.8375 1.99098 11.8375 2.01327 11.8152C2.05784 11.8152 2.10156 11.7929 2.14614 11.7706C2.16842 11.7706 2.19071 11.7483 2.213 11.726C2.25757 11.7037 2.27986 11.7037 2.32358 11.6592C2.34587 11.6369 2.36815 11.6369 2.39044 11.6146C2.41273 11.5923 2.4573 11.57 2.47873 11.5477C4.03026 9.95163 6.00343 9.70818 8.35323 10.772C8.37551 10.7942 8.37551 10.8165 8.3978 10.8388C9.10671 11.504 7.31173 13.7868 4.8731 16.7346C4.8731 16.7346 4.8731 16.7569 4.85082 16.7569C4.82853 16.7792 4.80624 16.8015 4.80624 16.8452C4.78395 16.8675 4.78395 16.8897 4.76167 16.912C4.73938 16.9343 4.73938 16.9566 4.71709 17.0003C4.71709 17.0226 4.69481 17.0449 4.69481 17.0886C4.69481 17.1109 4.69481 17.1555 4.67252 17.1769V17.2652V17.3535V17.4418C4.67252 17.4641 4.67252 17.5086 4.69481 17.5301C4.69481 17.5524 4.71709 17.5746 4.71709 17.6184C4.71709 17.6406 4.73938 17.6629 4.73938 17.7067C4.73938 17.7289 4.76167 17.7512 4.78395 17.7949C4.80624 17.8172 4.80624 17.8395 4.82853 17.8618C4.85081 17.8841 4.8731 17.9064 4.8731 17.9287L4.89539 17.951C4.91767 17.9732 4.91767 17.9732 4.93996 17.9955C4.96225 17.9955 4.96225 18.0178 4.98453 18.0401H5.00682C5.07368 18.0847 5.13969 18.1284 5.22883 18.173C5.25112 18.173 5.25112 18.173 5.27341 18.1953C5.3617 18.2175 5.42856 18.2398 5.51686 18.2398C5.58372 18.2398 5.64972 18.2398 5.71658 18.2175C5.73887 18.2175 5.76116 18.2175 5.78345 18.1953C5.82802 18.1953 5.87174 18.173 5.91631 18.1507C5.9386 18.1507 5.96089 18.1284 5.98317 18.1284C6.02775 18.1061 6.05004 18.0838 6.09375 18.0615C6.11604 18.0392 6.13833 18.0392 6.16062 18.017L6.20519 17.9724C8.82051 15.5559 10.5941 13.6281 11.9458 9.06189C11.9458 9.03961 11.9681 9.01732 11.9681 8.99503C12.101 8.44129 12.4113 8.15241 12.6556 8.0864C12.833 8.01954 12.9882 8.06412 13.121 8.19698C13.1433 8.21927 13.1656 8.24156 13.1879 8.26384C14.0743 9.39448 14.8063 10.4137 15.3823 11.3892C15.5375 11.6549 15.8255 11.8323 16.1358 11.8323C16.3133 11.8323 16.4907 11.81 16.6458 11.6995C17.1087 11.5066 17.2415 10.9527 16.9981 10.5086Z\" fill=\"#1A3B1A\"><\/path>\n<path d=\"M14.1385 3.83714C14.9589 3.0168 14.9589 1.70957 14.1385 0.911523C13.3182 0.0911785 12.011 0.0911785 11.2129 0.911523C10.3926 1.73187 10.3926 3.03909 11.2129 3.83714C12.011 4.65748 13.3182 4.65748 14.1385 3.83714Z\" fill=\"#1A3B1A\"><\/path>\n<path d=\"M12.2103 14.6763C12.0552 14.6763 11.9 14.7431 11.8332 14.876C10.9691 15.9175 10.0596 16.5827 9.01815 16.9821C8.863 17.049 8.79614 17.2042 8.84071 17.3593C8.88528 17.4699 8.99586 17.5368 9.10643 17.5591C9.15101 17.5591 9.1733 17.5591 9.21701 17.5368C10.7463 16.9607 11.7887 16.2956 12.5199 15.4306C12.5199 15.4306 12.5199 15.4083 12.5421 15.4083C12.609 15.3415 12.6304 15.2532 12.6527 15.1426C12.6536 14.8974 12.4538 14.6763 12.2103 14.6763Z\" fill=\"#1A3B1A\"><\/path>\n<path d=\"M10.7251 20.7051H9.52846V20.6828C9.52846 20.5499 9.48389 20.4171 9.39559 20.3279H9.79419C10.0599 20.3279 10.2819 20.1059 10.2819 19.8402C10.2819 19.5745 10.0822 19.3524 9.81649 19.3524L3.12171 19.3533C2.85599 19.3533 2.63396 19.5753 2.63396 19.841C2.63396 19.9516 2.67853 20.063 2.74454 20.1513H1.41416C1.12614 20.1513 0.881836 20.3948 0.881836 20.6614C0.881836 20.9271 1.12529 21.1714 1.41416 21.1714H5.13789V21.1937C5.13789 21.4817 5.38134 21.7037 5.67022 21.7037H10.7242C11.0122 21.7037 11.2342 21.4603 11.2342 21.1937C11.2351 20.9271 11.0131 20.7051 10.7251 20.7051Z\" fill=\"#1A3B1A\"><\/path>\n<\/svg>",
+            "text-4": "Non-Slip",
+            "url-4": ""
+          }
+        },
+        "8efd84b3-4647-43eb-8040-d7451a522e7d": {
+          "type": "size",
+          "settings": {
+            "size_chart": "2",
+            "pos_sizeg": "1",
+            "sc_type": "1",
+            "page": "size-chart",
+            "size_ck": "",
+            "icon": "default",
+            "icon_name": "las la-ruler-horizontal",
+            "ani": "none"
+          }
+        },
+        "affirm_pay_over_time_messaging_product_block_TdmBeU": {
+          "type": "shopify:\/\/apps\/affirm-pay-over-time-messaging\/blocks\/product-block\/6dce54be-130d-4d13-9636-1e8f611b3071",
+          "settings": {
+            "logo_align": "left",
+            "font_size": 16,
+            "logo_color": "blue",
+            "logo_type": "logo",
+            "public_api_key": "",
+            "price_selector": ""
+          }
+        },
+        "8f619784-04a8-4c20-b813-6902f9e3e922": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color is-sw-cl__round",
+            "enable_fit_ratio_img": false,
+            "color_size": "large",
+            "show_qty": true,
+            "enable_wishlist": false,
+            "enable_compare": false,
+            "btn_atc_full": true,
+            "pr_btn_round": 0,
+            "wis_cp_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "2",
+            "btn_icon": true,
+            "button_style": "default",
+            "button_color": "primary",
+            "button_effect": "sweep-to-right",
+            "wishlist_color": "#017e56",
+            "wishlist_color_hover": "#017e56",
+            "wishlist_color_active": "#e81e1e",
+            "compare_color": "#017e56",
+            "compare_color_hover": "#017e56",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "2",
+            "button_color_payment": "dark",
+            "product_list": [],
+            "show_product_current": true,
+            "show_text_price": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": []
+          }
+        },
+        "text_fGnCNH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Free shipping and easy return over the US. <a href=\"\/pages\/shipping-return\" target=\"_blank\" title=\"\/pages\/shipping-return\">Read policy.<\/a><\/p>"
+          }
+        },
+        "2aae73bc-9c19-4329-a916-95b71d168110": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "default",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Order in the next [hour] to get it between [date_start] and [date_end]",
+            "ds": 10,
+            "de": 15,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, t45 t46",
+            "time": "16:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "text_8wf9RL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free shipping and easy return over the US.  <a href=\"\/pages\/shipping-return\" title=\"Shipping & Return\">Read Policy<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d5b7b0a4-fb63-44fc-9d84-10e7223a983d",
+        "3eaacecf-c956-46e5-84ef-40474509a065",
+        "18a8b200-4f94-4b72-b0eb-01abf185ecb3",
+        "c47c7a43-34f4-4a24-938c-5665b73da56e",
+        "discount_iEN9bc",
+        "icons_YrQAi6",
+        "8efd84b3-4647-43eb-8040-d7451a522e7d",
+        "affirm_pay_over_time_messaging_product_block_TdmBeU",
+        "8f619784-04a8-4c20-b813-6902f9e3e922",
+        "text_fGnCNH",
+        "2aae73bc-9c19-4329-a916-95b71d168110",
+        "text_8wf9RL"
+      ],
+      "settings": {
+        "video_url_1": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6c8fac9284441ab94458b8e32664bef.mp4",
+        "video_url_2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/330c36f7a53b4940b92cdbbabb7f4c03.mp4",
+        "video_url_3": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/52dbb56445c84fc9b2916889d1046db6.mp4",
+        "pr_layout": "default",
+        "enable_sticky_info": true,
+        "enable_space_content": true,
+        "media_layout": "thumbnails_left",
+        "media_size": "medium",
+        "thumb_lr_size": "large",
+        "thumb_lr_hover": "1",
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "inner",
+        "enable_zoom_icon": false,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "slide",
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "round",
+        "btn_cl": "light",
+        "btn_size": "medium",
+        "btn_hidden_mobile": true,
+        "nav_dot": true,
+        "dot_owl": "number",
+        "dots_cl": "light",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "tabs_design": "accordion",
+        "tabs_accordion_mb": true,
+        "enable_line_tabs": true,
+        "tabs_position": "external",
+        "enable_first_tab": true,
+        "tabs_layout": "default",
+        "bg": "#ffffff",
+        "bg_mb": "#ffffff",
+        "product_list": [],
+        "sticky_mode": "2",
+        "sticky_show": "2",
+        "sticky_layout_mb": "minimal",
+        "enable_select": true,
+        "ani": "none",
+        "time": 6
+      }
+    },
+    "prodyct_content_metafield_AF9iLR": {
+      "type": "prodyct-content-metafield",
+      "blocks": {
+        "product_spec_TAG3pz": {
+          "type": "product-spec",
+          "settings": {
+            "title": "Product Spec"
+          }
+        },
+        "description_rajVkT": {
+          "type": "description",
+          "settings": {
+            "title": "Description"
+          }
+        }
+      },
+      "block_order": [
+        "product_spec_TAG3pz",
+        "description_rajVkT"
+      ],
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 0,
+        "padding_top_ipad": 0,
+        "padding_bottom_ipad": 0,
+        "padding_top_md": 30,
+        "padding_bottom_md": 0
+      }
+    },
+    "product_rug_care_GzfF3K": {
+      "type": "product-rug-care",
+      "blocks": {
+        "block_7kUjBA": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Non-Slip_3889ae45-fe11-4a33-b131-ed6c820878e3.png",
+            "title": "Non-Slip",
+            "text": "<b>Secure Grip:<\/b> The non-slip silicone backing ensures the rug stays in place on wood, tile, concrete, and more—no slipping or sliding!<br> <b>Safe Materials:<\/b> Made without latex, PVC, or allergenic plastics. Features a soft polyester surface with a stable polycotton base.<br> <b>Built to Last: <\/b>High-quality materials ensure long-lasting softness, support, and durability.",
+            "text-2": "",
+            "text_position": "left"
+          }
+        },
+        "block_eLGdwq": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Easy-Cleaning_c138819f-6e37-47b2-ac40-15f17368811b.png",
+            "title": "Easy-Cleaning",
+            "text": "<b>Hassle-Free Cleaning:<\/b> Vacuum regularly and spot clean with mild detergent as needed.<br> <b>Water &amp; Stain Resistant:<\/b> Polyester fabric resists moisture, mold, and stains—perfect for homes with kids and pets.<br> <b>Low-Maintenance:<\/b> The low-pile rug doesn’t trap dust, pet hair, or allergens easily, making them easy to keep fresh and clean.",
+            "text-2": "",
+            "text_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "block_7kUjBA",
+        "block_eLGdwq"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_ipad": 0,
+        "padding_bottom_ipad": 0,
+        "padding_top_md": 0,
+        "padding_bottom_md": 0,
+        "title": "",
+        "change_title_2": "Non-Slip",
+        "change_title_3": "Easy-Cleaning"
+      }
+    },
+    "prodyct_content_metafield_MJPXnN": {
+      "type": "prodyct-content-metafield",
+      "blocks": {
+        "shipping_AFnnht": {
+          "type": "shipping",
+          "settings": {
+            "title": "Shipping &amp; Return",
+            "text-1": "[Shipping Policy]We offer <b>FREE SHIPPING<\/b> within the U.S. Your order will be shipped within 3-5 days after it has been placed. Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Shipping Policy.<\/a>",
+            "text-2": "[Return Policy]Not satisfied with your rug? No worries! We offer free exchanges and free returns. Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Return Policy.<\/a>",
+            "text-3": "[Shipping Package]Package size: <br>81\" × 8\" × 8\" box for 7' × 10' rug<br>64\" × 7\" × 7\" box\nfor 5' × 7' rug",
+            "text-4": "",
+            "image": "shopify:\/\/shop_images\/24159_1.webp"
+          }
+        }
+      },
+      "block_order": [
+        "shipping_AFnnht"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_ipad": 0,
+        "padding_bottom_ipad": 0,
+        "padding_top_md": 0,
+        "padding_bottom_md": 0
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-product",
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "1699336251b114472e": {
+      "type": "apps",
+      "blocks": {
+        "d972cdc4-b461-455d-8eb3-9e15de129411": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 4,
+            "hide_thumbnails": false,
+            "maxwidth": 720,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "d972cdc4-b461-455d-8eb3-9e15de129411"
+      ],
+      "settings": {}
+    },
+    "product-related-recent": {
+      "type": "product-related-recent",
+      "blocks": {
+        "942d0ec4-5182-4818-a3d6-d06cbf2680a1": {
+          "type": "recommendations",
+          "settings": {
+            "design_heading": "1",
+            "heading_center": true,
+            "title": "You May Also Like",
+            "description": "",
+            "tophead_mb": 30,
+            "tophead_mb_tb": 30,
+            "tophead_mb_mb": 25,
+            "product_des": "1",
+            "rating_pos": "1",
+            "list_color_pos": "2",
+            "list_size_pos": "2",
+            "show_vendor": false,
+            "use_cdt": false,
+            "limit": 10,
+            "display_type": "3",
+            "image_ratio": "rationt",
+            "image_size": "cover",
+            "image_position": "8",
+            "content_align": "default",
+            "col_dk": "4",
+            "col_tb": "3",
+            "col_mb": "2",
+            "space_h_item": "30",
+            "space_v_item": "30",
+            "space_h_item_tb": "15",
+            "space_v_item_tb": "15",
+            "space_h_item_mb": "15",
+            "space_v_item_mb": "15",
+            "layout_des": "2",
+            "loop": false,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_pos": "between",
+            "btn_distance": 15,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "round",
+            "btn_cl": "light",
+            "btn_size": "medium",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "elessi2",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 15,
+            "dots_hidden_mobile": false,
+            "mgb": 35,
+            "mgb_tb": 50,
+            "mgb_mb": 15
+          }
+        },
+        "67689988-9945-4e23-8a5b-10f1dd3e4b39": {
+          "type": "recently",
+          "disabled": true,
+          "settings": {
+            "design_heading": "1",
+            "heading_center": true,
+            "title": "Recently viewed",
+            "description": "",
+            "tophead_mb": 30,
+            "tophead_mb_tb": 30,
+            "tophead_mb_mb": 25,
+            "product_des": "1",
+            "rating_pos": "1",
+            "list_color_pos": "2",
+            "list_size_pos": "2",
+            "show_vendor": false,
+            "use_cdt": false,
+            "limit": 8,
+            "sortby": "3",
+            "unavailable_prs": "show",
+            "image_ratio": "ratio1_1",
+            "image_size": "cover",
+            "image_position": "8",
+            "content_align": "default",
+            "col_dk": "4",
+            "col_tb": "3",
+            "col_mb": "2",
+            "space_h_item": "30",
+            "space_v_item": "30",
+            "space_h_item_tb": "15",
+            "space_v_item_tb": "15",
+            "space_h_item_mb": "15",
+            "space_v_item_mb": "15",
+            "layout_des": "2",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_pos": "in",
+            "btn_distance": 15,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": true,
+            "dot_owl": "elessi2",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 15,
+            "dots_hidden_mobile": false,
+            "mgb": 35,
+            "mgb_tb": 50,
+            "mgb_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "942d0ec4-5182-4818-a3d6-d06cbf2680a1",
+        "67689988-9945-4e23-8a5b-10f1dd3e4b39"
+      ],
+      "settings": {
+        "enable_tab": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",80px,,80px",
+        "mg_tb": ",,50px,",
+        "pd_tb": ",40px,,40px",
+        "mg_mb": "30px,,50px,",
+        "pd_mb": ",0px,,0px"
+      }
+    },
+    "d8999b0c-0a64-4ab4-890d-986b10ec3b77": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>\n\n<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n  var classname = document.getElementsByClassName(\"add-to-cart-tracking\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "prodyct_content_metafield_AF9iLR",
+    "product_rug_care_GzfF3K",
+    "prodyct_content_metafield_MJPXnN",
+    "sidebar",
+    "1699336251b114472e",
+    "product-related-recent",
+    "d8999b0c-0a64-4ab4-890d-986b10ec3b77"
+  ]
+}

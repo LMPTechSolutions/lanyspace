@@ -1,0 +1,661 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "4e530cee-d32b-4e9f-8993-5bbd3027fe34": {
+          "type": "1",
+          "settings": {
+            "heading": "About Us",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 24,
+            "text_lh": 32,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "mgb": 20,
+            "text_fs_tb": 24,
+            "text_lh_tb": 32,
+            "text_ls_tb": 0,
+            "mgb_tb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 32,
+            "text_ls_mb": 0,
+            "mgb_mb": 20
+          }
+        },
+        "1ecfefa0-3d61-44e1-b126-12cff454cc92": {
+          "type": "2",
+          "settings": {
+            "content": "<p>Welcome to Lany Space, where home styling is made easy<\/p>",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 20,
+            "text_lh": 32,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "mgb": 0,
+            "text_fs_tb": 24,
+            "text_lh_tb": 32,
+            "text_ls_tb": 0,
+            "mgb_tb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 32,
+            "text_ls_mb": 0,
+            "mgb_mb": 0
+          }
+        }
+      },
+      "block_order": [
+        "4e530cee-d32b-4e9f-8993-5bbd3027fe34",
+        "1ecfefa0-3d61-44e1-b126-12cff454cc92"
+      ],
+      "settings": {
+        "parallax": false,
+        "color": "#fbefec",
+        "overlay": 100,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mg_b": 0,
+        "padding_top_tb": 40,
+        "padding_bottom_tb": 40,
+        "mg_btb": 0,
+        "padding_top_mb": 40,
+        "padding_bottom_mb": 40,
+        "mg_bmb": 0,
+        "box_border": "none",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "56695f98-bc80-4e3f-8ff5-c8ab07c58e1b": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "7",
+            "col_tb": "7",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,48px,30px,",
+            "padding_inner_tb": "15px,24px,15px,",
+            "padding_inner_mb": "30px,0,15px,",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Inspired Urban Souls:",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 20,
+            "text_lh": 28,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 25,
+            "text_fs_tb": 18,
+            "text_lh_tb": 26,
+            "text_ls_tb": 0,
+            "mgb_tb": 25,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 26,
+            "text_ls_mb": 0,
+            "mgb_mb": 25,
+            "animation": "fadeIn"
+          }
+        },
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Edie and Vanessa are best friends who live in New York and Los Angeles. Like many city professionals who have to deal with the chaos of city life, they knew what it was like to want to create cozy living spaces despite the stress. \n<br>\n<br>\nVanessa had to move five times in New York City over the course of three years, which was a hard thing to do. But her problem with rugs never went away. She often had to give them up because they were too heavy or didn't fit in the new rooms. \n<br>\n<br>\nAt the same time, Edie was having a similar problem on the West Coast. In the busy city of Los Angeles, it is hard for her to find a good-quality rug that fits within her budget. Not only that, but keeping these rugs clean was even harder because they were used a lot by people and pets. \n<br>\n<br>\nSo, what’s next?",
+            "remove_br_tag": false,
+            "tag": "h3",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 16,
+            "text_lh": 26,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 0,
+            "text_fs_tb": 16,
+            "text_lh_tb": 30,
+            "text_ls_tb": 0,
+            "mgb_tb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 30,
+            "text_ls_mb": 0,
+            "mgb_mb": 0,
+            "animation": "fadeIn"
+          }
+        },
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-3": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "5",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "end",
+            "content_align_tablet": "end",
+            "content_align_mobile": "center",
+            "padding_inner": "60px,0,60px,48px",
+            "padding_inner_tb": "30px,0,30px,24px",
+            "padding_inner_mb": "15px,0,15px,0",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "52eeba39-a858-4dd4-a92a-172eb2da2c98": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/about_1_bbbb5523-a578-4f25-915a-72fc36ca16a7.jpg",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_tb": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 0,
+            "mgb_tb": 0,
+            "mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-0",
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-1",
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-2",
+        "template--15867301363850__56695f98-bc80-4e3f-8ff5-c8ab07c58e1b-1684913646cb8786d0-3",
+        "52eeba39-a858-4dd4-a92a-172eb2da2c98"
+      ],
+      "custom_css": [],
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_tb": "10",
+        "space_v_item_tb": "10",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#fbefec",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",80px,,80px",
+        "mg_tb": ",,50px,",
+        "pd_tb": ",40px,,40px",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",0px,,0px"
+      }
+    },
+    "b4e492c7-00ff-4266-89c0-904f18584484": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-3": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "5",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "60px,48px,60px,0",
+            "padding_inner_tb": "30px,24px,30px,0",
+            "padding_inner_mb": "15px,0,15px,0",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "2217e426-7724-438b-a3b3-23162196563d": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/DSC06046_4ca33e47-d9db-4048-af66-c46afdb10117.jpg",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_tb": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 0,
+            "mgb_tb": 0,
+            "mgb_mb": 0,
+            "animation": "none"
+          }
+        },
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "7",
+            "col_tb": "7",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px,48px",
+            "padding_inner_tb": "15px,,15px,24px",
+            "padding_inner_mb": "15px,0,30px,",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "A Vision Takes Shape:",
+            "remove_br_tag": false,
+            "tag": "h4",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 20,
+            "text_lh": 28,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 25,
+            "text_fs_tb": 18,
+            "text_lh_tb": 26,
+            "text_ls_tb": 0,
+            "mgb_tb": 25,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 26,
+            "text_ls_mb": 0,
+            "mgb_mb": 25,
+            "animation": "fadeIn"
+          }
+        },
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "The story of Lany Space started in July 2022,  Edie and Vanessa gave birth to a brand that redefined affordable chic. The rugs spoke a universal language of comfort, individuality, and flair. \n<br> \n<br> \nAs modern-day nomads, they knew how important it was to have stylish, non-slip, and low-maintenance rugs that fit in with their constantly changing lives. They were tired of the rug market's extremes, which were either too expensive or too plain. So they came up with Lany Space, a brand that's all about making modern city life easier, more stylish, and more comfortable. \n<br> \n<br> \nThe brand name \"Lany\" combines their roots in Los Angeles and New York, paying homage to the two cities that inspired the founders. Taking ideas from \"The Little Prince,\" the logo showed what Lany Space was all about. Just like in the story, adults see a UFO or a hat, but children with their vivid imaginations can see a snake eating an elephant. Lany Space believes that a rug could be the first step for young people to bring color and creativity into their home, and it shows how powerful imagination can be and how it can change places without spending a lot of money.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 16,
+            "text_lh": 26,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 0,
+            "text_fs_tb": 16,
+            "text_lh_tb": 30,
+            "text_ls_tb": 0,
+            "mgb_tb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 30,
+            "text_ls_mb": 0,
+            "mgb_mb": 0,
+            "animation": "fadeIn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-3",
+        "2217e426-7724-438b-a3b3-23162196563d",
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-0",
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-1",
+        "template--15867301363850__b4e492c7-00ff-4266-89c0-904f18584484-1684913646cb8786d0-2"
+      ],
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_tb": "10",
+        "space_v_item_tb": "10",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",80px,,80px",
+        "mg_tb": ",,50px,",
+        "pd_tb": ",40px,,40px",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",0px,,0px"
+      }
+    },
+    "a4888a7b-b8d4-4a93-b47b-0f02a6dd831c": {
+      "type": "custom-section",
+      "blocks": {
+        "7b7ebe87-95b9-4bde-886b-52e612c2c9c5": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "7",
+            "col_tb": "7",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,48px,30px,",
+            "padding_inner_tb": "15px,24px,15px,",
+            "padding_inner_mb": "30px,0,15px,",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "6e350874-129b-4941-b4fc-687f4f00dba9": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Expanding with Sustainability:",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 20,
+            "text_lh": 28,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 25,
+            "text_fs_tb": 18,
+            "text_lh_tb": 26,
+            "text_ls_tb": 0,
+            "mgb_tb": 25,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 26,
+            "text_ls_mb": 0,
+            "mgb_mb": 25,
+            "animation": "fadeIn"
+          }
+        },
+        "9bfd02e8-97e5-47ef-b1fb-b5c0c365bacd": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Lany Space's beginnings were modest, but its ambitions were enormous. Starting with five distinct designs, their collection quickly expanded to over fifty, each rug imbued with the DNA of urban dynamism. Their rapid catalog updates became a ritual, a dance with ever-changing trends, a dedication to keep urban spaces looking fresh and appealing.\n<br> \n<br> \nLany Space's commitment went beyond aesthetics to include sustainability. The rugs embraced functionality, with machine-washable features designed for busy lifestyles. These rugs were created with the fluidity of urban living in mind, embodying lightweight convenience, non-slip utility, and easy upkeep.They went well with the fact that city life is always changing, making the move from one apartment to the next a smooth blend of comfort and style that lessened the stress of moving.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 16,
+            "text_lh": 26,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 0,
+            "text_fs_tb": 16,
+            "text_lh_tb": 30,
+            "text_ls_tb": 0,
+            "mgb_tb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 30,
+            "text_ls_mb": 0,
+            "mgb_mb": 0,
+            "animation": "fadeIn"
+          }
+        },
+        "1db315ba-9e56-40ab-9875-0efce7268ce4": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "5",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "end",
+            "content_align_tablet": "end",
+            "content_align_mobile": "center",
+            "padding_inner": "60px,0,60px,48px",
+            "padding_inner_tb": "30px,0,30px,24px",
+            "padding_inner_mb": "15px,0,15px,0",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "f5711896-6041-447d-a260-5a937907f458": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/IMG_0059_1_9220ccb7-6131-4a42-97b8-a3fa4f5ecd4b.jpg",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_tb": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 0,
+            "mgb_tb": 0,
+            "mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "7b7ebe87-95b9-4bde-886b-52e612c2c9c5",
+        "6e350874-129b-4941-b4fc-687f4f00dba9",
+        "9bfd02e8-97e5-47ef-b1fb-b5c0c365bacd",
+        "1db315ba-9e56-40ab-9875-0efce7268ce4",
+        "f5711896-6041-447d-a260-5a937907f458"
+      ],
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_tb": "10",
+        "space_v_item_tb": "10",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#fbefec",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",80px,,80px",
+        "mg_tb": ",,50px,",
+        "pd_tb": ",40px,,40px",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",0px,,0px"
+      }
+    },
+    "7ef72884-ed13-4335-98ca-21dc27520b35": {
+      "type": "custom-section",
+      "blocks": {
+        "20eea85c-9acd-43b0-9aab-d625042e01b4": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "5",
+            "col_tb": "5",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "60px,48px,60px,0",
+            "padding_inner_tb": "30px,24px,30px,0",
+            "padding_inner_mb": "15px,0,15px,0",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "ea77010b-0e3c-44ac-82be-c118f63573e0": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/DSC06324.jpg",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_tb": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 0,
+            "mgb_tb": 0,
+            "mgb_mb": 0,
+            "animation": "none"
+          }
+        },
+        "086b3ae8-aacf-4b82-9354-8a727658cd8f": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "7",
+            "col_tb": "7",
+            "col_mb": "12",
+            "align_vertical": true,
+            "content_align": "start",
+            "content_align_tablet": "start",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px,48px",
+            "padding_inner_tb": "15px,,15px,24px",
+            "padding_inner_mb": "15px,0,30px,",
+            "bg_cl": "rgba(0,0,0,0)",
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "e11cf571-bbed-4dfe-b361-25b625709b45": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Crafting the Unfinished Story:",
+            "remove_br_tag": false,
+            "tag": "h4",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 20,
+            "text_lh": 28,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 25,
+            "text_fs_tb": 18,
+            "text_lh_tb": 26,
+            "text_ls_tb": 0,
+            "mgb_tb": 25,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 26,
+            "text_ls_mb": 0,
+            "mgb_mb": 25,
+            "animation": "fadeIn"
+          }
+        },
+        "3185c91e-e1ca-432f-a555-c029557551a6": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Lany Space wove a story with other people. Each rug found a place to live in someone else's hopes and dreams. Lany Space gave the cities a blank canvas, and the cities painted stories on it, making a tapestry of urban resilience. Every rug, design, and room was a call to embrace color, style, and individuality without compromising.\n<br> \n<br> \nThe story of Lany Space changed. Each rug was a sign of creativity, friendship, and ambition. Edie and Vanessa didn't give up on urban spirits, lighting up living spaces and weaving stories.\nThis is Lany Space. From being friends to making something, Lany Space's journey was made up of threads, patterns, and designs. Here, city life and affordable elegance come together. Rugs tell stories that are woven into our lives.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#111111",
+            "text_fs": 16,
+            "text_lh": 26,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "mgb": 0,
+            "text_fs_tb": 16,
+            "text_lh_tb": 30,
+            "text_ls_tb": 0,
+            "mgb_tb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 30,
+            "text_ls_mb": 0,
+            "mgb_mb": 0,
+            "animation": "fadeIn"
+          }
+        }
+      },
+      "block_order": [
+        "20eea85c-9acd-43b0-9aab-d625042e01b4",
+        "ea77010b-0e3c-44ac-82be-c118f63573e0",
+        "086b3ae8-aacf-4b82-9354-8a727658cd8f",
+        "e11cf571-bbed-4dfe-b361-25b625709b45",
+        "3185c91e-e1ca-432f-a555-c029557551a6"
+      ],
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_tb": "10",
+        "space_v_item_tb": "10",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",80px,,80px",
+        "mg_tb": ",,50px,",
+        "pd_tb": ",40px,,40px",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",0px,,0px"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "56695f98-bc80-4e3f-8ff5-c8ab07c58e1b",
+    "b4e492c7-00ff-4266-89c0-904f18584484",
+    "a4888a7b-b8d4-4a93-b47b-0f02a6dd831c",
+    "7ef72884-ed13-4335-98ca-21dc27520b35"
+  ]
+}

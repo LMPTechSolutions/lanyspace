@@ -1,0 +1,389 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "e452712a-fc19-4598-9068-79e134ed6205": {
+          "type": "1",
+          "settings": {
+            "heading": "FAQs",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 30,
+            "text_lh": 35,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "mgb": 18,
+            "text_fs_tb": 28,
+            "text_lh_tb": 35,
+            "text_ls_tb": 0,
+            "mgb_tb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 26,
+            "text_lh_mb": 33,
+            "text_ls_mb": 0,
+            "mgb_mb": 15
+          }
+        },
+        "47b1d62d-ae22-4d73-bfeb-393df81ea2e8": {
+          "type": "3",
+          "disabled": true,
+          "settings": {
+            "breadcrumb_color": "#868686",
+            "breadcrumb_color_link": "#000000",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "e452712a-fc19-4598-9068-79e134ed6205",
+        "47b1d62d-ae22-4d73-bfeb-393df81ea2e8"
+      ],
+      "settings": {
+        "parallax": false,
+        "color": "rgba(0,0,0,0)",
+        "overlay": 0,
+        "padding_top": 35,
+        "padding_bottom": 30,
+        "mg_b": 0,
+        "padding_top_tb": 35,
+        "padding_bottom_tb": 30,
+        "mg_btb": 0,
+        "padding_top_mb": 35,
+        "padding_bottom_mb": 30,
+        "mg_bmb": 0,
+        "box_border": "none",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover"
+      }
+    },
+    "1659687049574d39ec": {
+      "type": "accordion",
+      "blocks": {
+        "55af9dd3-447d-49cd-a304-2cacfb042300": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "1. Do you offer free shipping?",
+            "content": "<p>Yes, we offer free shipping in US. Please click <a href=\"\/pages\/shipping-return\" target=\"_blank\" title=\"Shipping & Return\"><span style=\"text-decoration:underline\"><strong>here <\/strong><\/span><\/a>for the full shipping policy. If you have any further questions or need assistance, please contact our Customer Care Team at support@lanyspace.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "55af9dd3-447d-49cd-a304-2cacfb042300"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Shipping",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#111111",
+        "bg_title_cl": "",
+        "title_active_cl": "#017e56",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,55px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,35px,",
+        "pd_mb": ""
+      }
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "type": "accordion",
+      "blocks": {
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "1.  What is your return policy? ",
+            "content": "<p>All products sold on LANYSPACE.com are covered by our Return Policy. Please click<strong> <\/strong><a href=\"\/pages\/shipping-return\" title=\"Shipping & Return\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a><span style=\"text-decoration:underline\"><strong> <\/strong><\/span>for the full return policy. If you have any further questions or need assistance, feel free contact our Customer Care Team at support@lanyspace.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Return",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#111111",
+        "bg_title_cl": "",
+        "title_active_cl": "#017e56",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "dfda319d-9d46-46ce-bc25-f1d7cb83c542": {
+      "type": "accordion",
+      "blocks": {
+        "template--15882081435786__dfda319d-9d46-46ce-bc25-f1d7cb83c542-1684826253d2748e45-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "1. Should I purchase a rug pad?",
+            "content": "<p>You DO NOT need to purchase a rug pad for our rugs, as all of them come with an attached pad on the back made of non-slip material that prevents them from slipping.<\/p><p><\/p>"
+          }
+        },
+        "template--15882081435786__dfda319d-9d46-46ce-bc25-f1d7cb83c542-1684826253d2748e45-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "2. How can I add myself to the waiting list for a currently out-of-stock item  I’m interested in ？",
+            "content": "<p>We’re so sorry the item you’re interested in is out of stock! We’ve added an \"<strong>Email Me When in Stock<\/strong>\" box so you can be notified, via email, as soon as it is available to order!   <\/p><p>We will make sure to send you an email to the email you provided as soon as the item becomes available to order again.  However, we are unable to hold the item for you once it becomes available. We encourage you to place an order as quickly as possible once you receive the back-in-stock notice.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882081435786__dfda319d-9d46-46ce-bc25-f1d7cb83c542-1684826253d2748e45-1",
+        "template--15882081435786__dfda319d-9d46-46ce-bc25-f1d7cb83c542-1684826253d2748e45-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Product",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#111111",
+        "bg_title_cl": "",
+        "title_active_cl": "#017e56",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "f728c751-3979-4127-9a0b-1ddb6754184f": {
+      "type": "accordion",
+      "blocks": {
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "1. How can I track my order?",
+            "content": "<p>After you place your order, you will receive an order confirmation email with your order number. Your order number starts with #DT. The tracking number will be generated within 48 hours and emailed to you. You can enter your email address or order number here to track your order. If you're having any issues, please reach us at <a href=\"mailto:support@lanyspace.com\">support@lanyspace.com<\/a><\/p>"
+          }
+        },
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "2. How do I update my shipping address?",
+            "content": "<p>To provide the best service to our customers, we will process orders immediately we receive them. We can not guarantee that the shipping address will be updated once the item has been shipped, but we will try our best to accommodate the address change. The best way is to contact us at <a href=\"mailto:support@lanyspace.com\"><span style=\"text-decoration:underline\">support@lanyspace.com<\/span><\/a> with your order number. <\/p>"
+          }
+        },
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "3. How do I cancel my order?",
+            "content": "<p>We process our order very fast, so we cannot guarantee the cancellation of any order after placement. However, we encourage you to contact our Customer Care team at support@lanyspace.com as quickly as possible to request a cancellation. We will do everything we can to take care of your request. However, in the event that we are unable to fulfill your cancellation request, you may start your return after your  order has been delivered.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-0",
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-1",
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Orders",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#111111",
+        "bg_title_cl": "",
+        "title_active_cl": "#017e56",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "579a313e-a596-465d-8eda-ff6f0e2f84d2": {
+      "type": "accordion",
+      "blocks": {
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What payment methods does Lanyspace accept?",
+            "content": "<p>We accept all major credit cards as well as Paypal (US customers only), Apple Pay (US customers only), and Affirm (US customers only).<\/p><p>Please note, we are only able to accept one form of payment per order. Refunds are always issued to the original form of payment and are unable to be refunded to a different form of payment for any reason.<\/p>"
+          }
+        },
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I combine promotional codes?",
+            "content": "<p>No, we do not accept multiple promotional codes per order unless otherwise stated in the terms and conditions.<\/p>"
+          }
+        },
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Will I be charged sales tax?",
+            "content": "<p>Yes, all customers will be charged sales tax at the time of purchase. The tax amount will be reflected at checkout after entering your ship to address.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-0",
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-1",
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Payment",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#111111",
+        "bg_title_cl": "",
+        "title_active_cl": "#017e56",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "59c83497-3815-49e1-b986-7e0bd7399849": {
+      "type": "accordion",
+      "blocks": {
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "1. How do I care for my area rug?",
+            "content": "<p>To ensure your rugs maintain their quality and longevity, it's important to provide proper care in daily. While our rugs are designed to be low maintenance, here are some guidelines to follow:<\/p><p>1.Wash the rug only when necessary. Use a gentle cycle with cold water to prevent shrinkage or damage. Avoid using fabric softener, as it can break down the fibers.Use a mild detergent in small amounts to avoid residue buildup. Air-dry the rug flat or hang it over a clothesline. Avoid using a dryer, as high heat can shrink or damage the rug.<\/p><p><\/p><p>2. Vacuum regularly and spot clean with mild detergent as needed. Blot spills with a clean, dry cloth or paper towel. Use a mild detergent or a rug cleaner specifically designed for your rug’s material. Test any cleaner on a small, inconspicuous area first.<\/p>"
+          }
+        },
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "2. How to remove stains from my     area rug?",
+            "content": "<p>For more stubborn stains that require extra attention, follow these steps to effectively treat the affected area. Start by using a clean paper towel or cloth to gently absorb any excess liquid from the stain. Next, create a mixture by combining 1-2 teaspoons of liquid laundry detergent with a cup of warm water. Dampen a color-safe cloth with the mixture and carefully blot the stained area, applying gentle pressure. Afterward, rinse the area with cool, clean water to remove any residue.<\/p>"
+          }
+        },
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "3.  How too removing bunching,     creasing and folded corners?",
+            "content": "<p>To ensure efficient shipping, our rugs are rolled up during the packaging process. This helps to minimize the package size and protect the rug during transit. As a result, when you receive the rug, it may have been rolled up for a while, leading to temporary creases and waves. These creases are a natural occurrence due to the rug's storage and shipping method, and they should gradually disappear with time and proper care.<\/p><p>To address this, we recommend following the previous instructions to allow the rug to acclimate to its new environment by leaving it unobstructed and flat on the floor for at least 48 hours. This will allow the rug to relax and naturally  flatten out. If you wish to expedite the process, using a steamer as mentioned earlier can be helpful in removing the creases more quickly.<\/p><p>We apologize for any inconvenience caused by these temporary creases, but please rest assured that they are a result of our efforts to make the shipping process more efficient. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-0",
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-1",
+        "template--15882081435786__59c83497-3815-49e1-b986-7e0bd7399849-1685338563db149780-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_center": false,
+        "top_heading": "Rug Care",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "accor_des": "1",
+        "title_cl": "#000000",
+        "bg_title_cl": "",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 930,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "1659687049574d39ec",
+    "0738b17c-4b1f-454a-bf29-cf277efb7420",
+    "dfda319d-9d46-46ce-bc25-f1d7cb83c542",
+    "f728c751-3979-4127-9a0b-1ddb6754184f",
+    "579a313e-a596-465d-8eda-ff6f0e2f84d2",
+    "59c83497-3815-49e1-b986-7e0bd7399849"
+  ]
+}
