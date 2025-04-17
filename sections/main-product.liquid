@@ -1286,52 +1286,6 @@ t4option0_0 | alt text
 </script>
 
  <script>
-  {% comment %} const colorValue = document.querySelector('.is-sw__color.is--selected')?.textContent.trim().toLowerCase();
-  const sizeValue = document.querySelector('.is-sw__size.is--selected')?.textContent.trim().toLowerCase();
-  var queryString = "?";
-  var queryStringOption = "&";
-  var colorValueUrl = "";
-  var sizeValueUrl = "";
-  var sizeValueCleaned = "";
-  var currentURL = window.location.href;
-  
-  
-  if (colorValue) {
-    console.log('Element exists!');
-      colorValueUrl = `color=${colorValue}`;
-  } else {
-    console.log('Element not found.');
-  }
-  
-  if (sizeValue) {
-    console.log('Element exists!');
-      sizeValueCleaned = sizeValue.replace(/'/g, '').replace(/X/i, 'x');
-      sizeValueUrl = `size=${sizeValueCleaned}`;
-  } else {
-    console.log('Element not found.');
-  }
-  
-  const urlString = queryString + colorValueUrl + queryStringOption + sizeValueUrl;
-  
-  console.log("colorValue", colorValue);
-  console.log("sizeValue", sizeValueCleaned);
-  console.log("urlString", urlString);
-  
-  
-  console.log("currentURL", currentURL);
-  console.log("window.location.href", window.location.href);
-  
-  console.log(currentURL == window.location.href);
-  
-  if( currentURL == window.location.href ){
-      
-  } else {
-       currentURL = window.location.href + urlString;
-       window.location.href = window.location.href + urlString;
-  }
-   {% endcomment %}
-
-   
    const colorValue = TrimString(document.querySelector('.is-sw__color.is--selected')?.textContent);
    const sizeValue = TrimString(document.querySelector('.is-sw__size.is--selected')?.textContent);
    var queryString = "?";
@@ -1345,47 +1299,26 @@ t4option0_0 | alt text
    if (colorValue) {
        console.log('Color element found!');
        colorValueUrl = `color=${colorValue}`;
-   } else {
-       console.log('Color element not found.');
-   }
+   } 
    
    if (sizeValue) {
-       console.log('Size element found!');
        sizeValueCleaned = CleanSizeString(sizeValue);
        sizeValueUrl = `size=${sizeValueCleaned}`;
-   } else {
-       console.log('Size element not found.');
-   }
+   } 
    
    // Combine query string
    const urlString = colorValueUrl + (colorValueUrl && sizeValueUrl ? queryStringOption : '') + sizeValueUrl;
    
-   console.log("colorValue", colorValue);
-   console.log("sizeValue", sizeValueCleaned);
-   console.log("urlString", urlString);
-   console.log("currentURL", currentURL);
-   console.log("window.location.href", window.location.href);
-   console.log("!currentURL.includes('color')", !currentURL.includes("color"));
-   console.log("!currentURL.includes('color')   indexOf ", currentURL.indexOf("color"));
-
-
-
    // Check if the query string is already in the URL to avoid infinite loop
    if (!currentURL.includes(urlString) &&  currentURL.indexOf("color") == -1) {
        const newURL = currentURL + (currentURL.includes('?') ? queryStringOption : queryString) + urlString;
-       console.log("Redirecting to new URL: ", newURL);
        ///window.location.href = newURL; // Only change the URL if the query string isn't already there
        history.pushState(null, '', newURL);
 
-   } else {
-       console.log("Query string already exists. No need to reload.");
-   }
+   } 
 
 
    const swatchs = document.querySelectorAll('.t4s-swatch__item');
-
-   
-
    swatchs.forEach(swatch => {
     swatch.addEventListener('click', () => {
         var colorValueTwo = TrimString(document.querySelector('.is-sw__color.is--selected')?.textContent);
@@ -1394,67 +1327,23 @@ t4option0_0 | alt text
         const hasColorClass = swatch.classList.contains('is-sw__color');
     
         if (hasColorClass) {
-          console.log('This swatch has the class is-sw__color');
           colorValueTwo = TrimString(swatch.textContent);
         } else {
-          console.log('This swatch does NOT have the class is-sw__color');
           sizeValueTwo = TrimString(swatch.textContent);
         } 
-
-
-
-
         var colorValueUrlTwo = `color=${colorValueTwo}`;
         var sizeValueCleanedTwo = CleanSizeString(sizeValueTwo) 
         var sizeValueUrlTwo = `size=${sizeValueCleanedTwo}`;
 
-
-        if (colorValue == colorValueTwo && sizeValueCleaned == sizeValueCleanedTwo ){
-          console.log("do Nothing");
-
-
-          
-      
-        } else {
           var liquidProductUrl = "{{ product_url }}";
           var webUrl = "https://www.lanyspace.com";
-          console.log("liquidProductUrl", liquidProductUrl);
 
           var currentURLTwo = webUrl + liquidProductUrl;
-          console.log("currentURLTwo", currentURLTwo);
 
           const urlStringTwo = currentURLTwo + queryString + colorValueUrlTwo + queryStringOption + sizeValueUrlTwo;
-          console.log("urlStringTwo", urlStringTwo);
         
           history.pushState(null, '', urlStringTwo);
         
-        }
-  
-
-
-      console.log("colorValueUrlTwo", colorValueUrlTwo);
-      console.log("colorValue", colorValue);
-      
-      console.log("sizeValueCleanedTwo", sizeValueCleanedTwo);
-      console.log("sizeValueCleaned", sizeValueCleaned);
-
-
-        // Combine query string
-        
-        
-        
-        // console.log("urlString", urlStringTwo);
-        console.log("currentURL", currentURLTwo);
-        console.log("window.location.href", window.location.href);
-        
-        // Check if the query string is already in the URL to avoid infinite loop
-        {% comment %} if (!currentURLTwo.includes(urlStringTwo)) {
-            const newURLTwo = currentURLTwo + (currentURLTwo.includes('?') ? queryStringOptionTwo : queryStringTwo) + urlStringTwo;
-            console.log("Redirecting to new URL: ", newURLTwo);
-            window.location.href = newURLTwo; // Only change the URL if the query string isn't already there
-        } else {
-            console.log("Query string already exists. No need to reload.");
-        } {% endcomment %}
       });
     });
 
