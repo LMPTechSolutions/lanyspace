@@ -124,6 +124,13 @@
     justify-content: center;
     padding: 40px;
   }
+  .section-product-rug-care-{{ section.id }} .item-content .text-wrapper .inner a{
+        color: rgba(1, 126, 86, 1);
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 24px;
+    display: block;
+  }
   .section-product-rug-care-{{ section.id }} .item-content .text-wrapper .title{
         color: rgba(26, 59, 26, 1);
     font-size: 16px;
@@ -241,6 +248,11 @@
                 {% if block.settings.text-2 != blank %}
                     <div class="text-2">{{ block.settings.text-2 }}</div>
                 {% endif %}
+
+               {% if forloop.last %}
+                <a href="https://www.lanyspace.com/blogs/rug-inspirations-and-trends/lany-space-rug-care-guide-how-to-clean-and-care-for-your-polyester-rug-the-easy-way">Read More</a>
+              {% endif %}
+          
              </div>
            </div>
          </div>

@@ -106,7 +106,7 @@
   }
 @media (max-width:900px){
     .section-designer-image-text-{{ section.id }} .item-wrapper{
-    gap: 20px;justify-content: flex-start;
+    gap: 20px;
   }
    .section-designer-image-text-{{ section.id }} .item-wrapper .item{
     width: calc(100% / 2 - (20px / 2));
@@ -117,6 +117,9 @@
   .section-designer-image-text-{{ section.id }} .item-wrapper .item .text{
       font-size: 14px;
   }
+  /* .section-designer-image-text-{{ section.id }} .item-wrapper .item.last-item-full{
+    width:100%;
+  } */
 }
   @media (max-width:600px){
     .section-designer-image-text-{{ section.id }} .item-wrapper{
@@ -156,7 +159,8 @@
 {% endif %}             
   <div class="content-wrapper item-wrapper">
        {% for block in section.blocks %}
-         <div class="item item-{{ forloop.index }}">
+         {% assign c = section.blocks.size | modulo:2 %}
+         <div class="item item-{{ forloop.index }} {% if c > 0 and forloop.last %}last-item-full{% endif %}">
              {% if block.settings.image != blank %}
                <a href="{{ block.settings.url }}">
                {% render "image-element",image:block.settings.image,aspect_ratio:1 %}
@@ -176,6 +180,30 @@
     </div>
   
 </div>
+
+<script>
+// 等待页面加载完毕
+document.addEventListener('DOMContentLoaded', function() {
+    // 获取所有的目标元素
+    var items = document.querySelectorAll('.section-designer-image-text-{{ section.id }} .item-wrapper .item .text');
+    
+    // 初始化最大高度变量
+    var maxHeight = 0;
+
+    // 遍历所有元素，找到最高的那个
+    items.forEach(function(item) {
+        var height = item.offsetHeight; // 包括padding和border的高度
+        if (height > maxHeight) {
+            maxHeight = height;
+        }
+    });
+
+    // 将找到的最大高度应用到所有元素上
+    items.forEach(function(item) {
+        item.style.minHeight = maxHeight + 'px';
+    });
+});
+</script>
 
 
 {% schema %}

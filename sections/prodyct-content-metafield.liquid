@@ -248,7 +248,11 @@
                    {% assign text = i | split:"]" %} 
                    <div class="left">{{ text[0] | split:"[" | last }}</div>
                    <div class="right">
-                    {{ text[1] }}
+                     {% if text[1] contains '100% Polyester' %}
+                       <a href="https://www.lanyspace.com/blogs/rug-inspirations-and-trends/why-lany-space-choose-polyester-to-make-rugs">100% Polyester</a>
+                       {% else %}
+                        {{ text[1] }}
+                      {% endif %}
                    </div>
                 {% endif %}
                </div>
@@ -258,6 +262,19 @@
           {% elsif block.type == 'description' %}
             {% assign data_spec = product.metafields.custom.description.value  %}
             <div class="de-text">{{ data_spec[0] }}</div>
+
+            <a class="item-inner description-1" href="https://www.lanyspace.com/blogs/rug-inspirations-and-trends/explore-oeko-tex-certified-rugs-for-safety-and-style-lany-space">
+              
+              <div class="left">OEKO-TEX®</div>
+              <div class="right">
+                
+               <img class="t4s-lz--fadeIn lazyautosizes ls-is-cached lazyloadt4s" data-src="https://cdn.shopify.com/s/files/1/0619/2998/0042/files/BJ028_163088_GREEN.png?v=1737946642" alt="Description image">
+               <span> responsibly produced and safety tested</span>
+                
+              </div>
+            </a>
+            
+            {% comment %}
             <div class="item-inner description-1">
               {% assign de_text_2 = data_spec[1] | split:"]" %}
               <div class="left">{{ de_text_2[0] | split:"[" | last }}</div>
@@ -284,6 +301,7 @@
               </div>
             </div>
           {% endif %}
+        {% endcomment %}
             
           {% elsif block.type == 'shipping' %}
 

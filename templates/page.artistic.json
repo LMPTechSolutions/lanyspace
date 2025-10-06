@@ -32,6 +32,7 @@
         },
         "custom_button_fapBh6": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Shop Artistic Rugs",
             "button_link": "shopify:\/\/collections\/all-artistic-rugs",
@@ -71,6 +72,7 @@
         },
         "custom_button_GqfeqN": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Shop Bestsellers",
             "button_link": "shopify:\/\/collections\/best-seller",
@@ -1550,6 +1552,66 @@
     "designer_image_text_qtBhtD": {
       "type": "designer-image-text",
       "blocks": {
+        "block_9gkHBP": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AnneJulieDudemaine_By_Daphne_Caron1.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-anne-julie-collection",
+            "title": "Anne Julie",
+            "text": "I was experimenting with a new way of drawing flowers, something more geometric and playful, with a bit of a Mario Bros vibe.",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/whimsy-underfoot-the-lany-space-x-anne-julie-collection",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-anne-julie-collection"
+          }
+        },
+        "block_gmgjjF": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Becca_Franks_29e00f99-c8dc-4690-a3df-a199fdc3dc8d.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-becca-franks-collection",
+            "title": "Becca Franks",
+            "text": "I strive to be a positive force and enjoy sharing my silliness and humor with others through my work.",
+            "url-text": "https:\/\/www.lanyspace.com\/blogs\/rug-inspirations-and-trends\/from-sketchbook-to-floor-becca-franks-playful-vision-for-lany-space",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-becca-franks-collection"
+          }
+        },
+        "block_PLe3gW": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Darra_Sargent_ff8fad2e-baf2-4281-8f53-9c1b80d98089.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-darra-sargent-collection",
+            "title": "Darra Sargent",
+            "text": "I love creating work inspired by different decades in design. My go-to color palettes are heavily influenced by vintage fashion.",
+            "url-text": "https:\/\/www.lanyspace.com\/blogs\/rug-inspirations-and-trends\/color-memory-and-motion-the-world-of-darra-sargnt",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-darra-sargent-collection"
+          }
+        },
+        "block_tkcKfd": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elizabeth_Bay_7a5afb5d-55dd-4ef0-a724-06d7178843ca.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-elizabeth-bay-collection",
+            "title": "Elizabeth Bay",
+            "text": "I fuse vintage French charm, bold color, and playful femininity into every piece. Travel tickets have become my signature motifs.",
+            "url-text": "https:\/\/www.lanyspace.com\/blogs\/rug-inspirations-and-trends\/everyday-magic-the-lany-space-x-elizabeth-bay-collection",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-elizabeth-bay-collection"
+          }
+        },
+        "block_wNYdVC": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jakob_Mizrahi.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-jakob-mizrahi-collection",
+            "title": "Jakob Mizrahi",
+            "text": "It is very important to me that each piece I create has its own energy and a distinct, recognizable DNA—just like a great piece of music.",
+            "url-text": "https:\/\/www.lanyspace.com\/blogs\/rug-inspirations-and-trends\/from-composition-to-color-jakob-mizrahi-s-world-in-rugs",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-jakob-mizrahi-collection"
+          }
+        },
         "block_X66fT8": {
           "type": "block",
           "settings": {
@@ -1557,7 +1619,7 @@
             "url": "shopify:\/\/collections\/jessica-miller",
             "title": "Jessica Miller",
             "text": "I love using bright colors, symbolic elements, and dynamic lettering to create work that feels both modern and full of personality.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/enchanted-ground-jessica-miller-s-dance-of-florals-symbols-and-bold-patterns",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/enchanted-ground-jessica-miller-s-dance-of-florals-symbols-and-bold-patterns",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/jessica-miller"
           }
@@ -1569,7 +1631,7 @@
             "url": "shopify:\/\/collections\/designer-collection-johann-banta-x-lanyspace",
             "title": "Johann Banta",
             "text": "My design is for people who want a more playful living space. From fun, wavy patterns to stylized object, I want to show that rugs don’t have to be boring.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/transform-your-space-with-the-vibrant-designs-of-johann-banta",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/transform-your-space-with-the-vibrant-designs-of-johann-banta",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/designer-collection-johann-banta-x-lanyspace"
           }
@@ -1581,7 +1643,7 @@
             "url": "shopify:\/\/collections\/jonnie-li",
             "title": "Jonnie Li",
             "text": "This collection is understated and artistically inspired, with a focus on subtlety and refined design. The muted color contrasts offer a quiet elegance.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/balanced-in-modern-artistry-the-subtle-elegance-of-jonnie-li-s-mosaic-pastel-rugs",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/balanced-in-modern-artistry-the-subtle-elegance-of-jonnie-li-s-mosaic-pastel-rugs",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/jonnie-li"
           }
@@ -1593,7 +1655,7 @@
             "url": "shopify:\/\/collections\/lu-yang",
             "title": "Lu Yang",
             "text": "I designed the collection around the theme of hugs—to remind everyone to never forget to hug and cherish the ones they love every single day.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/snuggle-safari-lu-yang-s-artful-dreams-in-your-living-room",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/snuggle-safari-lu-yang-s-artful-dreams-in-your-living-room",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/lu-yang"
           }
@@ -1605,9 +1667,33 @@
             "url": "shopify:\/\/collections\/maggie-stephenson",
             "title": "Maggie Stephenson",
             "text": "It’s really important to me to come up with an exciting color palette because colors have such a powerful way of affecting our mood and brightening up a space.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/nature-s-rhythm-the-organic-elegance-of-maggie-stephenson-s-floral-and-botanical-rugs",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/nature-s-rhythm-the-organic-elegance-of-maggie-stephenson-s-floral-and-botanical-rugs",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/maggie-stephenson"
+          }
+        },
+        "block_t3EhFy": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Natashna_Anderson_f67b9914-3cb2-4666-a8dd-541b7575d89d.webp",
+            "url": "shopify:\/\/collections\/lany-space-x-natashna-anderson-collection",
+            "title": "Natashna Anderson",
+            "text": "I often use large pops of color as focal points, such as a vibrant blue or pink couch, and then curate the rest of the space around it.",
+            "url-text": "https:\/\/www.lanyspace.com\/blogs\/rug-inspirations-and-trends\/natashna-anderson-x-lany-space-where-color-culture-and-line-come-alive",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-natashna-anderson-collection"
+          }
+        },
+        "block_FqLmB7": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nimei_ICON_3c069b85-a3cd-46bc-8f19-18b69370790c.jpg",
+            "url": "shopify:\/\/collections\/lany-space-x-nimei-collection",
+            "title": "Nimei",
+            "text": "My design style feels fluid and full of movement, with vibrant colors and relaxed, sweeping lines. I often depict women who appear laid-back yet powerful.",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/nimei-lany-space-everyday-art-everyday-comfort",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-nimei-collection"
           }
         },
         "block_dPPJa4": {
@@ -1617,19 +1703,52 @@
             "url": "shopify:\/\/collections\/megan-roy",
             "title": "Megan Roy",
             "text": "The collection is inspired by the vibrancy and freshness of a strawberry patch, where overlapping vines and ripe strawberries create a sense of natural movement.",
-            "url-text": "shopify:\/\/blogs\/2024-rug-trend\/rooted-in-joy-playful-charm-of-strawberry-rugs-in-lany-space-x-megan-roy-collection",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/rooted-in-joy-playful-charm-of-strawberry-rugs-in-lany-space-x-megan-roy-collection",
             "button-text": "Shop the Collection",
             "url-btn": "shopify:\/\/collections\/megan-roy"
+          }
+        },
+        "block_mJNTgX": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artist_Portrait_-_Petra_Lizde.jpg",
+            "url": "",
+            "title": "Petra Lizde",
+            "text": "The collection is vibrant and uplifting, designed to bring a Mediterranean feel into everyday decor with a modern and playful twist.",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/color-coastlines-and-croissants-petra-lizde-for-lany-space",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-petra-lizde-collection"
+          }
+        },
+        "block_YBGwV6": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shayla_Goethe2_ICON_5cf7eb09-ebdc-4ee8-bf56-8bba2eec4bc3.png",
+            "url": "shopify:\/\/collections\/lany-space-x-shayla-goethe-collection",
+            "title": "Shayla Goethe",
+            "text": "My style leans eclectic, with each space in my home reflecting a distinct mood while maintaining a cohesive warmth.",
+            "url-text": "shopify:\/\/blogs\/rug-inspirations-and-trends\/shayla-goethe-lany-space-rugs-with-heart-shape-and-color",
+            "button-text": "Shop the Collection",
+            "url-btn": "shopify:\/\/collections\/lany-space-x-shayla-goethe-collection"
           }
         }
       },
       "block_order": [
+        "block_9gkHBP",
+        "block_gmgjjF",
+        "block_PLe3gW",
+        "block_tkcKfd",
+        "block_wNYdVC",
         "block_X66fT8",
         "block_FjDPdk",
         "block_VgNb7R",
         "block_CN8fYW",
         "block_f3VVBG",
-        "block_dPPJa4"
+        "block_t3EhFy",
+        "block_FqLmB7",
+        "block_dPPJa4",
+        "block_mJNTgX",
+        "block_YBGwV6"
       ],
       "settings": {
         "padding_top": 0,
@@ -1736,7 +1855,7 @@
         "html_KXbFxC": {
           "type": "html",
           "settings": {
-            "html_content": "<p>\nReady to create something amazing together? Drop us an email at <b>lanyspace02@gmail.com<\/b>, and let’s make it happen!<\/p>",
+            "html_content": "<p>\nReady to create something amazing together? Drop us an email at <b>edieyang@lanyspace.com<\/b>, and let’s make it happen!<\/p>",
             "hidden_mobile": false
           }
         },
@@ -2420,7 +2539,7 @@
         "tophead_mb_mb": 25,
         "heading_inline": false,
         "heading_width": "small",
-        "blog": "2024-rug-trend",
+        "blog": "rug-inspirations-and-trends",
         "article_des": "1",
         "limit": 8,
         "show_blog_title": "blog_current",
@@ -2496,7 +2615,7 @@
             "title": "Nature’s Rhythm: The Organic Elegance of Maggie Stephenson’s Floral and Botanical Rugs",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/nature-s-rhythm-the-organic-elegance-of-maggie-stephenson-s-floral-and-botanical-rugs",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/nature-s-rhythm-the-organic-elegance-of-maggie-stephenson-s-floral-and-botanical-rugs",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2513,7 +2632,7 @@
             "title": "Balanced in Modern Artistry: The Subtle Elegance of Jonnie Li’s Mosaic Pastel Rugs",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/balanced-in-modern-artistry-the-subtle-elegance-of-jonnie-li-s-mosaic-pastel-rugs",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/balanced-in-modern-artistry-the-subtle-elegance-of-jonnie-li-s-mosaic-pastel-rugs",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2530,7 +2649,7 @@
             "title": "Rooted in Joy: Playful Charm of Strawberry Rugs in Lany Space x Megan Roy Collection",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/rooted-in-joy-playful-charm-of-strawberry-rugs-in-lany-space-x-megan-roy-collection",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/rooted-in-joy-playful-charm-of-strawberry-rugs-in-lany-space-x-megan-roy-collection",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2547,7 +2666,7 @@
             "title": "Enchanted Ground: Jessica Miller’s Dance of Florals, Symbols, and Bold Patterns",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/enchanted-ground-jessica-miller-s-dance-of-florals-symbols-and-bold-patterns",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/enchanted-ground-jessica-miller-s-dance-of-florals-symbols-and-bold-patterns",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2581,7 +2700,7 @@
             "title": "Transform Your Space with the Vibrant Designs of Johann Banta",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/transform-your-space-with-the-vibrant-designs-of-johann-banta",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/transform-your-space-with-the-vibrant-designs-of-johann-banta",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2598,7 +2717,7 @@
             "title": "Irregular-Shaped Rugs: A Unique Way to Let Your Personal Style Shine in Your Space",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/irregular-shaped-rugs-a-unique-way-to-let-your-personal-style-shine-in-your-space-irregular-shaped-rugs-one-of-the-best-ways-of-helping-your-space-to-speak-your-personal-style-out-loud",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/irregular-shaped-rugs-a-unique-way-to-let-your-personal-style-shine-in-your-space-irregular-shaped-rugs-one-of-the-best-ways-of-helping-your-space-to-speak-your-personal-style-out-loud",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2615,7 +2734,7 @@
             "title": "Top 10 Designer Rugs for Luxury Interiors",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/top-10-designer-rugs-for-luxury-interiors-a-guide-to-elevating-your-space",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/top-10-designer-rugs-for-luxury-interiors-a-guide-to-elevating-your-space",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2632,7 +2751,7 @@
             "title": "How to Choose a Designer Rug for Your Modern Living Room",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/how-to-choose-a-designer-rug-for-your-modern-living-room",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/how-to-choose-a-designer-rug-for-your-modern-living-room",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",
@@ -2649,7 +2768,7 @@
             "title": "How to Invest in a Designer Rug that Suits Your Space",
             "text": "",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/how-to-invest-in-a-designer-rug-that-suits-your-space",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/how-to-invest-in-a-designer-rug-that-suits-your-space",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "bordered",

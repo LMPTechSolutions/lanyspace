@@ -168,7 +168,7 @@ t4s_group_btns_split
 	    </div>
    {%- endif -%}
 	{%- if se_stts.show_search -%}
-	<div class="t4s-site-nav__icon t4s-site-nav__search t4s-d-none t4s-d-md-inline-block">
+	<div class="t4s-site-nav__icon t4s-site-nav__search t4s-d-md-inline-block">
 		{%- if isfrmSearch -%}
 		<style>
 			  	.t4s-search-header__form {
@@ -466,7 +466,7 @@ t4s_group_btns_split
    </div>
    {%- endif -%}
 	{%- if se_stts.show_wis -%}
-   <div class="t4s-site-nav__icon t4s-site-nav__heart t4s-d-lg-inline-block">
+   <div class="t4s-site-nav__icon t4s-site-nav__heart t4s-d-none t4s-d-lg-inline-block">
       {%- if settings.wishlist_mode != '3' -%}	
 	     {% render 'wishlisthero-header-icon.liquid' %}
      {%- else -%}

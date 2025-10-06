@@ -1,6 +1,38 @@
 /*.t4s-banner .t4s-container-fluid {
 	overflow-x: hidden;
 }*/
+
+@media only screen and (min-width: 768px) {
+.t4s-section-inner.t4s-pr.t4s_nt_se_template--18578417549450__hero_image_gqNr3E.t4s-container-fluid {
+margin: 0 auto;
+animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+body {
+margin: 0 auto;
+opacity: 1;
+visibility: visible;
+overflow-x: hidden;
+position: sticky;
+animation: fadeIn 0.50s ease-in-out;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+}
 .t4s-banner-item .t4s-banner-inner {
 	position: relative;
 	overflow: hidden;

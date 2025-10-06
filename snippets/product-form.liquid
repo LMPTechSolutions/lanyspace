@@ -149,6 +149,8 @@
                           data-swatch-item
                           class="t4s-swatch__btn-wrap{% if selected_value == value %} is--selected{% endif %}"
                           data-value="{{ value | escape }}" 
+                          data-change-title="{{ product.metafields.custom.color_change_name.value[forloop.index0] }}"
+                          data-discount-text="{{ value.variant.metafields.custom.discount_text }}"
                         >
                           <div
                             data-img-el
@@ -165,6 +167,8 @@
                           title="{{ value | escape }}"
                           class="t4s-swatch__item {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}"
                           data-value="{{ value | escape }}" 
+                          data-change-title="{{ product.metafields.custom.color_change_name.value[forloop.index0] }}"
+                          data-discount-text="{{ value.variant.metafields.custom.discount_text }}"
                         >
                           {{ value }}
                         </div>
@@ -205,6 +209,7 @@
                             data-dropdown-off
                             class="t4s-swatch__item t4s-truncate {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}"
                             data-value="{{ value | escape }}"
+                            data-discount-text="{{ value.variant.metafields.custom.discount_text }}"
                           >
                             {{ value }}
                           </div>
@@ -240,6 +245,7 @@
                         data-swatch-item
                         class="t4s-swatch__item {{option_name_check}} {% if option_name_check == 'size' %} is-sw__size {% endif %}  {% if selected_value == value %} is--selected{% endif %}"
                         data-value="{{ value | escape }}"
+                        data-discount-text="{{ value.variant.metafields.custom.discount_text }}"
                       >
                         {{ value }}
                       </div>

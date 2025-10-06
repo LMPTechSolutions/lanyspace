@@ -1,0 +1,14 @@
+{
+  "parent": "cart.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "main": {
+      "settings": {
+        "enable_calc_ship": false
+      },
+      "blocks": {}
+    }
+  }
+}

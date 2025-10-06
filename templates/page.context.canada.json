@@ -1,0 +1,89 @@
+{
+  "parent": "page.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "main": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "accordion_hUEJP": {
+      "type": "accordion",
+      "disabled": false,
+      "settings": {
+        "header-d0b6a0225c8334076f8f03e4687e2ea1": null,
+        "design_heading": "1",
+        "heading_center": true,
+        "top_heading": "FAQs",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tophead_mb_tb": 30,
+        "tophead_mb_mb": 25,
+        "header-c1deca1d1890d447a6c789ee80137b83": null,
+        "accor_des": "1",
+        "title_cl": "#000000",
+        "bg_title_cl": "",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "",
+        "content_align": "default",
+        "auto_active": true,
+        "header-5169570047b2951761c225bf0c504bef": null,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "image_bg": null,
+        "mg": ",,50px,",
+        "pd": "",
+        "header-6d8f6fdd384ac460ab5e0e84abfdb862": null,
+        "mg_tb": ",,30px,",
+        "pd_tb": "",
+        "header-afa46694f8ded36312097a67a8acb2c1": null,
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      },
+      "blocks": {
+        "accor_item_nKGY8": {
+          "type": "accor_item",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "title": "1.Do I need to pay for shipping to Canada?",
+            "content": "<p>For each rug priced over $119, we charge a flat rate of $50, and for each rug priced under $119, we charge a flat rate of $25 for standard shipping to major urban centers in Canada. Additional fees or delivery restrictions may apply for remote areas. <\/p><p>Please note: We do not ship to P.O. Boxes, including APO and FPO addresses.<\/p>"
+          }
+        },
+        "accor_item_jmWYN": {
+          "type": "accor_item",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "title": "2.Are taxes and duties covered? (Canada)",
+            "content": "<p>Customers are responsible for all applicable taxes. However, Lany Space covers the cost of duties on all Lany Space orders shipping to Canada. <\/p>"
+          }
+        },
+        "accor_item_dj4BE": {
+          "type": "accor_item",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "title": "3.What is your return policy for Canada?",
+            "content": "<p>At this time, we are unable to accept returns for orders shipped to Canada. We apologize for any inconvenience this may cause. We hope to offer return options for our Canadian customers in the future. If you have any questions about your order, please contact us at <strong>support@lanyspace.com<\/strong> — we’ll do our best to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_nKGY8",
+        "accor_item_jmWYN",
+        "accor_item_dj4BE"
+      ],
+      "name": "Accordion"
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "accordion_hUEJP"
+  ]
+}

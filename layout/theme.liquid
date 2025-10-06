@@ -27,16 +27,13 @@ t4sp-theme no-js t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swat
 
 <html class="{{ class_html }}" lang="{{ iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
   <head>
-    <script async="async" src="https://static.mobilemonkey.com/js/mm_477e233f-daa5-4a87-b37e-6baa12906926-03300260.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.body_bg }}">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
-    
-    <!-- Google Tag Manager -->
+       <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -51,6 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ttq.page();
 }(window, document, 'ttq');
 </script>
+<script async="async" src="https://static.mobilemonkey.com/js/mm_477e233f-daa5-4a87-b37e-6baa12906926-03300260.js"></script>
     {%- if settings.favicon != blank %}<link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}"><link id="t4s-favico" rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="{{ settings.favicon | image_url: width: 152, height: 152 }}">{% endif -%}
 
     {%- if settings.font_source == '1' and settings.fnt_fm_sp1.system? == false or settings.fnt_fm_sp2.system? == false or settings.fnt_fm_sp3.system? == false -%}
@@ -73,13 +71,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {%- render 'meta-tags', t_name: t_name -%}
     
-    <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async" defer="defer"></script>
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
-    
-
-{{ content_for_header }}
+    {{ content_for_header }}
     {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
- <!-- Google tag (gtag.js) -->
+     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11261586280"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -103,39 +99,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <!-- TikTok Pixel Code Start -->
 <script>
 !function (w, d, t) {
@@ -149,18 +112,15 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 }(window, document, 'ttq');
 </script>
 <!-- TikTok Pixel Code End -->
+{% include 'pagefly-app-header' %}
+  </head>
 
-
-
-   
-  {% include 'pagefly-app-header' %}</head>
-
-  <body class="template-{{ request.page_type | handle }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}<div class="t4s-assets-pre"></div>
-    <!-- Google Tag Manager (noscript) -->
+  <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}<div class="t4s-assets-pre"></div>
+      <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHJN94GS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
+<a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
     <div class="t4s-close-overlay t4s-op-0"></div>
 
     <div class="t4s-website-wrapper">
@@ -179,14 +139,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul hidden class="t4s-d-none">
         <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       </ul>
-    {%- render 'render_bottom' -%}
-  {% render 'appikon-discounts' %}
+    {%- render 'render_bottom' -%}{% render 'appikon-discounts' %}
   <script src="//cdn.shopify.com/s/files/1/0814/0259/3584/t/1/assets/gem.js" type="text/javascript"></script>
-      
-</body>
-</html>
-
-<!-- Begin Shopify-Afterpay JavaScript Snippet (v1.1.6) -->
+    <!-- Begin Shopify-Afterpay JavaScript Snippet (v1.1.6) -->
 {% if cart.currency.iso_code == shop.currency %}
 <script type="text/javascript" defer="defer">
 // Non-editable fields:
@@ -206,4 +161,6 @@ var afterpay_js_snippet_version = '1.1.6';
 {% else %}
 <!-- Afterpay disabled: {{ cart.currency.iso_code }} != {{ shop.currency }} -->
 {% endif %}
-<!-- End Shopify-Afterpay JavaScript Snippet (v1.1.6) -->
+<!-- End Shopify-Afterpay JavaScript Snippet (v1.1.6) -->  
+  </body>
+</html>

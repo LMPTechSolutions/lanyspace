@@ -436,6 +436,7 @@ t4option0_0 | alt text
                      </div>
                     </div>
                   {%- endif -%}
+                   </div>
                         {%- when 'properties' %}{% continue -%}
                         {%- when 'title' -%}
                             {% liquid 
@@ -447,8 +448,8 @@ t4option0_0 | alt text
                             -%}
                             <h1 class="t4s-product__title t4s-d-none t4s-d-md-inline-block" style="--title-family: var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style: {{ bk_stts.txt_tr_pr }};--title-size: {{ bk_stts.size_pr }}px;--title-weight: {{ bk_stts.fw_pr }};--title-line-height: {{ lh_pr }};--title-spacing: {{ bk_stts.ls_pr }}px;--title-color: {{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
                         {%- when 'price' -%}
-                            <div class="t4s-product__price" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-del-size:{{ bk_stts.size_price_pr | times : 0.8 }}px;--price-weight:{{ bk_stts.fw_price_pr }};--primary-price-color:{{ bk_stts.primary_price_color }};--secondary-price-color:{{ bk_stts.secondary_price_color }};--price-sale-color:{{ bk_stts.price_sale }}">
-                                {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price,more:bk_stts.show_more -%}                              
+                            <div class="t4s-product__price{% if localization.country.iso_code == 'US' %} us-title{% endif %}" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-del-size:{{ bk_stts.size_price_pr | times : 0.8 }}px;--price-weight:{{ bk_stts.fw_price_pr }};--primary-price-color:{{ bk_stts.primary_price_color }};--secondary-price-color:{{ bk_stts.secondary_price_color }};--price-sale-color:{{ bk_stts.price_sale }}">
+                                {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price,more:bk_stts.show_more,price_sale_bg:bk_stts.price_sale_bg -%}                              
                             </div>
                             {%- if bk_stts.tax_ship and cart.taxes_included or shop.shipping_policy.body != blank -%}
                                 <div class="t4s-product__policies t4s-rte" data-product-policies>
@@ -460,6 +461,11 @@ t4option0_0 | alt text
                                     {%- endif -%}
                                 </div>
                             {%- endif -%}
+                             {% for variant in product.variants %}
+                              {% if variant.metafields.custom.discount_text != blank %}
+                              <div class="variant-discount-text" data="{{ variant.title }}" style="font-weight: 500;color:#1a3b1a;">{{ variant.metafields.custom.discount_text }}</div>
+                            {% endif %}
+                          {% endfor %}
                         {%- when 'review' -%}
                             {%- if bk_stts.rating -%}
                                 <div class="t4s-product__review"> 
@@ -1060,6 +1066,11 @@ t4option0_0 | alt text
     if (typeof jQuery !== 'undefined') {
         clearInterval(checkJQuery); // 清除定时器
 
+      if($(window).width() < 767 ){
+         var $shopifyAppBlock = $(".t4s-product__info-main .t4s-product__info-container");
+         var $icons = $('.t4s-product__icons');
+          $icons.insertAfter($shopifyAppBlock);
+      }   
 
       // 变体价格后面和变体橱窗图的促销图片
       function show_hide_variant(){
@@ -1067,25 +1078,10 @@ t4option0_0 | alt text
             const htmlContent = $(this).attr("data-value");
             $(`.t4s-bage-freeshipping[data*="${htmlContent}"]`).addClass('hiddenCol');
             $(`.sale_label[data*="${htmlContent}"]`).addClass('hiddenCol');
+            $(`.variant-discount-text[data*="${htmlContent}"]`).addClass('hiddenCol');
         });
       }
       show_hide_variant();
-     var targetNode_variant = document.querySelector('.t4s-form__product .t4s-swatch');
-      var observer_variant = new MutationObserver(function(mutationsList) {
-          mutationsList.forEach(function(mutation) {
-             $(`.t4s-bage-freeshipping,.sale_label`).removeClass('hiddenCol');
-             show_hide_variant();
-          });
-      });
-  
-      // 开始观察目标节点
-      observer_variant.observe(targetNode_variant, { attributes: true, subtree: true });   
-      
-      if($(window).width() < 767 ){
-         var $shopifyAppBlock = $(".t4s-product__info-main .t4s-product__info-container");
-         var $icons = $('.t4s-product__icons');
-          $icons.insertAfter($shopifyAppBlock);
-      }
 
        let alt_time = setInterval(function(){
          if($(".t4s-carousel__nav-item.is-nav-selected").length > 0){
@@ -1101,7 +1097,7 @@ t4option0_0 | alt text
            let altText = $(".t4s-carousel__nav-item.is-nav-selected").attr("alt");
            $(".t4s-product__media-wrapper .t4s-product__info-container--sticky").attr("data-alt", altText);
 
-           
+      {% comment %} 检测橱窗图 {% endcomment %}
       var targetNode = document.querySelector('.t4s-product-media__thumbnails_left .t4s-col-thumb .t4s-carousel__nav');
       var observer = new MutationObserver(function(mutationsList) {
           mutationsList.forEach(function(mutation) {
@@ -1117,8 +1113,29 @@ t4option0_0 | alt text
   
       // 开始观察目标节点
       observer.observe(targetNode, { attributes: true, subtree: true });   
+
+
+  {% comment %} 检测变体切换 {% endcomment %}
+      var targetNode_v = document.querySelector('.t4s-form__product .t4s-swatch');
+      var observer_v = new MutationObserver(function(mutationsList) {
+          mutationsList.forEach(function(mutation) {
+             $(`.t4s-bage-freeshipping,.sale_label,.variant-discount-text`).removeClass('hiddenCol');
+                    show_hide_variant();
+                    let title_text = $(".t4s-swatch__item.is--selected").attr("data-change-title");
+                    if(title_text != ""){
+                      $("h1.t4s-product__title").text(title_text);
+                    }
+          });
+      });
+  
+      // 开始观察目标节点
+      observer_v.observe(targetNode_v, { attributes: true, subtree: true });  
+
+
+
+
       }
-       },1000) 
+       },1000)
 
     // 点击 .size_url 添加 active 类
     $('.size_url').on('click', function() {
@@ -1313,7 +1330,7 @@ t4option0_0 | alt text
    if (!currentURL.includes(urlString) &&  currentURL.indexOf("color") == -1) {
        const newURL = currentURL + (currentURL.includes('?') ? queryStringOption : queryString) + urlString;
        ///window.location.href = newURL; // Only change the URL if the query string isn't already there
-       history.pushState(null, '', newURL);
+       history.replaceState(null, '', newURL);
 
    } 
 
@@ -1342,7 +1359,7 @@ t4option0_0 | alt text
 
           const urlStringTwo = currentURLTwo + queryString + colorValueUrlTwo + queryStringOption + sizeValueUrlTwo;
         
-          history.pushState(null, '', urlStringTwo);
+          history.replaceState(null, '', urlStringTwo);
         
       });
     });
@@ -2486,7 +2503,13 @@ t4option0_0 | alt text
           "label": "Price sale color",
           "default": "#fa0000"
         },
-           {
+        {
+          "type": "color",
+          "id": "price_sale_bg",
+          "label": "Sale Tag Background Color",
+          "default": "#e78caa"
+        },
+        {
         "type": "html",
         "id": "show_more",
         "label": "自定义出现其他按钮，设置多个用逗号隔开"  

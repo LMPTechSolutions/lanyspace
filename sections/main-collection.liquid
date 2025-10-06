@@ -393,8 +393,8 @@ $('.t4s-product').each(function() {
           const handle = "{{ collection.handle }}".toLowerCase();
               $colorItems.each(function() {
                   const $item = $(this);
-                  const colorName = $item.text().trim().toLowerCase();
-                  if ((handle.includes(colorName) || handle === colorName) && 
+                  const colorName = $item.text().trim().toLowerCase().split("/")[0];
+                  if ((handle.includes(colorName) || handle === colorName || (handle == 'green' && colorName == 'olive')) && 
                       $item.closest(".t4s-product-colors").children().length > 1) {
                       const $parent = $item.parent();
                       const $grandParent = $parent.parent();

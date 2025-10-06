@@ -1,0 +1,72 @@
+{
+  "parent": "page.faqs.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "1659687049574d39ec": {
+      "settings": {},
+      "blocks": {
+        "55af9dd3-447d-49cd-a304-2cacfb042300": {
+          "settings": {
+            "title": "1. Do you offer free shipping to Canada?",
+            "content": "<p>Yes, we offer free shipping to Canada. Please click <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\" target=\"_blank\" title=\"Shipping & Return\"><span style=\"text-decoration:underline\"><strong>here <\/strong><\/span><\/a>for the full shipping policy. If you have any further questions or need assistance, please contact our Customer Care Team at support@lanyspace.com. Additional fees or delivery restrictions may apply for remote areas. <\/p><p>Please note: We do not ship to P.O. Boxes, including APO and FPO addresses.<\/p>"
+          }
+        }
+      }
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1": {
+          "settings": {
+            "title": "1.  What is your return policy for Canada? ",
+            "content": "<p>Our Return Policy covers all products sold by Lany Space. If a product does not meet your expectations, you may return it within 15 days of receiving the product. To initiate a return, first of all please submit a return request in your account. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, are not eligible for return. Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days. <strong>Please note that a restocking fee of $78 CAD will be charged for each item over $168 CAD, and a restocking fee of $36 CAD will be charged for each item below $168 CAD<\/strong>.To be eligible for a refund, the original item(s) MUST be in new condition ( includes the original plastic bag) and returned without:<\/p><ul><li>1. Traces of pet hair or allergens<\/li><li>2. Any marks<\/li><li>3. Indications of use, laundering, or inadequate maintenance<\/li><li>4. Defects or discolorations<\/li><\/ul><p>Please be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold. Please return the product within 30 days after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.Steps for Returning the Product:<\/p><ol><li>1. Prepare the Product: Please make sure the product is in the same condition as when you received it, along with packaging.<\/li><li>2. Drop-off Location: Use the pre-paid return label and drop off the product to any of the USPS\/Fedex\/UPS stores nearby.<\/li><li>3. Receipt Confirmation: Upon successful return, you'll receive an email confirmation from us.<\/li><\/ol><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport.If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at support@lanyspace.com.<\/p>"
+          }
+        }
+      }
+    },
+    "dfda319d-9d46-46ce-bc25-f1d7cb83c542": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__dfda319d-9d46-46ce-bc25-f1d7cb83c542-1684826253d2748e45-2": {
+          "settings": {
+            "title": "2. What should I do if the product I want is on backorder？",
+            "content": "<p>If the product you’re interested in is currently on backorder, we will send you an email from <strong>support@lanyspace.com <\/strong>with the expected restock date, so you have accurate information about when it will be available. Once the item is back in stock, you will receive a notification email.<br\/><\/p><p>Please note that we are unable to reserve the item for you, so we encourage you to place your order as soon as you receive the back-in-stock notice.<br\/><\/p>"
+          }
+        }
+      }
+    },
+    "f728c751-3979-4127-9a0b-1ddb6754184f": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-0": {
+          "settings": {
+            "content": "<p>After you place your order, you will receive an order confirmation email with your order number. Your order number starts with #DT. The tracking number will be generated within 48 hours and emailed to you. You can enter your email address or order number here to track your order. If you're having any issues, please reach us at <strong>support@lanyspace.com.<\/strong><\/p>"
+          }
+        },
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-1": {
+          "settings": {
+            "content": "<p>To provide the best service to our customers, we will process orders immediately we receive them. We can not guarantee that the shipping address will be updated once the item has been shipped, but we will try our best to accommodate the address change. The best way is to contact us at <span style=\"text-decoration:underline\"><strong>support@lanyspace.com<\/strong><\/span> with your order number. <\/p>"
+          }
+        },
+        "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-2": {
+          "settings": {
+            "content": "<p>We process our order very fast, so we cannot guarantee the cancellation of any order after placement. However, we encourage you to contact our Customer Care team at <strong>support@lanyspace.com<\/strong> as quickly as possible to request a cancellation. We will do everything we can to take care of your request. However, in the event that we are unable to fulfill your cancellation request, you may start your return after your  order has been delivered.<\/p>"
+          }
+        }
+      }
+    },
+    "579a313e-a596-465d-8eda-ff6f0e2f84d2": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-0": {
+          "settings": {
+            "title": "What payment methods does Lany Space accept?",
+            "content": "<p>We accept all major credit cards as well as Paypal (US&Canada customers only), Apple Pay (US&Canada customers only), and Affirm (US&Canada customers only).<\/p><p>Please note, we are only able to accept one form of payment per order. Refunds are always issued to the original form of payment and are unable to be refunded to a different form of payment for any reason.<\/p>"
+          }
+        }
+      }
+    }
+  }
+}

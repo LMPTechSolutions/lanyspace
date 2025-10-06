@@ -268,7 +268,7 @@
                        {%- endif -%}
 
                     {%- else -%}
-                       <div data-cart-ship-text data-cart-ship-done class="t4s-cart__thres3">{{ 'cart.shipping_threshold.text_3' | t | replace: '[','<span class="t4s-cr is--congratulations">' | replace: ']','</span>' }}</div>
+                      <div data-cart-ship-text data-cart-ship-done class="t4s-cart__thres3">{{ 'cart.shipping_threshold.text_3' | t | replace: '[','<span class="t4s-cr is--congratulations">' | replace: ']','</span>' }}</div>
                        {%- if enable_shipbar -%}
                          {%- assign percent_class = 100 -%}
                          {%- capture style_w %} style="width: 100%"{% endcapture -%}
@@ -287,7 +287,9 @@
                  <link rel="stylesheet" href="{{ 'shipping_bar.css' | asset_url }}" media="all">
                  <div data-cart-calc-shipping data-t4s-percent="{{ percent_class }}" class="t4s-cart__threshold">
                     {{- text_w_ship -}}
-                    {%- if settings.enable_shipbar %}<div class="t4s-cart-thes__bar bgt4_svg{{ settings.des_shipbar }} t4s-pr"><span data-cart-ship-bar class="t4s-pr t4s-d-block t4s-h-100"{{ style_w }}><span class="t4s-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></span></span></div>{% endif -%}                     </div>
+                    {%- if settings.enable_shipbar %}<div class="t4s-cart-thes__bar bgt4_svg{{ settings.des_shipbar }} t4s-pr"><span data-cart-ship-bar class="t4s-pr t4s-d-block t4s-h-100"{{ style_w }}><span class="t4s-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></span></span></div>{% endif -%}                    
+                   </div>
+
               {%- endif -%}
           <div class="t4s-drawer__bottom">         
               <div data-cart-discounts>

@@ -285,6 +285,7 @@
         },
         "custom_text_HULCnT": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"\/pages\/washable\"><svg width=\"30\" height=\"24\" viewbox=\"0 0 30 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M29.5927 9.90694C29.3795 9.83443 29.1475 9.94754 29.0736 10.1607L28.421 12.0545C26.7491 14.4008 25.5542 13.9875 24.0766 13.477C23.2631 13.1957 22.3742 12.8898 21.2982 12.8898C20.1222 12.8898 19.242 13.3552 18.3618 13.8236C17.5657 14.2456 16.7682 14.669 15.7734 14.669C14.6191 14.669 13.578 13.9744 12.5121 13.2624C11.2897 12.446 10.0383 11.6122 8.45469 11.6122C5.96053 11.6122 4.37126 12.8564 2.61649 14.2311C2.54254 14.2891 2.46858 14.3471 2.39028 14.408L0.927145 10.1619C0.854642 9.94878 0.621177 9.83568 0.408029 9.90818C0.194867 9.98069 0.0803113 10.2142 0.154266 10.4273L4.24364 22.286C4.42345 22.8065 4.74828 23.2343 5.1688 23.533C5.58787 23.8332 6.09975 24 6.64789 24H23.3499C23.8995 24 24.4099 23.8318 24.8304 23.533C25.2495 23.2343 25.5758 22.8051 25.7556 22.286L29.845 10.4273C29.9204 10.2112 29.8058 9.97944 29.5927 9.90694Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.7596 11.0206C13.8506 11.0206 15.5442 9.32547 15.5442 7.23602C15.5442 5.145 13.849 3.45142 11.7596 3.45142C9.66856 3.45142 7.97498 5.14656 7.97498 7.23602C7.97498 9.32703 9.66867 11.0206 11.7596 11.0206ZM11.7596 4.72433C12.4527 4.72433 13.0821 5.00565 13.5359 5.45954C13.9913 5.91488 14.2726 6.54276 14.2726 7.23591C14.2726 7.46212 14.0899 7.64484 13.8637 7.64484C13.6374 7.64484 13.4547 7.46213 13.4547 7.23591C13.4547 6.76754 13.2648 6.34412 12.9588 6.03668C12.6514 5.73071 12.2279 5.54076 11.7596 5.54076C11.5334 5.54076 11.3506 5.35805 11.3506 5.13182C11.3506 4.90706 11.5334 4.72433 11.7596 4.72433Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18.1398 12.275C18.8402 12.275 19.4115 11.7037 19.4115 11.0033C19.4115 10.3029 18.8402 9.73157 18.1398 9.73157C17.4394 9.73157 16.868 10.3029 16.868 11.0033C16.868 11.7037 17.4394 12.275 18.1398 12.275Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.7338 7.78133C20.7338 8.93995 21.6793 9.88541 22.8379 9.88541C23.9965 9.88541 24.942 8.93995 24.942 7.78133C24.942 6.62271 23.9965 5.67725 22.8379 5.67725C21.6793 5.67725 20.7338 6.62271 20.7338 7.78133Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.7339 3.78475C21.7794 3.78475 22.6262 2.93792 22.6262 1.89237C22.6262 0.846867 21.7794 0 20.7339 0C19.6884 0 18.8415 0.848315 18.8415 1.89237C18.8415 2.93788 19.6883 3.78475 20.7339 3.78475ZM20.7339 0.636607C21.0804 0.636607 21.3951 0.777267 21.6213 1.00493C21.849 1.23259 21.9896 1.5458 21.9896 1.89237C21.9896 2.00548 21.8983 2.09683 21.7852 2.09683C21.6721 2.09683 21.5807 2.00548 21.5807 1.89237C21.5807 1.65891 21.4864 1.4472 21.3327 1.29348C21.179 1.13977 20.9673 1.04551 20.7339 1.04551C20.6207 1.04551 20.5294 0.954161 20.5294 0.841054C20.5294 0.727946 20.6208 0.636607 20.7339 0.636607Z\" fill=\"white\"><\/path>\n<\/svg>\n<\/a>\n<a href=\"\/pages\/washable\">Washable<\/a>",
             "remove_br_tag": false,
@@ -312,6 +313,7 @@
         },
         "bl_col_fBGgjh": {
           "type": "bl_col",
+          "disabled": true,
           "settings": {
             "col_dk": "2",
             "col_tb": "6",
@@ -2572,7 +2574,7 @@
         "tophead_mb_mb": 25,
         "heading_inline": false,
         "heading_width": "small",
-        "blog": "2024-rug-trend",
+        "blog": "rug-inspirations-and-trends",
         "article_des": "1",
         "limit": 8,
         "show_blog_title": "blog_current",
@@ -2647,7 +2649,7 @@
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/why-minimalist-interiors-benefit-from-modern-rugs",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/why-minimalist-interiors-benefit-from-modern-rugs",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -2663,7 +2665,7 @@
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/why-minimalist-interiors-benefit-from-modern-rugs",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/why-minimalist-interiors-benefit-from-modern-rugs",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -2679,7 +2681,7 @@
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "Read More",
-            "button_link": "shopify:\/\/blogs\/2024-rug-trend\/why-minimalist-interiors-benefit-from-modern-rugs",
+            "button_link": "shopify:\/\/blogs\/rug-inspirations-and-trends\/why-minimalist-interiors-benefit-from-modern-rugs",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",

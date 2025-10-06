@@ -1,0 +1,19 @@
+{
+  "markets": {
+    "uk": {
+      "parent": "@default"
+    },
+    "aus": {
+      "parent": "@default"
+    },
+    "hongkong": {
+      "parent": "@default"
+    },
+    "us": {
+      "parent": "@default"
+    },
+    "canada": {
+      "parent": "@default"
+    }
+  }
+}

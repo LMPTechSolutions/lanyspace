@@ -228,6 +228,8 @@
 }
 .t4s-product .t4s-product-title a {
     color: inherit;
+    min-height: 34px;
+    display: block;
 }
 .t4s-product .t4s-product-price {
     font-size: var(--product-price-size);

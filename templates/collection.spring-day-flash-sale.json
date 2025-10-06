@@ -47,7 +47,6 @@
       "block_order": [
         "custom_button_Nia4gL"
       ],
-      "disabled": true,
       "custom_css": [
         ".t4s-content-position {height: 100%; max-width: unset;}",
         ".t4s-bl-item {height: 1.4rem; width: 8rem; padding: 0; color: transparent; background: transparent;}",
@@ -62,8 +61,8 @@
         "height_tb": 400,
         "custom_mb": false,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/collection_banner_1800300.png",
-        "image_mb": "shopify:\/\/shop_images\/Copy_of_sale_750_x_300_px.png",
+        "image": "shopify:\/\/shop_images\/1_f345f484-88f8-4f99-9327-bc9e3bf9c71e.png",
+        "image_mb": "shopify:\/\/shop_images\/2_3673fe9c-b49c-4b18-819d-0818d97d3115.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",

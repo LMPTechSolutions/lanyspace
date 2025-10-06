@@ -468,8 +468,8 @@
         "custom_button_KjBdjX": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Shop all",
-            "button_link": "shopify:\/\/collections\/shop-all",
+            "button_text": "new arrivals",
+            "button_link": "shopify:\/\/collections\/new-arrivals",
             "target_link": "_self",
             "fontf": "inherit",
             "button_style": "default",
@@ -507,7 +507,7 @@
         "custom_button_w9g3e4": {
           "type": "custom_button",
           "settings": {
-            "button_text": "SHOP BEST SELLERS",
+            "button_text": "SHOP Best Sellers",
             "button_link": "shopify:\/\/collections\/best-seller",
             "target_link": "_self",
             "fontf": "inherit",
@@ -598,8 +598,8 @@
         "height_tb": 400,
         "custom_mb": false,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/PC_Banner_Help_Stray_Dogs_in_Need.webp",
-        "image_mb": "shopify:\/\/shop_images\/Mobile_Banner_Your_paragraph_text.webp",
+        "image": "shopify:\/\/shop_images\/8_banner.png",
+        "image_mb": "shopify:\/\/shop_images\/Final_Version.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -651,7 +651,7 @@
     "custom_liquid_8naVn8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.t4s-hero-image-item .t4s-content-position {\n  height: 100%;\n  max-width: unset;\n}\n\n.t4s-hero-image-item .t4s-bl-item {\n  position: absolute;\n  font-size: 1.8rem;\n\ncolor: transparent;\n}\n\n.t4s-hero-image-item .t4s-bl-item:first-of-type {\n    width: 11%;\n    height: 11.5%;\n    bottom: 12%;\n    right: 78.7%;\n}\n\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(2) {\n width: 18%;\n    height: 12%;\n    bottom: 12%;\n    right: 58.8%;\n\n}\n\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(3) {\n  width: 8%;\n  height: 10%;\n  top: 22%;\n  right: 28%;\n}\n\n\/* Responsive adjustments for screens smaller than 768px *\/\n@media (max-width: 767px) {\n.t4s-hero-image-item .t4s-bl-item:first-of-type {\n        width: 46.4%;\n        height: 7.6%;\n        bottom: 16.8%;\n        left: 26.8%;\n  }\n\n  .t4s-hero-image-item .t4s-bl-item:nth-of-type(2) {\n           height: 7.2%;\n        bottom: 7.8%;\n        left: 25.7%;\n        width: 46%;\n  }\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(3) {\n    height: 4%;\n    top: 57%;\n    left: 35%;\n    width: 22%;\n  }\n}\n\n.t4s-custom-section,.t4s-testimonials, .t4s-custom-liquid {\n  margin-top: -1px;\n}\n<\/style>"
+        "custom_liquid": "<style>\n.t4s-hero-image-item .t4s-content-position {\n  height: 100%;\n  max-width: unset;\n}\n\n.t4s-hero-image-item .t4s-bl-item {\n  position: absolute;\n  font-size: 1.8rem;\n\ncolor: transparent;\n}\n\n.t4s-hero-image-item .t4s-bl-item:first-of-type {\n    width: 23%;\n    height: 14%;\n    bottom: 15%;\n    right: 54%;\n}\n\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(2) {\n width: 24%;\n    height: 15%;\n    bottom: 14%;\n    right: 25%;\n}\n\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(3) {\n  width: 8%;\n  height: 10%;\n  top: 22%;\n  right: 28%;\n}\n\n\/* Responsive adjustments for screens smaller than 768px *\/\n@media (max-width: 767px) {\n.t4s-hero-image-item .t4s-bl-item:first-of-type {\n        width: 45%;\n        height: 7%;\n        bottom: 19%;\n        left: 28%;\n  }\n\n  .t4s-hero-image-item .t4s-bl-item:nth-of-type(2) {\n           height: 8%;\n        bottom: 6%;\n        left: 27%;\n        width: 44%;\n  }\n.t4s-hero-image-item .t4s-bl-item:nth-of-type(3) {\n    height: 4%;\n    top: 57%;\n    left: 35%;\n    width: 22%;\n  }\n}\n\n.t4s-custom-section,.t4s-testimonials, .t4s-custom-liquid {\n  margin-top: -1px;\n}\n<\/style>"
       }
     },
     "custom_liquid_QzQPth": {
@@ -1053,7 +1053,6 @@
     "8979f302-1d46-4fb4-ab46-7327dccc0ae1": {
       "type": "featured-collection",
       "custom_css": [
-        ".t4s-product-info {padding-left: 0;}",
         ".t4s-top-heading {\/* margin-bottom: var(--tophead-mb); *\/ display: flex; justify-content: space-between; margin-bottom: 1em;}"
       ],
       "settings": {
@@ -1066,7 +1065,7 @@
         "tophead_mb_tb": 30,
         "tophead_mb_mb": 25,
         "collection": "best-seller",
-        "product_des": "1",
+        "product_des": "4",
         "rating_pos": "2",
         "list_color_pos": "2",
         "list_size_pos": "1",
@@ -1131,11 +1130,11 @@
         "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "50px,,,",
+        "mg": "50px,,50px,",
         "pd": ",,,,",
-        "mg_tb": ",,,",
+        "mg_tb": "50px,,50px,",
         "pd_tb": ",,,,",
-        "mg_mb": ",,,",
+        "mg_mb": "30px,,30px,",
         "pd_mb": ",0px,,0px"
       }
     },
@@ -1151,6 +1150,23 @@
             "text": "",
             "button_label": "Living Room",
             "button_link": "shopify:\/\/collections\/living-room",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "3",
+            "btn_cl": "custom1",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_6zNB9Q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Pop_up_11-12_7.png",
+            "title": "",
+            "text": "",
+            "button_label": "Kitchen",
+            "button_link": "shopify:\/\/collections\/kitchen",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "link",
@@ -1210,23 +1226,6 @@
             "button_effect": "fade"
           }
         },
-        "text_block_6zNB9Q": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Pop_up_11-12_7.png",
-            "title": "",
-            "text": "",
-            "button_label": "Kitchen",
-            "button_link": "shopify:\/\/collections\/kitchen",
-            "open_link": "_self",
-            "btn_icon": false,
-            "button_style": "link",
-            "btn_size": "3",
-            "btn_cl": "custom1",
-            "button_effect": "fade"
-          }
-        },
         "text_block_hHkUrF": {
           "type": "text_block",
           "settings": {
@@ -1264,10 +1263,10 @@
       },
       "block_order": [
         "text_block_bEHGWB",
+        "text_block_6zNB9Q",
         "text_block_hn7RXG",
         "text_block_VwHJXN",
         "text_block_XLYYVP",
-        "text_block_6zNB9Q",
         "text_block_hHkUrF",
         "text_block_AyJ8MG"
       ],
@@ -2731,7 +2730,7 @@
         "ad9391b6-47c8-422c-8fb7-ffe391b86982": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Creators_image.jpg",
+            "image_child": "shopify:\/\/shop_images\/stories.webp",
             "img_link": "",
             "open_link": "_self",
             "img_width": 350,
@@ -3342,7 +3341,7 @@
         "tophead_mb_mb": 20,
         "heading_inline": false,
         "heading_width": "small",
-        "blog": "2024-rug-trend",
+        "blog": "rug-inspirations-and-trends",
         "article_des": "1",
         "limit": 9,
         "show_blog_title": "blog_current",
@@ -3458,7 +3457,7 @@
         "custom_text_nfWnUP": {
           "type": "custom_text",
           "settings": {
-            "text": "Join our Rug Lover Affiliate Program!",
+            "text": "Join Our Rug Lover Affiliate Program!",
             "remove_br_tag": false,
             "tag": "h3",
             "fontf": "2",
@@ -3568,7 +3567,7 @@
         "image_ETe449": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/d1b0f8cb1e23dcbd3a4d9e0656d14247_1.jpg",
+            "image_child": "shopify:\/\/shop_images\/RRR06526_1fe420c5-eec7-407d-94bf-9caf7e3bd4f5.webp",
             "img_link": "",
             "open_link": "_self",
             "img_width": 0,

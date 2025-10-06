@@ -21,10 +21,6 @@
   {% endunless %}
 </style>
 
-
-
-
-
 {%- liquid
 if variant.title and price_varies_style == '0'
   assign price = variant.price
@@ -61,7 +57,7 @@ endif
 
 
 assign cur_code_enabled = settings.currency_code_enabled
-if localization.country.iso_code != 'CA'
+if localization.country.iso_code != 'CA' or localization.country.iso_code != 'AU' or localization.country.iso_code != 'HK' or localization.country.iso_code != 'GB'
   assign cur_code_enabled = false
 endif 
 
@@ -88,7 +84,7 @@ endif -%}
 
 {%- capture sale_badge_html -%}
   {%- if type_sale == '1' -%}
-    {%- assign save = saveAmountFixed | times: 100.0 | divided_by: compare_at_price | round %} <span class="t4s-badge-price">{{ 'products.badge.save_amount_2_html' | t: saved_amount: save }}</span>
+    {%- assign save = saveAmountFixed | times: 100.0 | divided_by: compare_at_price | round %} {%- if save != 0 -%}<span class="t4s-badge-price t4s-bage-freeshipping" style="background:{{ price_sale_bg }}">{{ 'products.badge.save_amount_2_html' | t: saved_amount: save }}</span>{%- endif -%}
   
   {%- elsif type_sale == '2' %}
 
@@ -97,7 +93,7 @@ endif -%}
         assign priceFormatMoney = saveAmountFixed | money_with_currency
       else 
        assign priceFormatMoney = saveAmountFixed | money
-      endif %} <span class="t4s-badge-price">{{ 'products.badge.save_amount_fixed_2_html' | t: saved_amount: priceFormatMoney }}</span>
+      endif %} <span class="t4s-badge-price t4s-bage-freeshipping" style="background:{{ price_sale_bg }};">{{ 'products.badge.save_amount_fixed_2_html' | t: saved_amount: priceFormatMoney }}</span>
 
   {%- endif -%}
 {%- endcapture -%}
@@ -144,7 +140,7 @@ endif -%}
   {%- else -%}{{ money_price }}
   {%- endif -%}
 </div>
-
+{{ sale_badge_html }}
 {% for variant in product.variants %}
   {% if variant.metafields.custom.product_more_shipping != blank %}
     {% for m in variant.metafields.custom.product_more_shipping.value %}

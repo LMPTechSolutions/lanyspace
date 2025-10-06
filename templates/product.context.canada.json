@@ -3,5 +3,60 @@
   "context": {
     "market": "canada"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "18a8b200-4f94-4b72-b0eb-01abf185ecb3": {
+          "settings": {
+            "size_price_pr": 17,
+            "show_more": "Free Shipping"
+          }
+        },
+        "affirm_pay_over_time_messaging_product_block_TdmBeU": {
+          "settings": {
+            "font_size": 18
+          }
+        },
+        "text_8wf9RL": {
+          "disabled": false,
+          "settings": {
+            "text": "<p>Shipping and return over Canada .  <a href=\"\/pages\/shipping-return\" title=\"Shipping & Return\">Read Policy<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d5b7b0a4-fb63-44fc-9d84-10e7223a983d",
+        "3eaacecf-c956-46e5-84ef-40474509a065",
+        "18a8b200-4f94-4b72-b0eb-01abf185ecb3",
+        "c47c7a43-34f4-4a24-938c-5665b73da56e",
+        "discount_iEN9bc",
+        "icons_YrQAi6",
+        "8efd84b3-4647-43eb-8040-d7451a522e7d",
+        "affirm_pay_over_time_messaging_product_block_TdmBeU",
+        "8f619784-04a8-4c20-b813-6902f9e3e922",
+        "text_fGnCNH",
+        "2aae73bc-9c19-4329-a916-95b71d168110",
+        "text_8wf9RL"
+      ]
+    },
+    "prodyct_content_metafield_MJPXnN": {
+      "settings": {},
+      "blocks": {
+        "shipping_AFnnht": {
+          "settings": {
+            "text-1": "[Shipping Policy]Your order will be shipped within 3-5 days after it has been placed. Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Shipping Policy.<\/a>",
+            "text-2": "[Return Policy] Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Return Policy<\/a> in Canada."
+          }
+        }
+      }
+    },
+    "custom_liquid_HqBqAH": {
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{{shop.localization.country.iso_code}}\n\n    {% if shop.country_code == \"US\" %}\n\"us\"\n{% elsif shop.country_code == \"CA\" %}\n \"CA\"\n{% endif %}"
+      },
+      "blocks": {}
+    }
+  }
 }

@@ -1122,10 +1122,11 @@ shopify-payment-terms {
     border-radius:30px;
     color: #fff;
     padding: 4px 15px;
-    top: -2px;
+    top: 0;
     font-weight:500;
 }
-.t4s-badge-price.t4s-bage-freeshipping.hiddenCol{
+.t4s-badge-price.t4s-bage-freeshipping.hiddenCol,
+.variant-discount-text.hiddenCol{
   display:none;
 }
 div#judgeme_product_reviews {
@@ -1212,6 +1213,11 @@ div#judgeme_product_reviews {
   .t4s-rte.t4s-tab-content-des{
     font-size: 13px;
 }
+  .t4s-badge-price.t4s-bage-freeshipping {
+    padding: 4px 10px;
+    top:0;
+}
+  
 }
 
 
@@ -1502,9 +1508,8 @@ div#judgeme_product_reviews {
 
 
   /* 2025修改 */
-.t4s-product__info-container .t4s-product-price{color:#1a3b1a}
-.t4s-product__info-container .t4s-product-price del{color:#1a3b1a;font-weight:400;font-size:20px}
-.t4s-product__info-container .t4s-product-price ins{font-weight:600;color:#1a3b1a}
+.t4s-product__info-container .t4s-product-price del{font-weight:400;font-size:18px}
+.t4s-product__info-container .t4s-product-price ins{font-weight:600;}
 .t4s-badge-price{background-color:#017e56}
 .t4s-product__icons .inner{background:#eee;height:56px;border-radius:4px;display:flex;align-items:center;justify-content:center;gap:24px;padding:0 12px}
 .t4s-product__icons .inner .item{display:flex;color:#1a3b1a;font-weight:600;text-decoration:unset;border:unset!important;align-items:center;gap:11px;line-height:1}
@@ -1542,7 +1547,7 @@ div#judgeme_product_reviews {
 .t4s-product__icons .inner .item{width:calc(50% - 12px);justify-content:center;font-size:12px}
 .t4s-product__info-container{margin-top:36px}
 }
-@media (max-width:767px){.t4s-product__info-container .t4s-product-price del{font-size:18px}
+@media (max-width:767px){.t4s-product__info-container .t4s-product-price del{font-size:16px}
 .affirm-as-low-as{margin-bottom:0;font-size:13px}
 .t4s-product__icons .inner{height:fit-content;display:flex;flex-wrap:wrap;gap:0;padding:20px;margin-top:15px;row-gap:18px}
 .t4s-product__icons .inner .item{font-size:12px;width:50%;display:flex;justify-content:center}
@@ -1553,7 +1558,7 @@ div#judgeme_product_reviews {
 .t4s-main-product__content .t4s-flickity-slider .flickityt4s-page-dots:has(.dot){padding:0;display:flex!important;position:relative;left:unset;justify-content:center;top:unset;bottom:unset;margin-top:42px}
 .t4s-main-product__content .t4s-flickity-slider .flickityt4s-page-dots .dot{background:#e4edea;width:12px;height:12px}
 .t4s-main-product__content .t4s-flickity-slider .flickityt4s-page-dots .dot.is-selected{background:#017e56}
-.t4s-product__info-container .t4s-product-price ins{font-size:24px}
+.t4s-product__info-container .t4s-product-price ins{font-size:16px;margin-inline-start: 6px;}
 .exit-pop-size-chart-wrapper .hide-pc{display:block}
 .exit-pop-size-chart-wrapper .hide-mb{display:none}
 .exit-pop-size-chart-wrapper .inner .title{padding:14px}

@@ -160,8 +160,8 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "2. How can I add myself to the waiting list for a currently out-of-stock item  I’m interested in ？",
-            "content": "<p>We’re so sorry the item you’re interested in is out of stock! We’ve added an \"<strong>Email Me When in Stock<\/strong>\" box so you can be notified, via email, as soon as it is available to order!   <\/p><p>We will make sure to send you an email to the email you provided as soon as the item becomes available to order again.  However, we are unable to hold the item for you once it becomes available. We encourage you to place an order as quickly as possible once you receive the back-in-stock notice.<br\/><\/p>"
+            "title": "2. What should I do if the product I want is on backorder?",
+            "content": "<p>If the product you’re interested in is currently on backorder, we will send you an email from <strong>support@lanyspace.com <\/strong>with the expected restock date, so you have accurate information about when it will be available. Once the item is back in stock, you will receive a notification email.<br\/><\/p><p>Please note that we are unable to reserve the item for you, so we encourage you to place your order as soon as you receive the back-in-stock notice.<br\/><\/p>"
           }
         }
       },
@@ -204,7 +204,7 @@
           "settings": {
             "icon": "none",
             "title": "1. How can I track my order?",
-            "content": "<p>After you place your order, you will receive an order confirmation email with your order number. Your order number starts with #DT. The tracking number will be generated within 48 hours and emailed to you. You can enter your email address or order number here to track your order. If you're having any issues, please reach us at <a href=\"mailto:support@lanyspace.com\">support@lanyspace.com<\/a><\/p>"
+            "content": "<p>After you place your order, you will receive an order confirmation email with your order number. Your order number starts with #DT. The tracking number will be generated within 48 hours and emailed to you. You can enter your email address or order number here to track your order. If you're having any issues, please reach us at <strong>support@lanyspace.com<\/strong><\/p>"
           }
         },
         "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-1": {
@@ -212,7 +212,7 @@
           "settings": {
             "icon": "none",
             "title": "2. How do I update my shipping address?",
-            "content": "<p>To provide the best service to our customers, we will process orders immediately we receive them. We can not guarantee that the shipping address will be updated once the item has been shipped, but we will try our best to accommodate the address change. The best way is to contact us at <a href=\"mailto:support@lanyspace.com\"><span style=\"text-decoration:underline\">support@lanyspace.com<\/span><\/a> with your order number. <\/p>"
+            "content": "<p>To provide the best service to our customers, we will process orders immediately we receive them. We can not guarantee that the shipping address will be updated once the item has been shipped, but we will try our best to accommodate the address change. The best way is to contact us at <span style=\"text-decoration:underline\"><strong>support@lanyspace.com<\/strong><\/span><strong> <\/strong>with your order number. <\/p>"
           }
         },
         "template--15882081435786__f728c751-3979-4127-9a0b-1ddb6754184f-1684826253d2748e45-2": {
@@ -220,7 +220,7 @@
           "settings": {
             "icon": "none",
             "title": "3. How do I cancel my order?",
-            "content": "<p>We process our order very fast, so we cannot guarantee the cancellation of any order after placement. However, we encourage you to contact our Customer Care team at support@lanyspace.com as quickly as possible to request a cancellation. We will do everything we can to take care of your request. However, in the event that we are unable to fulfill your cancellation request, you may start your return after your  order has been delivered.<\/p>"
+            "content": "<p>We process our order very fast, so we cannot guarantee the cancellation of any order after placement. However, we encourage you to contact our Customer Care team at <strong>support@lanyspace.com<\/strong> as quickly as possible to request a cancellation. We will do everything we can to take care of your request. However, in the event that we are unable to fulfill your cancellation request, you may start your return after your  order has been delivered.<\/p>"
           }
         }
       },
@@ -339,7 +339,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "3.  How too removing bunching,     creasing and folded corners?",
+            "title": "3.  How to remove bunching, creasing, and folded corners?",
             "content": "<p>To ensure efficient shipping, our rugs are rolled up during the packaging process. This helps to minimize the package size and protect the rug during transit. As a result, when you receive the rug, it may have been rolled up for a while, leading to temporary creases and waves. These creases are a natural occurrence due to the rug's storage and shipping method, and they should gradually disappear with time and proper care.<\/p><p>To address this, we recommend following the previous instructions to allow the rug to acclimate to its new environment by leaving it unobstructed and flat on the floor for at least 48 hours. This will allow the rug to relax and naturally  flatten out. If you wish to expedite the process, using a steamer as mentioned earlier can be helpful in removing the creases more quickly.<\/p><p>We apologize for any inconvenience caused by these temporary creases, but please rest assured that they are a result of our efforts to make the shipping process more efficient. <\/p>"
           }
         }

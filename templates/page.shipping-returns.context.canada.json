@@ -1,0 +1,129 @@
+{
+  "parent": "page.shipping-returns.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "1659687049574d39ec": {
+      "settings": {},
+      "blocks": {
+        "55af9dd3-447d-49cd-a304-2cacfb042300": {
+          "settings": {
+            "title": "1. Do you offer free shipping to Canada?",
+            "content": "<p>Yes, we offer free shipping to Canada. Please click <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\" target=\"_blank\" title=\"Shipping & Return\"><span style=\"text-decoration:underline\"><strong>here <\/strong><\/span><\/a>for the full shipping policy. If you have any further questions or need assistance, please contact our Customer Care Team at support@lanyspace.com. Additional fees or delivery restrictions may apply for remote areas. <\/p><p>Please note: We do not ship to P.O. Boxes, including APO and FPO addresses.<\/p>"
+          }
+        },
+        "1606d8fa-9deb-4e26-810e-01d73b7036a5": {
+          "settings": {
+            "content": "<p>We ship from Los Angeles, United States.<\/p>"
+          }
+        },
+        "d2a842d8-cdec-4929-ac08-b0b5251e78bf": {
+          "settings": {
+            "title": "3. Are taxes and duties covered? (Canada)",
+            "content": "<p>Customers are responsible for all applicable taxes. However, Lany Space <strong>covers the cost of duties <\/strong>on all Lany Space orders shipping to Canada. <\/p>"
+          }
+        },
+        "0a5152e4-6cc0-4aa2-bce9-b26578d1efca": {
+          "settings": {
+            "title": "4. When will my order ship?",
+            "content": "<p>Your order is expected to ship within 3-5 business days from the date of your order.<\/p>"
+          }
+        },
+        "7fa38cca-4466-4e51-9061-3068cb45c991": {
+          "settings": {
+            "title": "5. Do you ship to APO\/FPO or P.O boxes?",
+            "content": "<p>Unfortunately, our shipping couriers do not deliver to APO\/FPO and P.O. boxes. We apologize for any inconvenience caused.<\/p>"
+          }
+        },
+        "1616e89a-f25a-42b6-8f94-9583bfda4cc8": {
+          "settings": {
+            "title": "6. Which carrier is used for shipping?",
+            "content": "<p>We primarily use FedEx\/UPS for shipping. Please email us if FedEx\/UPS does not work for you.<\/p>"
+          }
+        },
+        "accor_item_z6WEDA": {
+          "settings": {
+            "title": "7. How do I change my shipping address?",
+            "content": "<p>If your order has not been shipped, please email us at <strong>support@lanyspace.com<\/strong> with your order number and the updated shipping address. However, if your order has already been shipped, we are unable to assist with address changes. In such cases, please contact the carrier directly for assistance.<\/p>"
+          }
+        },
+        "accor_item_XEnGWa": {
+          "settings": {
+            "title": "8. What if the shipping shows delivered but I don't received the package?",
+            "content": "<p>We will assist you with the carrier while the tracking shows the package is in transit until it is delivered. However, if the package shows as successfully delivered, we cannot assist further. Please understand that Lany Space is not responsible for issues such as lost packages in apartments\/houses or package theft.<\/p>"
+          }
+        },
+        "accor_item_nzQPJD": {
+          "disabled": false,
+          "settings": {
+            "title": "9. May I place an order first and then request a delayed shipment?",
+            "content": "<p>Yes! Please email us with the order number and specific date you would like the order to be shipped before it has been fulfilled. However, we cannot assist if the order has already been shipped.<\/p>"
+          }
+        },
+        "accor_item_AGWQD": {
+          "type": "accor_item",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "title": "10. Do you ship internationally?",
+            "content": "<p>Yes, if you'd like us to ship to additional countries, please contact support@lanyspace.com for more assistance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "55af9dd3-447d-49cd-a304-2cacfb042300",
+        "1606d8fa-9deb-4e26-810e-01d73b7036a5",
+        "d2a842d8-cdec-4929-ac08-b0b5251e78bf",
+        "0a5152e4-6cc0-4aa2-bce9-b26578d1efca",
+        "7fa38cca-4466-4e51-9061-3068cb45c991",
+        "1616e89a-f25a-42b6-8f94-9583bfda4cc8",
+        "accor_item_z6WEDA",
+        "accor_item_XEnGWa",
+        "accor_item_nzQPJD",
+        "accor_item_AGWQD"
+      ]
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1": {
+          "settings": {
+            "title": "1.  What is your return policy for Canada?",
+            "content": "<p>Our Return Policy covers all products sold by Lany Space. If a product does not meet your expectations, you may return it within 15 days of receiving the product. To initiate a return, first of all please submit a return request in your account. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, are not eligible for return. Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days. <strong>Please note that a restocking fee of $78 CAD will be charged for each item over $168 CAD, and a restocking fee of $36 CAD will be charged for each item below $168 CAD<\/strong>.To be eligible for a refund, the original item(s) MUST be in new condition ( includes the original plastic bag) and returned without:<\/p><ul><li>1. Traces of pet hair or allergens<\/li><li>2. Any marks<\/li><li>3. Indications of use, laundering, or inadequate maintenance<\/li><li>4. Defects or discolorations<\/li><\/ul><p>Please be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold. Please return the product within 30 days after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.Steps for Returning the Product:<\/p><ol><li>1. Prepare the Product: Please make sure the product is in the same condition as when you received it, along with packaging.<\/li><li>2. Drop-off Location: Use the pre-paid return label and drop off the product to any of the USPS\/Fedex\/UPS stores nearby.<\/li><li>3. Receipt Confirmation: Upon successful return, you'll receive an email confirmation from us.<\/li><\/ol><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport.If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at support@lanyspace.com.<\/p>"
+          }
+        },
+        "586a0729-294c-42e0-80da-a65780af2ae7": {
+          "disabled": false,
+          "settings": {
+            "content": "<p>For customers residing in the Canada.: If you received your order within the last 15 days, we offer a prepaid return shipping label to assist you with the return process. However, please note that a restocking fee of $78 CAD will be charged for each item over $168 CAD, and a restocking fee of $36 CAD will be charged for each item below $168 CAD.<\/p>"
+          }
+        },
+        "e95444f3-6810-42b7-99c3-c09912025b13": {
+          "disabled": false,
+          "settings": {}
+        },
+        "481b7356-583f-4355-806c-7edd8dadb5e7": {
+          "disabled": false,
+          "settings": {
+            "content": "<p>Exchanges are not currently available for customers residing outside the U.S.<\/p>"
+          }
+        },
+        "7455e22b-3368-48aa-98e1-fb3aa0db7c15": {
+          "disabled": false,
+          "settings": {}
+        },
+        "29deb940-3073-4a9b-acbf-a023cf487eb0": {
+          "disabled": false,
+          "settings": {}
+        },
+        "557ecd1d-f419-4ba5-9767-2bf066b241bf": {
+          "disabled": false,
+          "settings": {
+            "content": "<p>Returns will not be accepted or a partial refund may be issued if the returned item(s) show traces of pet dander or fur, dirt or grass stains, signs of wear, washing, improper care, damage, or stains. Additionally, the returned item(s) must be shipped back in the original packaging or similar packaging to prevent damage during transport.<\/p><p>If you have any additional questions or require further assistance, please reach out to<strong> support@lanyspace.com<\/strong>.<\/p><p><strong> <\/strong><\/p>"
+          }
+        }
+      }
+    }
+  }
+}

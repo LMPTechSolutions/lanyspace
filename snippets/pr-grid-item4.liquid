@@ -160,7 +160,7 @@ endcapture
              {%- if size_count > 0 and list_size_pos == '2' %}{%- render 'product-size', size_variants: size_variants, size_variants_avai: size_variants_avai, show_size_type: show_size_type -%}{% endif -%}
             {% if product.metafields.custom.color_change_name.value != blank  %}
               <div class="color_change_name" style="display:none;">
-                {% for  text in product.metafields.custom.color_change_name.value %}
+                {% for text in product.metafields.custom.color_change_name.value %}
                   <span data-text="{{ text }}"></span>
                 {% endfor %}
               </div>

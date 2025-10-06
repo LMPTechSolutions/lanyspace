@@ -100,7 +100,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "6. Which carrier is used for     shipping?",
+            "title": "5. Which carrier is used for     shipping?",
             "content": "<p>We primarily use FedEx and USPS for shipping, but please note that UPS may also be used. Please email us if these three carries do not work for you.<\/p>"
           }
         },
@@ -108,7 +108,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "7. How do I change my shipping     address?",
+            "title": "6. How do I change my shipping     address?",
             "content": "<p>If your order has not been shipped, please email us at <strong>support@lanyspace.com<\/strong> with your order number and the updated shipping address. However, if your order has already been shipped, we are unable to assist with address changes. In such cases, please contact the carrier directly for assistance.<\/p>"
           }
         },
@@ -116,7 +116,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "8. What if the shipping shows delivered but I don't receive the package?",
+            "title": "7. What if the shipping shows delivered but I don't receive the package?",
             "content": "<p>We will assist you with the carrier while the tracking shows the package is in transit until it is delivered. However, if the package shows as successfully delivered, we cannot assist further. Please understand that Lany Space is not responsible for issues such as lost packages in apartments\/houses or package theft.<\/p>"
           }
         },
@@ -124,7 +124,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "10. May I place an order first and then request a delayed shipment?",
+            "title": "8. May I place an order first and then request a delayed shipment?",
             "content": "<p>Yes! Please email us with the order number and specific date you would like the order to be shipped before it has been fulfilled. However, we cannot assist if the order has already been shipped.<\/p>"
           }
         },
@@ -132,8 +132,8 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "11. Do you ship internationally?",
-            "content": "<p>Not currently, but we're working on it. Email us at <strong>support@lanyspace.com<\/strong> for our mailing list to stayupdated for when we do.<\/p>"
+            "title": "9. Do you ship internationally?",
+            "content": "<p>We ship to US and Canada only. Email us at <strong>support@lanyspace.com<\/strong> for our mailing list to stayupdated for when we do more markets.<\/p>"
           }
         }
       },
@@ -183,7 +183,7 @@
           "settings": {
             "icon": "none",
             "title": "1.  What is your return policy? ",
-            "content": "<p>Our Return Policy covers all products sold by LANYSPACE. If a product does not meet your expectations, you may return<br\/>it within <strong>15 days <\/strong>of receiving the product. To initiate a return, <strong>first of all please submit a return request in your account<\/strong>. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, and design-collaboration merchandise, are not eligible for return.<\/p><p>Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days. <\/p><p>Please note that a <strong>restocking fee of $45 will be charged for each item over $100, and a restocking fee of $25 will be charged for each item below $100.<\/strong><\/p><p>To be eligible for a refund, the original item(s) MUST be in new condition ( includes the original plastic bag) and returned without:<\/p><ul><li>Traces of pet hair or allergens<\/li><li>Any marks<\/li><li>Indications of use, laundering, or inadequate maintenance<\/li><li>Defects or discolorations<\/li><\/ul><p>Please be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold.<\/p><p>Please note that return labels are currently only provided for customers in the United States. Customers outside the U.S. are responsible for obtaining and covering the cost of their return shipping labels. <\/p><p>Please return the product <strong>within 30 days<\/strong> after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.<\/p><p>Steps for Returning the Product:<\/p><ol><li><strong>Prepare the Product:<\/strong> Please make sure the product is in the same condition as when you received it, along with packaging.<\/li><li><strong>Drop-off Location:<\/strong> Use the pre-paid return label and drop off the product to any of the USPS\/Fedex\/UPS stores nearby .<\/li><li><strong>Receipt Confirmation:<\/strong> Upon successful return, you'll receive an email confirmation from us.<\/li><\/ol><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport.<\/p><p>If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at <strong>support@lanyspace.com.<\/strong><\/p>"
+            "content": "<p>Our Return Policy covers all products sold by <strong>Lany Space<\/strong>. If a product does not meet your expectations, you may return<br\/>it within <strong>15 days <\/strong>of receiving the product. To initiate a return, <strong>first of all please submit a return request in your account<\/strong>. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, and design-collaboration merchandise, are not eligible for return.<\/p><p>Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days. <\/p><p>Please note that a <strong>restocking fee of $45 will be charged for each item over $119, and a restocking fee of $25 will be charged for each item below $119.<\/strong><\/p><p>To be eligible for a refund, the original item(s) MUST be in new condition ( includes the original plastic bag) and returned without:<\/p><ul><li>Traces of pet hair or allergens<\/li><li>Any marks<\/li><li>Indications of use, laundering, or inadequate maintenance<\/li><li>Defects or discolorations<\/li><\/ul><p>Please be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold.<\/p><p>Please note that return labels are currently only provided for customers in the United States. Customers outside the U.S. are responsible for obtaining and covering the cost of their return shipping labels. <\/p><p>Please return the product <strong>within 30 days<\/strong> after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.<\/p><p>Steps for Returning the Product:<\/p><ol><li><strong>Prepare the Product:<\/strong> Please make sure the product is in the same condition as when you received it, along with packaging.<\/li><li><strong>Drop-off Location:<\/strong> Use the pre-paid return label and drop off the product to any of the USPS\/Fedex\/UPS stores nearby .<\/li><li><strong>Receipt Confirmation:<\/strong> Upon successful return, you'll receive an email confirmation from us.<\/li><\/ol><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport.<\/p><p>If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at <strong>support@lanyspace.com.<\/strong><\/p>"
           }
         },
         "586a0729-294c-42e0-80da-a65780af2ae7": {
@@ -191,7 +191,7 @@
           "settings": {
             "icon": "none",
             "title": "2. Will I be charged for return shipping?",
-            "content": "<p>For customers residing in the U.S.: If you received your order within the last 15 days at a U.S. address, we offer a prepaid return shipping label to assist you with the return process. However, please note that a restocking fee of $45 will be charged for each item over $100, and a restocking fee of $25 will be charged for each item below $100.<\/p>"
+            "content": "<p>For customers residing in the U.S.: If you received your order within the last 15 days at a U.S. address, we offer a prepaid return shipping label to assist you with the return process. However, please note that a restocking fee of $45 will be charged for each item over $119, and a restocking fee of $25 will be charged for each item below $119.<\/p>"
           }
         },
         "e95444f3-6810-42b7-99c3-c09912025b13": {
@@ -206,7 +206,7 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "4. Does LANYSPACE offer exchange?",
+            "title": "4. Does Lany Space offer exchange?",
             "content": "<p>For our products, you may exchange your product within15 days of the<br\/>delivery date at no extra cost if you are residing in the U.S. Exchanges are not currently available for customers residing outside the U.S.<\/p><p>You may only exchange an order once, and discounts and promo codes cannot be applied to exchanges. Instead, we will credit you the full retail value of the item being exchanged. If the item you are exchanging costs less than your original purchase, we'll refund the difference. If it costs more, you will be charged for the difference. Exchange credits cannot be<br\/>saved for later use.<\/p><p>Please note that specific items, such as custom-made or personalized products, wholesale items, and design-collaboration merchandise, are not eligible for exchange.<\/p><p>If you have received your order and would like to exchange it, please<br\/>email our Customer Care team at <a href=\"mailto:support@lanyspace.com\">support@lanyspace.com<\/a><\/p>"
           }
         },
@@ -222,16 +222,16 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "7. Why did I receive a partial refund?",
-            "content": "<p>We issue partial refunds for a variety of reasons, most commonly you may receive a partial refund for the following reasons: <\/p><p>To receive a full refund, the original item MUST be in new condition and returned without:<\/p><p>All returned items are thoroughly inspected, and any item(s) returned in a condition deemed as no longer sellable will not be refunded. In addition, the returned item(s) must be shipped back in the original packaging or similar packaging to prevent item(s) from damage while in transport. For additional questions regarding your partial refund please reach out to at <a href=\"mailto:support@lanyspace.com\">support@lanyspace.com<\/a><\/p>"
+            "title": "6. Why did I receive a partial refund?",
+            "content": "<p>We issue partial refunds for a variety of reasons, most commonly you may receive a partial refund for the following reasons: <\/p><p>To receive a full refund, the original item MUST be in new condition and returned without:<\/p><p>All returned items are thoroughly inspected, and any item(s) returned in a condition deemed as no longer sellable will not be refunded. In addition, the returned item(s) must be shipped back in the original packaging or similar packaging to prevent item(s) from damage while in transport. For additional questions regarding your partial refund please reach out to at <strong>support@lanyspace.com<\/strong>.<\/p>"
           }
         },
         "557ecd1d-f419-4ba5-9767-2bf066b241bf": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "8. Why was my return not accepted?",
-            "content": "<p>Returns will not be accepted or a partial refund may be issued if the returned item(s) show traces of pet dander or fur, dirt or grass stains, signs of wear, washing, improper care, damage, or stains. Additionally, the returned item(s) must be shipped back in the original packaging or similar packaging to prevent damage during transport.<\/p><p>If you have any additional questions or require further assistance, please reach out to support@lanyspace.com.<\/p><p><strong> <\/strong><\/p>"
+            "title": "7. Why was my return not accepted?",
+            "content": "<p>Returns will not be accepted or a partial refund may be issued if the returned item(s) show traces of pet dander or fur, dirt or grass stains, signs of wear, washing, improper care, damage, or stains. Additionally, the returned item(s) must be shipped back in the original packaging or similar packaging to prevent damage during transport.<\/p><p>If you have any additional questions or require further assistance, please reach out <strong>to support@lanyspace.com<\/strong>.<\/p><p><strong> <\/strong><\/p>"
           }
         }
       },
