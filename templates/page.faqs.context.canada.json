@@ -63,7 +63,7 @@
         "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-0": {
           "settings": {
             "title": "What payment methods does Lany Space accept?",
-            "content": "<p>We accept all major credit cards as well as Paypal (US&Canada customers only), Apple Pay (US&Canada customers only), and Affirm (US&Canada customers only).<\/p><p>Please note, we are only able to accept one form of payment per order. Refunds are always issued to the original form of payment and are unable to be refunded to a different form of payment for any reason.<\/p>"
+            "content": "<p>We accept all major credit cards as well as PayPal (US, Canada, UK, Australia & Hong Kong, China customers only), Apple Pay (US, Canada, UK, Australia & Hong Kong, China customers only), Affirm (US customers only), and Afterpay (US customers only).<\/p><p>Please note, we are only able to accept one form of payment per order. Refunds are always issued to the original form of payment and are unable to be refunded to a different form of payment for any reason.<br\/><\/p>"
           }
         }
       }

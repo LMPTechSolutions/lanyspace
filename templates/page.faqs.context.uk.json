@@ -1,0 +1,46 @@
+{
+  "parent": "page.faqs.json",
+  "context": {
+    "market": "uk"
+  },
+  "sections": {
+    "1659687049574d39ec": {
+      "settings": {},
+      "blocks": {
+        "55af9dd3-447d-49cd-a304-2cacfb042300": {
+          "settings": {
+            "title": "1. Do you offer free shipping to the United Kingdom?",
+            "content": "<p>Yes, we offer free shipping to the United Kingdom. If you have any further questions or need assistance, please contact our Customer Care Team at <strong>support@lanyspace.com<\/strong>. Additional fees or delivery restrictions may apply for remote areas.<\/p><p>Please note: We do not ship to P.O. Boxes.<br\/><\/p>"
+          }
+        }
+      }
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1": {
+          "settings": {
+            "title": "1. What is your return policy for the United Kingdom?",
+            "content": "<p>Our Return Policy covers all products sold by Lany Space. If a product does not meet your expectations, you may return it <strong>within 15 days<\/strong> of receiving the product. To initiate a return, first of all please submit a return request in your account. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, are not eligible for return. Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days. <strong>Please note that a restocking fee of £33 GBP will be charged for each item over £88 GBP, and a restocking fee of £18 GBP will be charged for each item below £88 GBP.<\/strong> <\/p><p>To be eligible for a refund, the original item(s) MUST be in new condition (includes the original plastic bag) and returned without:<\/p><p>• Traces of pet hair or allergens<\/p><p>• Any marks<\/p><p>• Indications of use, laundering, or inadequate maintenance<\/p><p>• Defects or discolorationsPlease be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold. <\/p><p>Please return the product within 30 days after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.<\/p><p><strong>Steps for Returning the Product:<\/strong><\/p><p>1. Prepare the Product: Please make sure the product is in the same condition as when you received it, along with packaging.<\/p><p>2. Drop-off Location: Use the pre-paid return label and drop off the product to any of the corresponding post office stores nearby.<\/p><p>3. Receipt Confirmation: Upon successful return, you'll receive an email confirmation from us.<\/p><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport. If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at <strong>support@lanyspace.com<\/strong>.<br\/><br\/><\/p>"
+          }
+        }
+      }
+    },
+    "579a313e-a596-465d-8eda-ff6f0e2f84d2": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-0": {
+          "settings": {
+            "title": "What payment methods does Lany Space accept?",
+            "content": "<p>We accept all major credit cards as well as PayPal (US, Canada, UK, Australia & Hong Kong, China customers only), Apple Pay (US, Canada, UK, Australia & Hong Kong, China customers only), Affirm (US customers only), and Afterpay (US customers only).<\/p><p>Please note, we are only able to accept one form of payment per order. Refunds are always issued to the original form of payment and are unable to be refunded to a different form of payment for any reason.<br\/><\/p>"
+          }
+        },
+        "template--15882081435786__579a313e-a596-465d-8eda-ff6f0e2f84d2-1684826253d2748e45-2": {
+          "settings": {
+            "content": "<p>Yes, all customers will be charged sales tax at the time of purchase. The tax amount will be reflected at checkout after entering your shipping address.<\/p><p><\/p>"
+          }
+        }
+      }
+    }
+  }
+}

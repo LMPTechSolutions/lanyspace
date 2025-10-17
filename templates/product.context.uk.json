@@ -1,0 +1,18 @@
+{
+  "parent": "product.json",
+  "context": {
+    "market": "uk"
+  },
+  "sections": {
+    "prodyct_content_metafield_MJPXnN": {
+      "settings": {},
+      "blocks": {
+        "shipping_AFnnht": {
+          "settings": {
+            "text-1": "[Shipping Policy]We offer <b>FREE SHIPPING<\/b> within the United Kingdom. Your order will typically arrive within 30–35 days from the date of purchase, depending on the carrier and your location. Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Shipping Policy.<\/a>"
+          }
+        }
+      }
+    }
+  }
+}

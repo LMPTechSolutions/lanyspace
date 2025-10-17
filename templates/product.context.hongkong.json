@@ -1,0 +1,19 @@
+{
+  "parent": "product.json",
+  "context": {
+    "market": "hongkong"
+  },
+  "sections": {
+    "prodyct_content_metafield_MJPXnN": {
+      "settings": {},
+      "blocks": {
+        "shipping_AFnnht": {
+          "settings": {
+            "text-1": "[Shipping Policy]We offer <b>FREE SHIPPING<\/b> within Hong Kong, China. Your order will typically arrive within 14–20 days from the date of purchase, depending on the carrier and your location. Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Shipping Policy.<\/a>",
+            "text-2": "[Return Policy]Learn more in our <a href=\"https:\/\/www.lanyspace.com\/pages\/shipping-return\">Return Policy.<\/a>"
+          }
+        }
+      }
+    }
+  }
+}

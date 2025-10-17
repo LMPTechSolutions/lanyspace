@@ -29,6 +29,14 @@
     </a>
     <div class="t4s-mini_cart__info">
       <a href="{{ item_url }}" class="t4s-mini_cart__title t4s-truncate">{{ item_pr.title }}</a>
+
+      {% comment %} {% for item in cart.items %}
+        {% if item.properties.Product %}
+          <p>Product: {{ item.properties.Product }}</p>
+        {% endif %}
+      {% endfor %} {% endcomment %}
+
+
       <div class="t4s-mini_cart__meta">
         <div class="t4s-cart_meta_price">
           <div class="t4s-cart_price">

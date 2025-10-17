@@ -87,6 +87,7 @@
     "show_search_suggest": true,
     "search_prs_suggest": "men",
     "show_search_hotkey": true,
+    "lang_pos": "2",
     "currency_code_enabled": true,
     "currency_type": "1",
     "size_currency": "sm",
@@ -3780,6 +3781,11 @@
       },
       "8605505498557855500": {
         "type": "shopify:\/\/apps\/bogos-io-free-gift\/blocks\/app-embed\/0432bba6-720a-4e95-be5a-b868386f7aa6",
+        "disabled": false,
+        "settings": {}
+      },
+      "5539709921732754115": {
+        "type": "shopify:\/\/apps\/algoshop-product-label-badge\/blocks\/product-label-badge\/714a1d82-6c18-45c9-ab5c-ea3c47772180",
         "disabled": false,
         "settings": {}
       }

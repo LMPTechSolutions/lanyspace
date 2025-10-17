@@ -1,0 +1,113 @@
+{
+  "parent": "page.shipping-returns.json",
+  "context": {
+    "market": "hongkong"
+  },
+  "sections": {
+    "1659687049574d39ec": {
+      "settings": {},
+      "blocks": {
+        "55af9dd3-447d-49cd-a304-2cacfb042300": {
+          "settings": {
+            "title": "1. Do you offer free shipping to Hong Kong, China?",
+            "content": "<p>Yes, we offer free shipping to Hong Kong, China. If you have any further questions or need assistance, please contact our Customer Care Team at support@lanyspace.com. Additional fees or delivery restrictions may apply for remote areas.<br\/>Please note: We do not ship to P.O. Boxes.<br\/><\/p>"
+          }
+        },
+        "1606d8fa-9deb-4e26-810e-01d73b7036a5": {
+          "settings": {
+            "content": "<p>We ship from Los Angeles, United States.<br\/><\/p>"
+          }
+        },
+        "d2a842d8-cdec-4929-ac08-b0b5251e78bf": {
+          "settings": {
+            "title": "3. Are taxes and duties covered? (Hong Kong, China)",
+            "content": "<p>Customers are responsible for any applicable sales taxes (if charged). All import duties on orders shipping to Hong Kong, China are fully covered by Lany Space.<br\/><\/p>"
+          }
+        },
+        "0a5152e4-6cc0-4aa2-bce9-b26578d1efca": {
+          "settings": {
+            "title": "4. How long will it take for my order to ship and arrive in Hong Kong, China?",
+            "content": "<p>Your order will typically arrive within <strong>14–20 days<\/strong> from the date of purchase, depending on the carrier and your location.<\/p><p><\/p>"
+          }
+        },
+        "7fa38cca-4466-4e51-9061-3068cb45c991": {
+          "settings": {
+            "title": "5. Do you ship to P.O. Boxes?",
+            "content": "<p>Unfortunately, our shipping couriers cannot deliver to P.O. Boxes in Hong Kong, China. Please provide a residential or business street address. We apologize for any inconvenience caused.<br\/><\/p>"
+          }
+        },
+        "1616e89a-f25a-42b6-8f94-9583bfda4cc8": {
+          "settings": {
+            "title": "6. Which carrier is used for shipping?",
+            "content": "<p>We primarily use SF Express for shipping to Hong Kong, China. Please email us if this option does not work for you.<br\/><\/p>"
+          }
+        },
+        "accor_item_z6WEDA": {
+          "settings": {
+            "title": "7. How do I change my shipping address?",
+            "content": "<p>If your order has not been shipped, please email us at support@lanyspace.com with your order number and the updated shipping address. However, if your order has already been shipped, we are unable to assist with address changes. In such cases, please contact the carrier directly for assistance.<\/p><p><\/p>"
+          }
+        },
+        "accor_item_XEnGWa": {
+          "settings": {
+            "title": "8. What if the shipping shows delivered but I don't receive the package?",
+            "content": "<p>We will assist you with the carrier while the tracking shows the package is in transit until it is delivered. However, if the package shows as successfully delivered, we cannot assist further. Please understand that Lany Space is not responsible for issues such as lost packages in apartments\/houses or package theft.<br\/><\/p>"
+          }
+        },
+        "accor_item_nzQPJD": {
+          "settings": {
+            "title": "9. May I place an order first and then request a delayed shipment?",
+            "content": "<p>Yes! Please email us with the order number and the specific date you would like the order to be shipped before it has been fulfilled. However, we cannot assist if the order has already been shipped.<br\/><\/p>"
+          }
+        },
+        "accor_item_XziWFw": {
+          "type": "accor_item",
+          "disabled": false,
+          "settings": {
+            "icon": "none",
+            "title": "10. Do you ship internationally?",
+            "content": "<p>We currently ship to the United Kingdom, Hong Kong, China, the United States, Australia, and Canada.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "55af9dd3-447d-49cd-a304-2cacfb042300",
+        "1606d8fa-9deb-4e26-810e-01d73b7036a5",
+        "d2a842d8-cdec-4929-ac08-b0b5251e78bf",
+        "0a5152e4-6cc0-4aa2-bce9-b26578d1efca",
+        "7fa38cca-4466-4e51-9061-3068cb45c991",
+        "1616e89a-f25a-42b6-8f94-9583bfda4cc8",
+        "accor_item_z6WEDA",
+        "accor_item_XEnGWa",
+        "accor_item_nzQPJD",
+        "accor_item_XziWFw"
+      ]
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "settings": {},
+      "blocks": {
+        "template--15882081435786__0738b17c-4b1f-454a-bf29-cf277efb7420-1684802770d087c36c-1": {
+          "settings": {
+            "title": "1.  What is your return policy for Hong Kong, China?",
+            "content": "<p>Our Return Policy covers all products sold by Lany Space. If a product does not meet your expectations, you may return it <strong>within 15 days<\/strong> of receiving the product. To initiate a return, first of all please submit a return request in your account. Please note that specific items, such as custom-made or personalized products, final sales, flash sales, wholesale items, clearance, are not eligible for return. Once your return is received and inspected, we will email you to notify you of its receipt. If your return is approved, a refund will be processed and automatically applied to your credit card or original payment method within a certain number of days.<\/p><p><strong>Please note: A restocking fee of HK$350 will be charged for each item over HK$925.A restocking fee of HK$194 will be charged for each item below HK$925.<\/strong>To be eligible for a refund, the original item(s) MUST be in new condition (includes the original plastic bag) and returned without:<\/p><p>• Traces of pet hair or allergens<\/p><p>• Any marks<\/p><p>• Indications of use, laundering, or inadequate maintenance<\/p><p>• Defects or discolorationsPlease be aware that every returned item undergoes a comprehensive evaluation, and a refund will not be issued in a state that prevents it from being resold.<\/p><p>Please return the product within 30 days after we approve your return to avoid any late fees or additional charges. Overdue will automatically close returns without any refund.<\/p><p><strong>Steps for Returning the Product:<\/strong><\/p><p>1. Prepare the Product: Please make sure the product is in the same condition as when you received it, along with packaging.<\/p><p>2. Drop-off Location: Use the pre-paid return label and drop off the product at any of the corresponding post office stores nearby.<\/p><p>3. Receipt Confirmation: Upon successful return, you'll receive an email confirmation from us.<\/p><p>Please ensure that the original packaging or similar packaging is used to ship the returned item(s) to prevent damage during transport. If you have any further questions or need assistance, don't hesitate to contact our Customer Care Team at <strong>support@lanyspace.com<\/strong>.<br\/><\/p>"
+          }
+        },
+        "586a0729-294c-42e0-80da-a65780af2ae7": {
+          "settings": {
+            "content": "<p>For customers residing in Hong Kong, China: If you received your order within the last 15 days, we offer a prepaid return shipping label to assist you with the return process. However, please note that a restocking fee of HK$350 will be charged for each item over HK$925, and a restocking fee of HK$194 will be charged for each item below HK$925.<br\/><\/p>"
+          }
+        },
+        "481b7356-583f-4355-806c-7edd8dadb5e7": {
+          "settings": {
+            "content": "<p>Unfortunately, exchanges are not currently available for customers residing outside the U.S. We apologize for any inconvenience caused.<br\/><\/p>"
+          }
+        },
+        "7455e22b-3368-48aa-98e1-fb3aa0db7c15": {
+          "settings": {
+            "content": "<p>Final sale and customized products are not eligible for return.<br\/><\/p>"
+          }
+        }
+      }
+    }
+  }
+}

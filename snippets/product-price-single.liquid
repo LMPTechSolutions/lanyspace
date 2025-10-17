@@ -97,7 +97,9 @@ endif -%}
 
   {%- endif -%}
 {%- endcapture -%}
-
+<div class="t4s-custom-rug t4s-product-price" style="display:none">
+  Select Size
+</div>
 <div class="t4s-product-price t4s-badge-sale"{%- if variant_unit_price_measurement == nil and isRangePrices == false or pr_no_pick_prices -%} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% else %} data-product-unit-price{% endif %} {{ style_inline }}>           
   {%- if isRangePrices -%}
       

@@ -327,6 +327,12 @@ t4option0_0 | alt text
                     endif -%}
               {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
               <h2 class="t4s-product__title t4s-d-lg-none" >{{ product.title }}</h2>
+
+
+
+         
+
+
               <div class="t4s-row t4s-g-0 t4s-product__info-container--sticky">
                 <div data-product-single-media-group class="{{ class_main }}t4s-col-12 t4s-col-item t4s-pr">
                   <div data-t4s-gallery data-main-media data-t4s-thumb-true class="t4s-row t4s-g-0{{ class_gx_lg_main }}{% unless isSliderCenter %} t4s-slide-eff-{{ se_stts.eff }}{% endunless %} flickityt4s t4s_{{ image_ratio }} t4s_position_{{ se_stts.image_position }} t4s_{{ se_stts.image_size }} t4s-flickity-slider {% if se_stts.nav_btn %}  t4s-slider-btn-{{ se_stts.nav_btn }} t4s-slider-btn-style-{{ se_stts.btn_owl }} t4s-slider-btn-{{ se_stts.btn_shape }}  t4s-slider-btn-{{ se_stts.btn_size }} t4s-slider-btn-cl-{{ se_stts.btn_cl }} t4s-slider-btn-vi-{{ se_stts.btn_vi }} t4s-slider-btn-hidden-mobile-{{ se_stts.btn_hidden_mobile }} {% endif %}{% if se_stts.nav_dot %} t4s-dots-style-{{ se_stts.dot_owl }} t4s-dots-cl-{{ se_stts.dots_cl }} t4s-dots-round-{{ se_stts.dots_round }} t4s-dots-hidden-mobile-{{ se_stts.dots_hidden_mobile }} {% endif %}" data-flickityt4s-js='{"t4sid": "{{ sid }}", "status": true, "cellSelector": "[data-main-slide]:not(.is--media-hide)","isFilter": {{ canMedia_group }}, "checkVisibility": false,"imagesLoaded": 0,"adaptiveHeight": 1, "contain": 1, "groupCells": "100%", "dragThreshold" : {% if se_stts.eff == 'fade' %}6{% else %}5{% endif %}, "cellAlign": "{% if isSliderCenter %}center{% else %}left{% endif %}","wrapAround": true,"prevNextButtons": {{ se_stts.nav_btn }},"percentPosition": 1,"pageDots": {{ se_stts.nav_dot }}, "autoPlay" : 0,"wrapAround" : false, "pauseAutoPlayOnHover" : true ,  "thumbNav": {% if media_layout != 'without_thumbnails' and isSliderCenter == false %}true{% else %}false{% endif %}, "thumbVertical": {% if media_layout != 'thumbnails_bottom' and isSliderCenter == false %}true{% else %}false{% endif %}, "isMedia": true }' style="--space-dots: {{ se_stts.dots_space }}px;">
@@ -447,6 +453,28 @@ t4option0_0 | alt text
                                 endif  
                             -%}
                             <h1 class="t4s-product__title t4s-d-none t4s-d-md-inline-block" style="--title-family: var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style: {{ bk_stts.txt_tr_pr }};--title-size: {{ bk_stts.size_pr }}px;--title-weight: {{ bk_stts.fw_pr }};--title-line-height: {{ lh_pr }};--title-spacing: {{ bk_stts.ls_pr }}px;--title-color: {{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+
+                            {% comment %} {{ product.metafields.custom.custom_size }} {% endcomment %}
+
+                               <script> 
+                                console.log("Working-----");
+                                var allProductVariants = {}; 
+
+                              </script>
+
+                                {% for variant in all_products["customization"].variants %}
+                                  <script> 
+                                    //console.log("Working two-----");
+                                    
+                                    allProductVariants["{{ variant.title }}"] = '{{ variant.id }},{{ variant.price }},{{ variant.compare_at_price }}'; 
+                                  
+
+                                  </script>
+
+                                {% endfor %}
+                                <script>
+                                    console.log("allProductVariants", allProductVariants);
+                                </script>
                         {%- when 'price' -%}
                             <div class="t4s-product__price{% if localization.country.iso_code == 'US' %} us-title{% endif %}" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-del-size:{{ bk_stts.size_price_pr | times : 0.8 }}px;--price-weight:{{ bk_stts.fw_price_pr }};--primary-price-color:{{ bk_stts.primary_price_color }};--secondary-price-color:{{ bk_stts.secondary_price_color }};--price-sale-color:{{ bk_stts.price_sale }}">
                                 {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price,more:bk_stts.show_more,price_sale_bg:bk_stts.price_sale_bg -%}                              
@@ -523,6 +551,10 @@ t4option0_0 | alt text
                         {%- when 'size' -%}
                             <div class="t4s-product__size">{%- if bk_size_chart != '1' and pos_sizeg == '1' %}{{ html_sizeg }}{% endif -%}</div>
                         {%- when 'form' -%}
+
+                           
+
+
                             {%- comment -%}
                             {%- liquid
                                 assign product_list = meta_theme.grouped.value
@@ -1375,6 +1407,500 @@ t4option0_0 | alt text
       return string.toLowerCase();
     }
 </script> 
+<style>
+  .show-select {
+    display:block;
+  }
+  .hide-select {
+    display:none;
+  }
+  .custom-select {
+    position: relative;
+    
+        background: #eee;
+    border-radius: 4px;
+  }
+    .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+
+  .select-selected.select-arrow-active{
+    border: 1px solid #1a3b1a;
+    background: #E4EDEA;
+  }
+
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: black transparent transparent transparent;
+  }
+  .select-selected.select-arrow-active:after {
+    top: 12px;
+  
+  }
+
+  .select-items {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+
+  }
+  .select-items > div:hover {
+    background: #e4edea
+  
+  }
+
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent black transparent;
+  }
+
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    padding: 8px 16px;
+ 
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .custom-addToCart {
+      height: 50px;
+      min-height: 50px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 5px 25px;
+      cursor: pointer;
+      margin-top: 0px;
+      border-radius: 5px !important;
+      display: flex;
+      min-width: 120px;
+      width: 100%;
+      color: #ffffff;
+      background: #017e56;
+      border-color: #017e56;
+      align-items: center;
+      justify-content: center;
+      transition: .3s ease-in-out;
+  }
+  .custom-addToCart.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .custom-addToCart:hover {
+    color: #ffffff;
+    background: #003222;
+    border-color: #003222;
+  
+  }
+  .custom-addToCart svg.t4s-btn-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 0;
+    margin-right: 8px;
+  }
+
+  .customize-info > div {
+    padding: 10px;
+  }
+</style>
+
+
+
+<script>
+  var selectedOptions = {};
+  var  productObj = {
+    "properties": {
+      "Product": "{{product.title}}"
+    }
+  }
+        
+
+   // mainSelect = x, i, j, mainSelectLength = l, ll, selElmnt, divSelectedEl =  a, divOptionsListEl =  b, divOptionsEl =  c
+  var mainSelect, i, j, mainSelectLength, ll, selElmnt, divSelectedEl, divOptionsListEl, divOptionsEl;
+  var price_container = document.querySelector('.t4s-custom-rug.t4s-product-price');
+    /*look for any elements with the class "custom-select":*/
+    mainSelect = document.getElementsByClassName("custom-select");
+    mainSelectLength = mainSelect.length;
+    for (i = 0; i < mainSelectLength; i++) {
+      selElmnt = mainSelect[i].getElementsByTagName("select")[0];
+      ll = selElmnt.length;
+
+
+      console.log("selElmnt-----", mainSelect[i].getElementsByTagName("select")[0]);
+      console.log("ll-----", ll);
+
+      /*for each element, create a new DIV that will act as the selected item:*/
+      divSelectedEl = document.createElement("DIV");
+      divSelectedEl.setAttribute("class", "select-selected");
+      divSelectedEl.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+      mainSelect[i].appendChild(divSelectedEl);
+      /*for each element, create a new DIV that will contain the option list:*/
+      divOptionsListEl = document.createElement("DIV");
+      divOptionsListEl.setAttribute("class", "select-items select-hide");
+      divOptionsListEl.setAttribute("class", "select-items select-hide");
+      if(i == 0){
+        divOptionsListEl.setAttribute("id", "select-width");
+      } else {
+        divOptionsListEl.setAttribute("id", "select-length");
+      }
+      for (j = 1; j < ll; j++) {
+        /*for each option in the original select element,
+        create a new DIV that will act as an option item:*/
+        divOptionsEl = document.createElement("DIV");
+        divOptionsEl.innerHTML = selElmnt.options[j].innerHTML;
+        divOptionsEl.setAttribute('data-value', selElmnt.options[j].value);
+        divOptionsEl.addEventListener("click", function(e) {
+
+            const optionValue = this; // ✅ this gives you the value
+            console.log("Selected value:", optionValue);
+            var dataVal = this.getAttribute('data-value');
+            var selectParentDiv = this.parentNode.getAttribute('id');
+            console.log("selectParentDiv", selectParentDiv);
+            console.log("dataVal", dataVal);
+            console.log("selectedOptions", selectedOptions);
+
+            if(selectParentDiv == "select-width"){
+              selectedOptions.width = dataVal;
+            } else {
+              selectedOptions.height = dataVal;
+            }
+
+              getCustomVariant(selectedOptions);
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = this.innerHTML;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                yl = y.length;
+                for (k = 0; k < yl; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+                break;
+              }
+            }
+            h.click();
+        });
+        divOptionsListEl.appendChild(divOptionsEl);
+      }
+      
+      mainSelect[i].appendChild(divOptionsListEl);
+      divSelectedEl.addEventListener("click", function(e) {
+          /*when the select box is clicked, close any other select boxes,
+          and open/close the current select box:*/
+          e.stopPropagation();
+          closeAllSelect(this);
+          this.nextSibling.classList.toggle("select-hide");
+          this.classList.toggle("select-arrow-active");
+        });
+
+      
+    }
+    let USDollar = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    });
+
+    function getCustomVariant(selectedOptions){
+
+      var searchVariant = selectedOptions.width + 'X' + selectedOptions.height;
+
+
+
+
+      if (selectedOptions.width && selectedOptions.height){
+
+
+        var searchVariant = selectedOptions.width + 'X' + selectedOptions.height;
+        console.log("searchVariant", searchVariant);
+        var currentPrice = 0;
+
+        for (const [key, value] of Object.entries(allProductVariants)) {
+
+          if (key == searchVariant) {
+            
+            var price = parseInt(value.split(',')[1]);
+            var compare_at_price = parseInt(value.split(',')[2]);
+            var price_formated = `${USDollar.format(price/100)}`;
+            var qty = document.querySelector('.t4s-quantity-input').value;
+            var compare_at_price_formated;
+            
+            price_container.innerHTML = '';
+
+
+            productObj.id = value.split(',')[0];
+            productObj.quantity = qty;
+        
+            productPriceEl = document.querySelector('.t4s-product__info-container .ht-money');
+            productPriceEl.textContent = price_formated;
+
+            /* check if compare at price */
+            if (isNaN(compare_at_price)) {
+              console.log('compare_at_price is NaN');
+              const span = document.createElement('span');
+              span.textContent = price_formated;
+              price_container.append(span);
+
+            } else {
+              compare_at_price_formated = `${USDollar.format(compare_at_price/100)}`;
+              const del = document.createElement('del');
+              const oldPrice = document.createElement('span');
+              oldPrice.className = 'notranslate ht-money';
+              oldPrice.textContent = compare_at_price_formated;
+              del.appendChild(oldPrice);
+
+              const ins = document.createElement('ins');
+              const newPrice = document.createElement('span');
+              newPrice.className = 'notranslate ht-money';
+              newPrice.textContent = price_formated;
+              ins.appendChild(newPrice);
+
+              const percentOff = Math.round(((compare_at_price - price) / compare_at_price) * 100);
+              const span = document.createElement('span');
+              span.textContent = ` (${percentOff}% off)`;
+
+
+              //div.append(del, ' ', ins, ' ', span);
+              price_container.append(del, ' ', ins, ' ', span);
+
+              console.log('compare_at_price is valid');
+            }
+
+            console.log("price", price);
+            console.log("compare_at_price", compare_at_price);
+
+
+
+
+          }
+        }; 
+
+        document.querySelector('#add_custom_product').classList.remove('disabled');
+
+      } else {
+      
+      
+      }
+    
+    }
+    
+  /*a function that will close all select boxes in the document, except the current select box:*/
+    function closeAllSelect(elmnt) {
+      var x, y, i, xl, yl, arrNo = [];
+      x = document.getElementsByClassName("select-items");
+      y = document.getElementsByClassName("select-selected");
+      xl = x.length;
+      yl = y.length;
+      for (i = 0; i < yl; i++) {
+        if (elmnt == y[i]) {
+          arrNo.push(i)
+        } else {
+          y[i].classList.remove("select-arrow-active");
+        }
+      }
+      for (i = 0; i < xl; i++) {
+        if (arrNo.indexOf(i)) {
+          x[i].classList.add("select-hide");
+        }
+      }
+    }
+  /*if the user clicks anywhere outside the select box, then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect);
+  /* Adjsut quantity on button click or type change */
+
+    document.querySelectorAll('.t4s-quantity-wrapper').forEach(wrapper => {
+      const input = wrapper.querySelector('.t4s-quantity-input');
+      const btnMinus = wrapper.querySelector('[data-decrease-qty]');
+      const btnPlus = wrapper.querySelector('[data-increase-qty]');
+
+      btnMinus.addEventListener('click', () => {
+        setTimeout(() => {
+        let currentValue = parseInt(input.value);
+          console.log('Quantity decreased to:', currentValue);
+          productObj.quantity = currentValue;
+        }, 100);
+      });
+
+      btnPlus.addEventListener('click', () => {
+        setTimeout(() => {
+        let currentValue = parseInt(input.value);
+          console.log('Quantity increased to:', currentValue);
+          productObj.quantity = currentValue;
+
+        }, 100);
+      });
+
+  
+    });
+
+    const qtyInput = document.querySelector('.t4s-quantity-input');
+    qtyInput.addEventListener('input', function (e) {
+      const currentValue = e.target.value;
+      productObj.quantity = currentValue;
+
+    });
+
+</script>
+
+
+
+{% comment %} {% assign customization_product = all_products["customization"] %} {% endcomment %}
+
+<script>
+
+  document.querySelectorAll('.is-sw__size').forEach(item => {
+    item.addEventListener('click', () => {
+      // remove "is--selected" from all
+        const value = item.getAttribute('data-value');
+        console.log(value);
+        item.parentElement.querySelectorAll('.is-sw__size').forEach(el => el.classList.remove('is--selected'));
+
+      // add it to the clicked one
+        item.classList.add('is--selected');
+      // Setup size selected
+        document.querySelector('.is-t4s-name__size .t4s-dib').innerHTML = value;
+      /* Chanage add to cart button 
+        Hide / Show product price and show custom price
+        Hide / Show select options
+      */
+
+        if (value == "Customize"){
+          document.querySelector('.t4s-product-form__submit').style.display = "none";
+          document.querySelector('#add_custom_product').style.display = "flex";
+          price_container.style.display = "flex";
+          document.querySelector('.t4s-product-price.t4s-badge-sale').style.display = "none";
+          document.querySelector('.customize-info').style.display = "flex";
+
+
+          
+          document.querySelectorAll('.custom-select').forEach(select => {
+            select.classList.add('show-select');
+            select.classList.remove('hide-select');
+          });
+        } else {
+          document.querySelector('.t4s-product-form__submit').style.display = "flex";
+          document.querySelector('#add_custom_product').style.display = "none";
+          document.querySelector('.customize-info').style.display = "none";
+
+          price_container.style.display = "none";
+
+          document.querySelector('.t4s-product-price.t4s-badge-sale').style.display = "flex";
+            document.querySelectorAll('.custom-select').forEach(select => {
+            select.classList.add('hide-select');
+            select.classList.remove('show-select');
+          });
+        }
+    });
+  });
+
+  // Add to cart 
+    $(document).on('click','#add_custom_product',function(e){ 
+      e.preventDefault();
+      if (this.classList.contains('disabled')) {
+        e.preventDefault();
+        console.log("disabled")
+        return false;
+      }
+
+      var ID = productObj.id; 
+      $.ajax({
+      type: 'POST',
+      url: '/cart/add.js',
+      data: {
+        quantity: productObj.quantity,
+        id: ID,
+        "properties": {
+          "Product": "{{product.title}}"
+        }
+      },
+      dataType: 'json', 
+        success: function (data) { 
+            // Get updated cart data
+          $.getJSON('/cart.js', function (cart) {
+            const countEl = document.querySelector('.t4s-count-box');
+            if (countEl) countEl.textContent = cart.item_count;
+
+            // Trigger Dawn-style drawer refresh & open
+            document.dispatchEvent(new CustomEvent('cart:refresh', { detail: cart }));
+            document.documentElement.dispatchEvent(new CustomEvent('cart:open'));
+
+            console.log('Cart updated:', cart);
+            var miniDrawer = document.querySelector('.t4s-drawer__right');
+            if (miniDrawer) {
+              miniDrawer.setAttribute('aria-hidden', 'false');
+            }
+            {% comment %} var bodyEl = document.querySelector('body');
+            bodyEl.classList.add('t4s-lock-scroll', 'is--opend-drawer'); {% endcomment %}
+
+            var overlayEl = document.querySelector('.t4s-close-overlay ');
+            overlayEl.classList.add('is--visible');
+            
+          });
+        } 
+      });
+    }) 
+  // Close cart drawer 
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.t4s-drawer__close')) {
+        console.log('Drawer closed');
+        var drawerSidebar = document.querySelector('.t4s-drawer__right'),
+        overlay = document.querySelector('.t4s-close-overlay');
+          drawerSidebar.setAttribute("aria-hidden", "true");
+        overlay.classList.remove('is--visible');
+      }
+    });
+</script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   
 {% schema %}
 {

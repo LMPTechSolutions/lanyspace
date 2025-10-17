@@ -1,0 +1,28 @@
+{
+  "parent": "page.shipping-returns.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "1659687049574d39ec": {
+      "settings": {},
+      "blocks": {
+        "accor_item_nzQPJD": {
+          "settings": {
+            "content": "<p>We currently ship to the United Kingdom, Hong Kong, China, the United States, Australia, and Canada.<\/p><p><\/p>"
+          }
+        }
+      }
+    },
+    "0738b17c-4b1f-454a-bf29-cf277efb7420": {
+      "settings": {},
+      "blocks": {
+        "7455e22b-3368-48aa-98e1-fb3aa0db7c15": {
+          "settings": {
+            "content": "<p>Final sale and customized products are not eligible for return.<br\/><\/p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -67,7 +67,7 @@
           "settings": {
             "icon": "none",
             "title": "10. Do you ship internationally?",
-            "content": "<p>Yes, if you'd like us to ship to additional countries, please contact support@lanyspace.com for more assistance.<\/p>"
+            "content": "<p>We currently ship to the United Kingdom, Hong Kong, China, the United States, Australia, and Canada.<br\/><\/p>"
           }
         }
       },
@@ -111,7 +111,9 @@
         },
         "7455e22b-3368-48aa-98e1-fb3aa0db7c15": {
           "disabled": false,
-          "settings": {}
+          "settings": {
+            "content": "<p>Final sale and customized products are not eligible for return.<br\/><\/p>"
+          }
         },
         "29deb940-3073-4a9b-acbf-a023cf487eb0": {
           "disabled": false,
