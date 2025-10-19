@@ -303,34 +303,36 @@
                     </div>
                   {%- endif -%}
                 </div>
-                <div style="display: flex;margin-bottom: 10px;margin-top: 10px;column-gap: 15px;">
-                  <div class="custom-select hide-select" style="width:200px;">
-                    <select>
-                      <option value="0">Select width</option>
-                      <option value="4'">Width: 4’</option>
-                      <option value="5'">Width: 5’</option>
-                      <option value="6'">Width: 6’</option>
-                      <option value="7'">Width: 7’</option>
-                      <option value="8'">Width: 8’</option>
-                      <option value="9'">Width: 9’</option>
-                    </select>
+                {% if product.metafields.custom.custom_size %}
+                  <div style="display: flex;margin-bottom: 10px;margin-top: 10px;column-gap: 15px;">
+                    <div class="custom-select hide-select" style="width:200px;">
+                      <select>
+                        <option value="0">Select width</option>
+                        <option value="4'">Width: 4’</option>
+                        <option value="5'">Width: 5’</option>
+                        <option value="6'">Width: 6’</option>
+                        <option value="7'">Width: 7’</option>
+                        <option value="8'">Width: 8’</option>
+                        <option value="9'">Width: 9’</option>
+                      </select>
+                    </div>
+                    <div class="custom-select hide-select" style="width:200px;">
+                      <select>
+                        <option value="0">Select length</option>
+                        <option value="4'">Length: 4’</option>
+                        <option value="5'">Length: 5’</option>
+                        <option value="6'">Length: 6’</option>
+                        <option value="7'">Length: 7’</option>
+                        <option value="8'">Length: 8’</option>
+                        <option value="9'">Length: 9’</option>
+                        <option value="10'">Length: 10’</option>
+                        <option value="11'">Length: 11’</option>
+                        <option value="12'">Length: 12’</option>
+                        <option value="13'">Length: 13’</option>
+                      </select>
+                    </div>
                   </div>
-                  <div class="custom-select hide-select" style="width:200px;">
-                    <select>
-                      <option value="0">Select length</option>
-                      <option value="4'">Length: 4’</option>
-                      <option value="5'">Length: 5’</option>
-                      <option value="6'">Length: 6’</option>
-                      <option value="7'">Length: 7’</option>
-                      <option value="8'">Length: 8’</option>
-                      <option value="9'">Length: 9’</option>
-                      <option value="10'">Length: 10’</option>
-                      <option value="11'">Length: 11’</option>
-                      <option value="12'">Length: 12’</option>
-                      <option value="13'">Length: 13’</option>
-                    </select>
-                  </div>
-                </div>
+                {% endif %}
                 <div class="customize-info" style="display: none; background: #E5F3FA; justify-content: center; align-items: center;">
                   <div>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -516,13 +518,14 @@
                 </svg>
               </span>
             </button>
-
-             <a id="add_custom_product" class="custom-addToCart disabled" style="display:none;"> 
-                <svg class="t4s-btn-icon" viewBox="0 0 24 24">
-                  <use xlink:href="#t4s-icon-atc"></use>
-                </svg> 
-                 add to product 
-            </a>
+            {% if product.metafields.custom.custom_size %}
+              <a id="add_custom_product" class="custom-addToCart disabled" style="display:none;"> 
+                  <svg class="t4s-btn-icon" viewBox="0 0 24 24">
+                    <use xlink:href="#t4s-icon-atc"></use>
+                  </svg> 
+                  add to cart 
+              </a>
+            {% endif %}
           {%- endif -%}
         </div>
         {%- if PR_buy_pr and type != 'main_sticky' %}{{- form | payment_button -}}{% endif -%}
