@@ -12,11 +12,41 @@
   else
     assign max_qty = 9999
   endif -%} 
+      {% assign feat_img = "blank" %}
+      {% assign feat_pro_url = "blank" %}
+
+      
+
+      {%- for p in item.properties -%}
+         {% if p.first == "Featured_image" %}
+            {% assign feat_img = p.last %}
+         {% endif %}
+         {% if p.first == "Product_link" %}
+            {% assign feat_pro_url = p.last %}
+         {% endif %}
+      {%- endfor -%}
 
  <div data-item-qty-{{ cart_ajax_enable }}="{% if item_qty > 1 %}94{% else %}1{% endif %}" data-cart-item data-pid="{{ item.product_id }}" class="t4s-mini_cart__item cart_item_{{ item_id }} t4s-d-flex t4s-pr t4s-oh{% if gift_pr_id == item.product_id %} is--gift{% endif %}">
-    <a href="{{ item_url }}" class="t4s-mini_cart__img t4s-pr t4s-oh t4s_ratio t4s-bg-11" style="background: url({{ image | image_url: width: 1 }});--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
-      {%- if image != blank -%}
-        <img class="lazyloadt4s" width="120" height="{{ 120 | divided_by: image.aspect_ratio | ceil }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[120, 240]" data-sizes="auto" alt="{{ image.alt | escape }}">
+    <a href="{%- if feat_pro_url != "blank" -%} {{feat_pro_url }} {% else %} {{ item_url }} {% endif %}" class="t4s-mini_cart__img t4s-pr t4s-oh t4s_ratio t4s-bg-11" 
+      style="background: url(
+      {%- if feat_pro_url != "blank" -%} {{feat_pro_url }} {% else %} {{ image | image_url: width: 1 }} {% endif %});--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
+
+      {%- if image != blank or feat_img != "blank" -%}
+        {%- if feat_img != "blank" -%}
+
+          <img class="lazyloadt4s" 
+          width="120" 
+          height="{{ 120 | divided_by: feat_img.aspect_ratio | ceil }}" 
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+          data-src="{{ feat_img }}" 
+          data-widths="[120, 240]" 
+          data-sizes="auto" 
+          alt="{{ image.alt | escape }}">
+        {%- else -%}
+        <img class="lazyloadt4s" width="120" height="{{ 120 | divided_by: image.aspect_ratio | ceil }}" 
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+          data-src="{{ image | image_url: width: 1 }}" data-widths="[120, 240]" data-sizes="auto" alt="{{ image.alt | escape }}">
+        {%- endif -%}     
       {%- endif -%}
       <div class="t4s-cart-ld__bar t4s-pe-none t4s-dn" hidden>
         <span>
@@ -28,15 +58,7 @@
       </div>
     </a>
     <div class="t4s-mini_cart__info">
-      <a href="{{ item_url }}" class="t4s-mini_cart__title t4s-truncate">{{ item_pr.title }}</a>
-
-      {% comment %} {% for item in cart.items %}
-        {% if item.properties.Product %}
-          <p>Product: {{ item.properties.Product }}</p>
-        {% endif %}
-      {% endfor %} {% endcomment %}
-
-
+      <a href="{%- if feat_pro_url != "blank" -%} {{feat_pro_url }} {% else %} {{ item_url }} {% endif %}" class="t4s-mini_cart__title t4s-truncate">{{ item_pr.title }}</a>
       <div class="t4s-mini_cart__meta">
         <div class="t4s-cart_meta_price">
           <div class="t4s-cart_price">
@@ -101,17 +123,19 @@
                 endif
                 continue
             endif -%}
-              
-              <li class="product-details__item product-details__item--property">
-                <span class="product-details__item-label"><strong>{{ p_first }}: </strong> </span>
-                <span>
-                  {%- if p_last contains '/uploads/' -%}
-                    <a href="{{ p_last }}">{{ p_last | split: '/' | last }}</a>
-                  {%- else -%}
-                    {{ p_last }}
-                  {%- endif -%}
-                </span>
-              </li>
+              {% if p_first == "Featured_image" or p.first == "Product_link" %}
+              {% else %}
+                  <li class="product-details__item product-details__item--property">
+                  <span class="product-details__item-label"><strong>{{ p_first }}: </strong> </span>
+                  <span>
+                    {%- if p_last contains '/uploads/' -%}
+                      <a href="{{ p_last }}">{{ p_last | split: '/' | last }}</a>
+                    {%- else -%}
+                      {{ p_last }}
+                    {%- endif -%}
+                  </span>
+                </li>
+            {% endif %}
           {%- endfor -%}
         </ul>
         {%- endif -%}

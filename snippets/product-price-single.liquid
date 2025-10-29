@@ -62,10 +62,15 @@ if localization.country.iso_code != 'CA' or localization.country.iso_code != 'AU
 endif 
 
 assign saveAmountFixed = compare_at_price | minus: price
-
+assign money_price = ""
 if cur_code_enabled
-    assign money_price = price | money_with_currency
-    assign money_compare_at_price = compare_at_price | money_with_currency
+    if localization.country.iso_code == 'AU'
+      assign money_price = price | money
+      assign money_compare_at_price = compare_at_price | money
+    else 
+      assign money_price = price | money_with_currency
+      assign money_compare_at_price = compare_at_price | money_with_currency
+    endif
 else
     assign money_price = price | money
     assign money_compare_at_price = compare_at_price | money
@@ -91,6 +96,13 @@ endif -%}
       {%- liquid 
       if cur_code_enabled
         assign priceFormatMoney = saveAmountFixed | money_with_currency
+
+
+          if localization.country.iso_code == 'AU'
+            assign priceFormatMoney = saveAmountFixed | money
+          else 
+            assign priceFormatMoney = saveAmountFixed | money_with_currency
+          endif
       else 
        assign priceFormatMoney = saveAmountFixed | money
       endif %} <span class="t4s-badge-price t4s-bage-freeshipping" style="background:{{ price_sale_bg }};">{{ 'products.badge.save_amount_fixed_2_html' | t: saved_amount: priceFormatMoney }}</span>
@@ -100,26 +112,31 @@ endif -%}
 <div class="t4s-custom-rug t4s-product-price" style="display:none">
   Select Size
 </div>
-<div class="t4s-product-price t4s-badge-sale"{%- if variant_unit_price_measurement == nil and isRangePrices == false or pr_no_pick_prices -%} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% else %} data-product-unit-price{% endif %} {{ style_inline }}>           
+<div class="t4s-product-price t4s-badge-sale here {{localization.country.iso_code }} = {{ cur_code_enabled }}"{%- if variant_unit_price_measurement == nil and isRangePrices == false or pr_no_pick_prices -%} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% else %} data-product-unit-price{% endif %} {{ style_inline }}>           
   {%- if isRangePrices -%}
       
-       {%- if price_varies_style == '1' -%}
+    {%- if price_varies_style == '1' -%}
            
-            {%- liquid 
+          {%- liquid 
             if cur_code_enabled
              assign price_max = price_max | default: product.price_max | money_with_currency
             else 
              assign price_max = price_max | default: product.price_max | money
-            endif -%}
-            {%- if on_sale -%}<span class="t4s-price__sale">{{ money_price }} – {{ price_max }}</span>{% else %}{{ money_price }} – {{ price_max }}{% endif -%}
+            endif 
+          -%}
+          {%- if on_sale -%}
+            <span class="t4s-price__sale">{{ money_price }} – {{ price_max }}</span>
+          {% else %}
+            {{ money_price }} – {{ price_max }}
+          {% endif -%}
 
-          {%- elsif on_sale -%}
+    {%- elsif on_sale -%}
 
           <del>{{ money_compare_at_price }}</del><ins>{{ 'products.product.from_price_html' | t: price_min: money_price, class: 't4s-price-from' }}</ins>
 
-          {%- else -%}
+    {%- else -%}
           {{ 'products.product.from_price_html' | t: price_min: money_price, class: 't4s-price-from' }}
-          {%- endif -%}
+    {%- endif -%}
 
   {%- elsif variant_unit_price_measurement -%}
       <span {% unless isRangePrices %} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% endunless %}>
@@ -139,7 +156,9 @@ endif -%}
       {%- endcapture -%}
       <div class="t4s-price__unit"><span data-unit-price class="t4s-unit_price">{{ price_unit }}</span><span>/</span>{{- unit_price_base_unit -}}</div>
   {%- elsif on_sale -%}<del>{{ money_compare_at_price }}</del> <ins>{{ money_price }}</ins>{{ sale_badge_html }}
-  {%- else -%}{{ money_price }}
+  {%- else -%}
+   
+        {{ money_price }} 
   {%- endif -%}
 </div>
 {{ sale_badge_html }}

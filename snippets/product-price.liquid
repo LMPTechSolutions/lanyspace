@@ -46,8 +46,13 @@
    endif 
 
   if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
-    assign money_compare_at_price = compare_at_price | money_with_currency
+    if localization.country.iso_code == 'AU' or localization.country.iso_code == 'GB'
+      assign money_price = price | money
+      assign money_compare_at_price = compare_at_price | money
+    else
+      assign money_price = price | money_with_currency
+      assign money_compare_at_price = compare_at_price | money_with_currency
+    endif
   else
     assign money_price = price | money
     assign money_compare_at_price = compare_at_price | money
@@ -83,14 +88,23 @@
 
       {%- if price_varies_style == '1' -%}
           
-            {%- liquid 
+          {%- liquid 
             if settings.currency_code_enabled
-             assign price_max = price_max | default: product.price_max | money_with_currency
-             assign compare_at_price_max = product.compare_at_price_max | money_with_currency
+
+                if localization.country.iso_code == 'AU' or localization.country.iso_code == 'GB'
+                    assign price_max = price_max | default: product.price_max | money
+                   assign compare_at_price_max = product.compare_at_price_max | money
+                else 
+                  assign price_max = price_max | default: product.price_max | money_with_currency
+                   assign compare_at_price_max = product.compare_at_price_max | money_with_currency
+                endif
+
+             
             else 
              assign price_max = price_max | default: product.price_max | money
              assign compare_at_price_max = product.compare_at_price_max | money
-            endif -%}
+            endif 
+          -%}
 
       
           {%- if on_sale -%}
@@ -101,7 +115,7 @@
             {% if product.compare_at_price_max > product.price_max %}
               <del>{{ product.compare_at_price_min | money }} - {{product.compare_at_price_max | money}}</del><br><span class="t4s-price__sale">{{ product.price_min | money }} – {{ product.price_max | money }}</span>
             {% else %}
-             {{ money_price }} – {{ price_max }} 
+            {% if localization.country.iso_code == 'AU' %} AU   {% endif %} {{ money_price }} – {% if localization.country.iso_code == 'AU' %} AU {% endif %} {{ price_max }} 
             {% endif %}
           {% endif -%}
  
@@ -115,6 +129,7 @@
       {%- endif -%}
 
    {%- elsif on_sale -%} <del>{{ money_compare_at_price }}</del> <br><ins>{{ money_price }}</ins>
-   {%- else -%}{{ money_price }}
+   {%- else -%}
+    {% if localization.country.iso_code == 'AU' %} AU   {% endif %} {{ money_price }} 
    {%- endif -%}
 </div>

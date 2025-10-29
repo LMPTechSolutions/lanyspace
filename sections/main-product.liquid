@@ -327,7 +327,7 @@ t4option0_0 | alt text
                     endif -%}
               {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
               <h2 class="t4s-product__title t4s-d-lg-none" >{{ product.title }}</h2>
-
+                
 
 
          
@@ -573,9 +573,9 @@ t4option0_0 | alt text
                                 endif
                                 assign arr_properties = seBlocks | where: 'type', 'properties'
                                 if product_list == blank
-                                    render 'product-form', type: 'main', product: product, bk_stts: bk_stts, pr_sid: pr_sid, isExternal: isExternal, external_title: external_title, external_link: external_link, isProductAvailable: isProductAvailable, isProductDefault: isProductDefault, current_variant: current_variant, remove_soldout: remove_soldout, PR_no_pick: PR_no_pick, isPreoder: isPreoder, is_fit_ratio_img: is_fit_ratio_img, first_ratio_img: first_ratio_img, name_sizeg: name_sizeg, html_sizeg: html_sizeg, pos_sizeg: pos_sizeg, advance_pr_type: advance_pr_type, advance_label: advance_label, html_price: html_price, shopify_attributes: block.shopify_attributes, arr_properties: arr_properties, cus_qty: cus_qty
+                                    render 'product-form', type: 'main', product: product, bk_stts: bk_stts, pr_sid: pr_sid, isExternal: isExternal, external_title: external_title, external_link: external_link, isProductAvailable: isProductAvailable, isProductDefault: isProductDefault, current_variant: current_variant, remove_soldout: remove_soldout, PR_no_pick: PR_no_pick, isPreoder: isPreoder, is_fit_ratio_img: is_fit_ratio_img, first_ratio_img: first_ratio_img, name_sizeg: name_sizeg, html_sizeg: html_sizeg, pos_sizeg: pos_sizeg, advance_pr_type: advance_pr_type, advance_label: advance_label, html_price: html_price, shopify_attributes: block.shopify_attributes, arr_properties: arr_properties, cus_qty: cus_qty, cus_size_txt: section.settings.custom_option_text
                                 else
-                                    render 'grouped-form', product: product, bk_stts: bk_stts, pr_sid: pr_sid, product_list: product_list, shopify_attributes: block.shopify_attributes, cus_qty: cus_qty
+                                    render 'grouped-form', product: product, bk_stts: bk_stts, pr_sid: pr_sid, product_list: product_list, shopify_attributes: block.shopify_attributes, cus_qty: cus_qty, cus_size_txt: section.setting.custom_option_text
                                 endif 
                             -%}
                         {%- when 'delivery_ask' -%}
@@ -1535,12 +1535,14 @@ t4option0_0 | alt text
 </style>
 
 
-
+{% assign product_feat_img = product.featured_image | image_url %}
 <script>
   var selectedOptions = {};
   var  productObj = {
     "properties": {
-      "Product": "{{product.title}}"
+      "Product": "{{product.title}}",
+      "Featured_image": "{{ product_feat_img }}",
+      "Product_link": "{{ product.url }}"
     }
   }
         
@@ -1554,10 +1556,6 @@ t4option0_0 | alt text
     for (i = 0; i < mainSelectLength; i++) {
       selElmnt = mainSelect[i].getElementsByTagName("select")[0];
       ll = selElmnt.length;
-
-
-      console.log("selElmnt-----", mainSelect[i].getElementsByTagName("select")[0]);
-      console.log("ll-----", ll);
 
       /*for each element, create a new DIV that will act as the selected item:*/
       divSelectedEl = document.createElement("DIV");
@@ -1582,7 +1580,6 @@ t4option0_0 | alt text
         divOptionsEl.addEventListener("click", function(e) {
 
             const optionValue = this; // ✅ this gives you the value
-            console.log("Selected value:", optionValue);
             var dataVal = this.getAttribute('data-value');
             var selectParentDiv = this.parentNode.getAttribute('id');
             console.log("selectParentDiv", selectParentDiv);
@@ -1638,35 +1635,20 @@ t4option0_0 | alt text
     });
 
     function getCustomVariant(selectedOptions){
-
       var searchVariant = selectedOptions.width + 'X' + selectedOptions.height;
-
-
-
-
       if (selectedOptions.width && selectedOptions.height){
-
-
         var searchVariant = selectedOptions.width + 'X' + selectedOptions.height;
-        console.log("searchVariant", searchVariant);
         var currentPrice = 0;
-
         for (const [key, value] of Object.entries(allProductVariants)) {
-
           if (key == searchVariant) {
-            
             var price = parseInt(value.split(',')[1]);
             var compare_at_price = parseInt(value.split(',')[2]);
             var price_formated = `${USDollar.format(price/100)}`;
             var qty = document.querySelector('.t4s-quantity-input').value;
             var compare_at_price_formated;
-            
             price_container.innerHTML = '';
-
-
             productObj.id = value.split(',')[0];
             productObj.quantity = qty;
-        
             productPriceEl = document.querySelector('.t4s-product__info-container .ht-money');
             productPriceEl.textContent = price_formated;
 
@@ -1694,20 +1676,8 @@ t4option0_0 | alt text
               const percentOff = Math.round(((compare_at_price - price) / compare_at_price) * 100);
               const span = document.createElement('span');
               span.textContent = ` (${percentOff}% off)`;
-
-
-              //div.append(del, ' ', ins, ' ', span);
               price_container.append(del, ' ', ins, ' ', span);
-
-              console.log('compare_at_price is valid');
             }
-
-            console.log("price", price);
-            console.log("compare_at_price", compare_at_price);
-
-
-
-
           }
         }; 
 
@@ -1805,10 +1775,6 @@ t4option0_0 | alt text
           document.querySelector('#add_custom_product').style.display = "flex";
           price_container.style.display = "flex";
           document.querySelector('.t4s-product-price.t4s-badge-sale').style.display = "none";
-          document.querySelector('.customize-info').style.display = "flex";
-
-
-          
           document.querySelectorAll('.custom-select').forEach(select => {
             select.classList.add('show-select');
             select.classList.remove('hide-select');
@@ -1817,9 +1783,7 @@ t4option0_0 | alt text
           document.querySelector('.t4s-product-form__submit').style.display = "flex";
           document.querySelector('#add_custom_product').style.display = "none";
           document.querySelector('.customize-info').style.display = "none";
-
           price_container.style.display = "none";
-
           document.querySelector('.t4s-product-price.t4s-badge-sale').style.display = "flex";
             document.querySelectorAll('.custom-select').forEach(select => {
             select.classList.add('hide-select');
@@ -1834,7 +1798,6 @@ t4option0_0 | alt text
       e.preventDefault();
       if (this.classList.contains('disabled')) {
         e.preventDefault();
-        console.log("disabled")
         return false;
       }
 
@@ -1846,7 +1809,9 @@ t4option0_0 | alt text
         quantity: productObj.quantity,
         id: ID,
         "properties": {
-          "Product": "{{product.title}}"
+          "Product": "{{product.title}}",
+          "Featured_image": "{{ product_feat_img }}",
+          "Product_link": "{{  product.url }}"
         }
       },
       dataType: 'json', 
@@ -1887,24 +1852,6 @@ t4option0_0 | alt text
     });
 </script>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
 {% schema %}
 {
   "name": "Product main",
@@ -2763,6 +2710,11 @@ t4option0_0 | alt text
       "info": "Button animation",
       "unit": "sec",
       "default": 6
+    },
+    {
+      "type": "text",
+      "id": "custom_option_text",
+      "label": "Custom size option button text"
     }
   ],
   "blocks": [
